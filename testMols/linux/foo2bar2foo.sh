@@ -8,6 +8,6 @@
 
 # test.foo to test.bar and roundtrip to test.bar.foo
 
-babel -i$1 $1/$3.$1 -o$2 $1/$3.$2
-babel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
+obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+obabel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
 

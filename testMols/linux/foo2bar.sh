@@ -8,5 +8,5 @@
 
 # test.foo to test.bar only
 
-babel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
 

@@ -5,14 +5,19 @@
 # babel round trips
 export PATH=$PATH:../src
 
-sh ./runtest0.sh cml test2d
-sh ./runtest0.sh cml test3d
+# Time the tests as well--we'd obviously like translation
+#  to be relatively fast, even on large numbers of files!
+time sh ./runtest0.sh cml curan
 
-sh ./runtest0.sh mol test2d
-sh ./runtest0.sh mol test3d
+time sh ./runtest0.sh mol2 aromtest
 
-sh ./runtest0.sh mol2 test
-sh ./runtest0.sh pdb test
-sh ./runtest0.sh xyz test
+time sh ./runtest0.sh gpr estradiol
+
+time sh ./runtest0.sh pdb TRP
+
+time sh ./runtest0.sh xyz buckyball
+
+time sh ./runtest0.sh xyz table
+
 
 
