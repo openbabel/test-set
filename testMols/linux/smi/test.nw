@@ -1,7 +1,0 @@
-start molecule
-
-title 
- 
-
-geometry units angstroms print xyz autosym
-end

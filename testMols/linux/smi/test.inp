@@ -1,8 +1,0 @@
- $CONTRL COORD=CART UNITS=ANGS $END
- $DATA
-
-Put symmetry info here
-
- $END
-
-
