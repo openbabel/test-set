@@ -1,0 +1,15 @@
+<molecule title="ACETYLCHOLINE &amp; stuff" id="m1">
+  <atomArray>
+<stringArray builtin="atomId">a1 a2 a3 a4 a5 a6 a7 a8 a9 a10</stringArray>
+<stringArray builtin="elementType">N C C C C C O C C O</stringArray>
+<integerArray builtin="formalCharge">1 0 0 0 0 0 0 0 0 0</integerArray>
+<floatArray builtin="x2">2.576200 1.286200 3.870000 2.576200 3.870000 0.000000 -1.286200 -2.576200 -3.870000 -2.576200</floatArray>
+<floatArray builtin="y2">-0.362100 -1.203200 -1.203200 1.305100 0.471500 -0.362100 -1.203200 -0.362100 -1.203200 1.305100</floatArray>
+  </atomArray>
+  <bondArray>
+<stringArray builtin="atomRef">a1 a1 a1 a1 a2 a6 a7 a8 a8</stringArray>
+<stringArray builtin="atomRef">a2 a3 a4 a5 a6 a7 a8 a9 a10</stringArray>
+<stringArray builtin="order">1 1 1 1 1 1 1 1 2</stringArray>
+  </bondArray>
+<string title="REGNO">ACCHOLINE</string>
+</molecule>

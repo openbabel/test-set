@@ -1,0 +1,26 @@
+<molecule title="ACETYLCHOLINE &amp; stuff" id="m1">
+  <atomArray>
+    <atom id="a1" elementType="N" formalCharge="1" x2="2.5762" y2="-0.3621"/>
+    <atom id="a2" elementType="C" x2="1.2862" y2="-1.2032"/>
+    <atom id="a3" elementType="C" x2="3.87" y2="-1.2032"/>
+    <atom id="a4" elementType="C" x2="2.5762" y2="1.3051"/>
+    <atom id="a5" elementType="C" x2="3.87" y2="0.4715"/>
+    <atom id="a6" elementType="C" x2="0" y2="-0.3621"/>
+    <atom id="a7" elementType="O" x2="-1.2862" y2="-1.2032"/>
+    <atom id="a8" elementType="C" x2="-2.5762" y2="-0.3621"/>
+    <atom id="a9" elementType="C" x2="-3.87" y2="-1.2032"/>
+    <atom id="a10" elementType="O" x2="-2.5762" y2="1.3051"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+    <bond atomRefs2="a2 a6" order="1"/>
+    <bond atomRefs2="a6 a7" order="1"/>
+    <bond atomRefs2="a7 a8" order="1"/>
+    <bond atomRefs2="a8 a9" order="1"/>
+    <bond atomRefs2="a8 a10" order="2"/>
+  </bondArray>
+<string title="REGNO">ACCHOLINE</string>
+</molecule>
