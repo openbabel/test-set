@@ -1,0 +1,29 @@
+<html>
+  <title>Roundtrips and test files</title>
+  <h2>Roundtrips and test files</h2>
+  
+  <p>These notes apply to file conversion programs like openbabel (
+  <a href="http://www.sourceforge.net/projects/openbabel/">http://www.sourceforge.net/projects/openbabel</a>) and JUMBO
+  <a href="http://www.sourceforge.net/projects/cml/">
+  http://www.sourceforge.net/projects/cml</a>). </p>
+  
+  <p>Roundtripping is the process of converting information from format A through various intermediates and back to A. Ideally there should be no information loss or corruption - in practice there usually is. As an example, convert test.mol (MDL) to test.pdb and then convert test.pdb to test.pdb.mol. How different are test.mol and test.pdb.mol?</p>
+  <p>The flow of information is as follows:</p>
+  <ul>
+  <li>read test.mol, possibly skipping some information</li>
+  <li>transform some information algorithmically (e.g. Kekulization)</li>
+  <li>Store information in data structure (that which cannot be stored is lost</li>
+  <li>Read that information from store which is appropriate to test.pdb. That which cannot be represented in test.pdb is lost</li>
+  <li>Algorithmically convert some information</li>
+  <li>Output test.pdb, possibly with unfilled fields</li>
+  <li>... halfway ...</li>
+  <li>read test.pdb, possibly skipping some information</li>
+  <li>transform some information algorithmically </li>
+  <li>Store information in data structure (that which cannot be stored is lost</li>
+  <li>Read that information from store which is appropriate to test.mol. That which cannot be represented in test.mol is lost</li>
+  <li>Algorithmically convert some information</li>
+  <li>Output test.mol, possibly with unfilled fields</li>
+
+  </ul>
+  <p>It is highly probable that information will be lost of corrupted in the process. The purpose of these projects is to create a full enough data structure that enough information can be held. Also we must create common open algorithms and ontologies so it is clear how information is transformed and whether corruption occurs.</p>
+</html>
