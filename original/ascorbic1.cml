@@ -1,0 +1,60 @@
+<molecule id="ascorbic1">
+<atomArray>
+  <atom id="O6"><string builtin="elementType">O</string></atom>
+  <atom id="C6"><string builtin="elementType">C</string></atom>
+  <atom id="C5"><string builtin="elementType">C</string></atom>
+  <atom id="O5"><string builtin="elementType">O</string></atom>
+  <atom id="C4"><string builtin="elementType">C</string></atom>
+  <atom id="C3"><string builtin="elementType">C</string></atom>
+  <atom id="O3"><string builtin="elementType">O</string></atom>
+  <atom id="O4"><string builtin="elementType">O</string></atom>
+  <atom id="C1"><string builtin="elementType">C</string></atom>
+  <atom id="O1"><string builtin="elementType">O</string></atom>
+  <atom id="C2"><string builtin="elementType">C</string></atom>
+  <atom id="O2"><string builtin="elementType">O</string></atom>
+</atomArray>
+<bondArray>
+  <bond><string builtin="atomRef">O6</string><string builtin="atomRef">C6</string>
+  <float builtin="length">1.43</float></bond>
+  <bond><string builtin="atomRef">C5</string><string builtin="atomRef">C6</string>
+  <float builtin="length">1.522</float></bond>
+  <bond><string builtin="atomRef">O5</string><string builtin="atomRef">C5</string>
+  <float builtin="length">1.418</float></bond>
+  <bond><string builtin="atomRef">C4</string><string builtin="atomRef">C5</string>
+  <float builtin="length">1.532</float></bond>
+  <bond><string builtin="atomRef">C3</string><string builtin="atomRef">C4</string>
+  <float builtin="length">1.494</float></bond>
+  <bond><string builtin="atomRef">C3</string><string builtin="atomRef">O3</string>
+  <float builtin="length">1.331</float></bond>
+  <bond><string builtin="atomRef">C4</string><string builtin="atomRef">O4</string>
+  <float builtin="length">1.438</float></bond>
+  <bond><string builtin="atomRef">O4</string><string builtin="atomRef">C1</string>
+  <float builtin="length">1.367</float></bond>
+  <bond><string builtin="atomRef">C1</string><string builtin="atomRef">O1</string>
+  <float builtin="length">1.201</float></bond>
+  <bond><string builtin="atomRef">C1</string><string builtin="atomRef">C2</string>
+  <float builtin="length">1.448</float></bond>
+  <bond><string builtin="atomRef">C2</string><string builtin="atomRef">O2</string>
+  <float builtin="length">1.341</float></bond>
+  <bond><string builtin="atomRef">C2</string><string builtin="atomRef">C3</string></bond>
+</bondArray>
+<angle atomRefs="O6 C6 C5">110.89</angle>
+<angle atomRefs="C6 C5 O5">111.55</angle>
+<angle atomRefs="C6 C5 C4">112.49</angle>
+<angle atomRefs="C5 C4 O4">111.71</angle>
+<angle atomRefs="C5 C4 C3">114.00</angle>
+<angle atomRefs="C4 C3 O3">116.33</angle>
+<angle atomRefs="C4 O4 C1">109.58</angle>
+<angle atomRefs="O4 C1 O1">121.75</angle>
+<angle atomRefs="O4 C1 C2">109.41</angle>
+<angle atomRefs="C1 C2 O2">128.36</angle>
+<torsion atomRefs="O6 C6 C5 O5">67.26</torsion>
+<torsion atomRefs="O6 C6 C5 C4">-170.89</torsion>
+<torsion atomRefs="C6 C5 C4 C3">78.08</torsion>
+<torsion atomRefs="C6 C5 C4 O4">-38.16</torsion>
+<torsion atomRefs="C5 C4 O4 C1">121.67</torsion>
+<torsion atomRefs="C5 C4 C3 O3">59.20</torsion>
+<torsion atomRefs="C4 O4 C1 O1">-179.92</torsion>
+<torsion atomRefs="C4 O4 C1 C2">0.00</torsion>
+<torsion atomRefs="O4 C1 C2 O2">-178.09</torsion>
+</molecule>
