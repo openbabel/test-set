@@ -1,6 +1,7 @@
 <molecule title="YOHIMBINE
 " id="m1">
 <string title="comment"></comment>
+<atomArray>
     <atom id="a1">
 <string builtin="elementType">C</string>
 <float builtin="x3">-0.4699</float>
@@ -175,6 +176,7 @@
 <float builtin="y3">0.139</float>
 <float builtin="z3">0</float>
     </atom>
+</atomArray>
   <bondArray>
     <bond>
 <string builtin="atomRef">a1</string>

@@ -36,13 +36,13 @@ time sh ./runtest0.sh mol2 aromtest
 time sh ./runtest0.sh gpr estradiol
 
 # SMILES (multiple lines)
-#time sh ./runtest0.sh smi test
+time sh ./runtest0.sh smi test
 
 # Small PDB
 time sh ./runtest0.sh pdb TRP
 
 # Big PDB
-time sh ./runtest0.sh pdb 1hvc
+#time sh ./runtest0.sh pdb 1hvc
 
 # c60
 time sh ./runtest0.sh xyz buckyball

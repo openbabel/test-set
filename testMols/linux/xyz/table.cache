@@ -301,55 +301,6 @@ ID rflag type bond_order
 170 0x7005 single
 171 0x7005 single
 172 0x7005 single
-173 0x7005 single
-174 0x7005 single
-175 0x7005 single
-176 0x7005 single
-177 0x7005 single
-178 0x7005 single
-179 0x7005 single
-180 0x7005 single
-181 0x7005 single
-182 0x7005 single
-183 0x7005 single
-184 0x7005 single
-185 0x7005 single
-186 0x7005 single
-187 0x7005 single
-188 0x7005 single
-189 0x7005 single
-190 0x7005 single
-191 0x7005 single
-192 0x7005 single
-193 0x7005 single
-194 0x7005 single
-195 0x7005 single
-196 0x7005 single
-197 0x7005 single
-198 0x7005 single
-199 0x7005 single
-200 0x7005 single
-201 0x7005 single
-202 0x7005 single
-203 0x7005 single
-204 0x7005 single
-205 0x7005 single
-206 0x7005 single
-207 0x7005 single
-208 0x7005 single
-209 0x7005 single
-210 0x7005 single
-211 0x7005 single
-212 0x7005 single
-213 0x7005 single
-214 0x7005 single
-215 0x7005 single
-216 0x7005 single
-217 0x7005 single
-218 0x7005 single
-219 0x7005 single
-220 0x7005 single
-221 0x7005 single
 property_flags:
 object_class connector
 property dflag MoleculeEditor noUnit 0 1 HEX
@@ -372,10 +323,10 @@ ID dflag objCls1 objCls2 objID1 objID2
  12 0xa1 atom bond 79 6
  13 0xa1 atom bond 80 7
  14 0xa1 atom bond 48 7
- 15 0xa1 atom bond 79 8
- 16 0xa1 atom bond 78 8
+ 15 0xa1 atom bond 80 8
+ 16 0xa1 atom bond 47 8
  17 0xa1 atom bond 79 9
- 18 0xa1 atom bond 77 9
+ 18 0xa1 atom bond 78 9
  19 0xa1 atom bond 79 10
  20 0xa1 atom bond 47 10
  21 0xa1 atom bond 78 11
@@ -386,418 +337,320 @@ ID dflag objCls1 objCls2 objID1 objID2
  26 0xa1 atom bond 47 13
  27 0xa1 atom bond 78 14
  28 0xa1 atom bond 46 14
- 29 0xa1 atom bond 78 15
- 30 0xa1 atom bond 45 15
+ 29 0xa1 atom bond 77 15
+ 30 0xa1 atom bond 76 15
  31 0xa1 atom bond 77 16
- 32 0xa1 atom bond 76 16
+ 32 0xa1 atom bond 109 16
  33 0xa1 atom bond 77 17
- 34 0xa1 atom bond 109 17
+ 34 0xa1 atom bond 108 17
  35 0xa1 atom bond 77 18
- 36 0xa1 atom bond 108 18
- 37 0xa1 atom bond 77 19
- 38 0xa1 atom bond 45 19
+ 36 0xa1 atom bond 45 18
+ 37 0xa1 atom bond 76 19
+ 38 0xa1 atom bond 75 19
  39 0xa1 atom bond 76 20
- 40 0xa1 atom bond 75 20
+ 40 0xa1 atom bond 109 20
  41 0xa1 atom bond 76 21
- 42 0xa1 atom bond 109 21
+ 42 0xa1 atom bond 108 21
  43 0xa1 atom bond 76 22
- 44 0xa1 atom bond 108 22
+ 44 0xa1 atom bond 107 22
  45 0xa1 atom bond 76 23
- 46 0xa1 atom bond 107 23
- 47 0xa1 atom bond 76 24
- 48 0xa1 atom bond 44 24
+ 46 0xa1 atom bond 44 23
+ 47 0xa1 atom bond 75 24
+ 48 0xa1 atom bond 74 24
  49 0xa1 atom bond 75 25
- 50 0xa1 atom bond 74 25
+ 50 0xa1 atom bond 108 25
  51 0xa1 atom bond 75 26
  52 0xa1 atom bond 107 26
  53 0xa1 atom bond 75 27
  54 0xa1 atom bond 106 27
  55 0xa1 atom bond 75 28
- 56 0xa1 atom bond 44 28
- 57 0xa1 atom bond 75 29
- 58 0xa1 atom bond 43 29
+ 56 0xa1 atom bond 43 28
+ 57 0xa1 atom bond 74 29
+ 58 0xa1 atom bond 73 29
  59 0xa1 atom bond 74 30
- 60 0xa1 atom bond 73 30
+ 60 0xa1 atom bond 107 30
  61 0xa1 atom bond 74 31
  62 0xa1 atom bond 106 31
  63 0xa1 atom bond 74 32
  64 0xa1 atom bond 105 32
  65 0xa1 atom bond 74 33
  66 0xa1 atom bond 42 33
- 67 0xa1 atom bond 74 34
- 68 0xa1 atom bond 41 34
+ 67 0xa1 atom bond 73 34
+ 68 0xa1 atom bond 72 34
  69 0xa1 atom bond 73 35
- 70 0xa1 atom bond 72 35
+ 70 0xa1 atom bond 106 35
  71 0xa1 atom bond 73 36
- 72 0xa1 atom bond 106 36
+ 72 0xa1 atom bond 105 36
  73 0xa1 atom bond 73 37
- 74 0xa1 atom bond 105 37
- 75 0xa1 atom bond 73 38
- 76 0xa1 atom bond 104 38
- 77 0xa1 atom bond 73 39
- 78 0xa1 atom bond 41 39
+ 74 0xa1 atom bond 41 37
+ 75 0xa1 atom bond 72 38
+ 76 0xa1 atom bond 57 38
+ 77 0xa1 atom bond 72 39
+ 78 0xa1 atom bond 104 39
  79 0xa1 atom bond 72 40
- 80 0xa1 atom bond 57 40
- 81 0xa1 atom bond 72 41
- 82 0xa1 atom bond 104 41
- 83 0xa1 atom bond 72 42
- 84 0xa1 atom bond 89 42
- 85 0xa1 atom bond 72 43
- 86 0xa1 atom bond 40 43
- 87 0xa1 atom bond 72 44
- 88 0xa1 atom bond 39 44
- 89 0xa1 atom bond 71 45
- 90 0xa1 atom bond 70 45
- 91 0xa1 atom bond 71 46
- 92 0xa1 atom bond 69 46
- 93 0xa1 atom bond 71 47
- 94 0xa1 atom bond 103 47
- 95 0xa1 atom bond 71 48
- 96 0xa1 atom bond 102 48
- 97 0xa1 atom bond 70 49
- 98 0xa1 atom bond 69 49
- 99 0xa1 atom bond 70 50
-100 0xa1 atom bond 68 50
-101 0xa1 atom bond 70 51
-102 0xa1 atom bond 103 51
-103 0xa1 atom bond 70 52
-104 0xa1 atom bond 102 52
-105 0xa1 atom bond 70 53
-106 0xa1 atom bond 101 53
-107 0xa1 atom bond 69 54
-108 0xa1 atom bond 68 54
-109 0xa1 atom bond 69 55
-110 0xa1 atom bond 102 55
-111 0xa1 atom bond 69 56
-112 0xa1 atom bond 101 56
-113 0xa1 atom bond 69 57
-114 0xa1 atom bond 100 57
-115 0xa1 atom bond 68 58
-116 0xa1 atom bond 67 58
-117 0xa1 atom bond 68 59
-118 0xa1 atom bond 101 59
-119 0xa1 atom bond 68 60
-120 0xa1 atom bond 100 60
-121 0xa1 atom bond 68 61
-122 0xa1 atom bond 99 61
-123 0xa1 atom bond 67 62
-124 0xa1 atom bond 66 62
-125 0xa1 atom bond 67 63
-126 0xa1 atom bond 65 63
-127 0xa1 atom bond 67 64
-128 0xa1 atom bond 100 64
-129 0xa1 atom bond 67 65
-130 0xa1 atom bond 99 65
-131 0xa1 atom bond 67 66
-132 0xa1 atom bond 98 66
-133 0xa1 atom bond 66 67
-134 0xa1 atom bond 65 67
-135 0xa1 atom bond 66 68
-136 0xa1 atom bond 64 68
-137 0xa1 atom bond 66 69
-138 0xa1 atom bond 99 69
-139 0xa1 atom bond 66 70
-140 0xa1 atom bond 98 70
-141 0xa1 atom bond 66 71
-142 0xa1 atom bond 97 71
-143 0xa1 atom bond 65 72
-144 0xa1 atom bond 64 72
-145 0xa1 atom bond 65 73
-146 0xa1 atom bond 98 73
-147 0xa1 atom bond 65 74
-148 0xa1 atom bond 97 74
-149 0xa1 atom bond 65 75
-150 0xa1 atom bond 96 75
-151 0xa1 atom bond 64 76
-152 0xa1 atom bond 63 76
-153 0xa1 atom bond 64 77
-154 0xa1 atom bond 97 77
-155 0xa1 atom bond 64 78
-156 0xa1 atom bond 96 78
-157 0xa1 atom bond 64 79
-158 0xa1 atom bond 95 79
-159 0xa1 atom bond 63 80
-160 0xa1 atom bond 62 80
-161 0xa1 atom bond 63 81
-162 0xa1 atom bond 109 81
-163 0xa1 atom bond 63 82
-164 0xa1 atom bond 96 82
-165 0xa1 atom bond 63 83
-166 0xa1 atom bond 95 83
-167 0xa1 atom bond 63 84
-168 0xa1 atom bond 94 84
-169 0xa1 atom bond 62 85
-170 0xa1 atom bond 61 85
-171 0xa1 atom bond 62 86
-172 0xa1 atom bond 109 86
-173 0xa1 atom bond 62 87
-174 0xa1 atom bond 95 87
-175 0xa1 atom bond 62 88
-176 0xa1 atom bond 94 88
-177 0xa1 atom bond 62 89
-178 0xa1 atom bond 93 89
-179 0xa1 atom bond 61 90
-180 0xa1 atom bond 60 90
-181 0xa1 atom bond 61 91
-182 0xa1 atom bond 108 91
-183 0xa1 atom bond 61 92
-184 0xa1 atom bond 94 92
-185 0xa1 atom bond 61 93
-186 0xa1 atom bond 93 93
-187 0xa1 atom bond 61 94
-188 0xa1 atom bond 92 94
-189 0xa1 atom bond 60 95
-190 0xa1 atom bond 59 95
-191 0xa1 atom bond 60 96
-192 0xa1 atom bond 107 96
-193 0xa1 atom bond 60 97
-194 0xa1 atom bond 93 97
-195 0xa1 atom bond 60 98
-196 0xa1 atom bond 92 98
-197 0xa1 atom bond 60 99
-198 0xa1 atom bond 91 99
-199 0xa1 atom bond 59 100
-200 0xa1 atom bond 58 100
-201 0xa1 atom bond 59 101
-202 0xa1 atom bond 106 101
-203 0xa1 atom bond 59 102
-204 0xa1 atom bond 92 102
-205 0xa1 atom bond 59 103
-206 0xa1 atom bond 91 103
-207 0xa1 atom bond 59 104
-208 0xa1 atom bond 90 104
-209 0xa1 atom bond 58 105
-210 0xa1 atom bond 105 105
-211 0xa1 atom bond 58 106
-212 0xa1 atom bond 104 106
-213 0xa1 atom bond 58 107
+ 80 0xa1 atom bond 40 40
+ 81 0xa1 atom bond 71 41
+ 82 0xa1 atom bond 70 41
+ 83 0xa1 atom bond 71 42
+ 84 0xa1 atom bond 103 42
+ 85 0xa1 atom bond 70 43
+ 86 0xa1 atom bond 69 43
+ 87 0xa1 atom bond 70 44
+ 88 0xa1 atom bond 102 44
+ 89 0xa1 atom bond 69 45
+ 90 0xa1 atom bond 68 45
+ 91 0xa1 atom bond 69 46
+ 92 0xa1 atom bond 101 46
+ 93 0xa1 atom bond 68 47
+ 94 0xa1 atom bond 67 47
+ 95 0xa1 atom bond 68 48
+ 96 0xa1 atom bond 100 48
+ 97 0xa1 atom bond 67 49
+ 98 0xa1 atom bond 66 49
+ 99 0xa1 atom bond 67 50
+100 0xa1 atom bond 99 50
+101 0xa1 atom bond 67 51
+102 0xa1 atom bond 98 51
+103 0xa1 atom bond 66 52
+104 0xa1 atom bond 65 52
+105 0xa1 atom bond 66 53
+106 0xa1 atom bond 99 53
+107 0xa1 atom bond 66 54
+108 0xa1 atom bond 98 54
+109 0xa1 atom bond 66 55
+110 0xa1 atom bond 97 55
+111 0xa1 atom bond 65 56
+112 0xa1 atom bond 64 56
+113 0xa1 atom bond 65 57
+114 0xa1 atom bond 97 57
+115 0xa1 atom bond 64 58
+116 0xa1 atom bond 63 58
+117 0xa1 atom bond 64 59
+118 0xa1 atom bond 96 59
+119 0xa1 atom bond 63 60
+120 0xa1 atom bond 62 60
+121 0xa1 atom bond 63 61
+122 0xa1 atom bond 95 61
+123 0xa1 atom bond 63 62
+124 0xa1 atom bond 94 62
+125 0xa1 atom bond 62 63
+126 0xa1 atom bond 61 63
+127 0xa1 atom bond 62 64
+128 0xa1 atom bond 109 64
+129 0xa1 atom bond 62 65
+130 0xa1 atom bond 95 65
+131 0xa1 atom bond 62 66
+132 0xa1 atom bond 94 66
+133 0xa1 atom bond 62 67
+134 0xa1 atom bond 93 67
+135 0xa1 atom bond 61 68
+136 0xa1 atom bond 60 68
+137 0xa1 atom bond 61 69
+138 0xa1 atom bond 108 69
+139 0xa1 atom bond 61 70
+140 0xa1 atom bond 94 70
+141 0xa1 atom bond 61 71
+142 0xa1 atom bond 93 71
+143 0xa1 atom bond 61 72
+144 0xa1 atom bond 92 72
+145 0xa1 atom bond 60 73
+146 0xa1 atom bond 59 73
+147 0xa1 atom bond 60 74
+148 0xa1 atom bond 107 74
+149 0xa1 atom bond 60 75
+150 0xa1 atom bond 93 75
+151 0xa1 atom bond 60 76
+152 0xa1 atom bond 92 76
+153 0xa1 atom bond 60 77
+154 0xa1 atom bond 91 77
+155 0xa1 atom bond 59 78
+156 0xa1 atom bond 58 78
+157 0xa1 atom bond 59 79
+158 0xa1 atom bond 106 79
+159 0xa1 atom bond 59 80
+160 0xa1 atom bond 92 80
+161 0xa1 atom bond 59 81
+162 0xa1 atom bond 91 81
+163 0xa1 atom bond 59 82
+164 0xa1 atom bond 90 82
+165 0xa1 atom bond 58 83
+166 0xa1 atom bond 105 83
+167 0xa1 atom bond 58 84
+168 0xa1 atom bond 91 84
+169 0xa1 atom bond 58 85
+170 0xa1 atom bond 90 85
+171 0xa1 atom bond 57 86
+172 0xa1 atom bond 89 86
+173 0xa1 atom bond 57 87
+174 0xa1 atom bond 39 87
+175 0xa1 atom bond 56 88
+176 0xa1 atom bond 88 88
+177 0xa1 atom bond 56 89
+178 0xa1 atom bond 38 89
+179 0xa1 atom bond 109 90
+180 0xa1 atom bond 108 90
+181 0xa1 atom bond 108 91
+182 0xa1 atom bond 107 91
+183 0xa1 atom bond 107 92
+184 0xa1 atom bond 106 92
+185 0xa1 atom bond 106 93
+186 0xa1 atom bond 105 93
+187 0xa1 atom bond 105 94
+188 0xa1 atom bond 104 94
+189 0xa1 atom bond 104 95
+190 0xa1 atom bond 89 95
+191 0xa1 atom bond 103 96
+192 0xa1 atom bond 102 96
+193 0xa1 atom bond 102 97
+194 0xa1 atom bond 101 97
+195 0xa1 atom bond 101 98
+196 0xa1 atom bond 100 98
+197 0xa1 atom bond 100 99
+198 0xa1 atom bond 99 99
+199 0xa1 atom bond 99 100
+200 0xa1 atom bond 98 100
+201 0xa1 atom bond 98 101
+202 0xa1 atom bond 97 101
+203 0xa1 atom bond 97 102
+204 0xa1 atom bond 96 102
+205 0xa1 atom bond 96 103
+206 0xa1 atom bond 95 103
+207 0xa1 atom bond 95 104
+208 0xa1 atom bond 94 104
+209 0xa1 atom bond 94 105
+210 0xa1 atom bond 93 105
+211 0xa1 atom bond 93 106
+212 0xa1 atom bond 92 106
+213 0xa1 atom bond 92 107
 214 0xa1 atom bond 91 107
-215 0xa1 atom bond 58 108
+215 0xa1 atom bond 91 108
 216 0xa1 atom bond 90 108
-217 0xa1 atom bond 57 109
-218 0xa1 atom bond 104 109
-219 0xa1 atom bond 57 110
-220 0xa1 atom bond 89 110
-221 0xa1 atom bond 57 111
-222 0xa1 atom bond 21 111
-223 0xa1 atom bond 57 112
-224 0xa1 atom bond 40 112
-225 0xa1 atom bond 57 113
-226 0xa1 atom bond 39 113
-227 0xa1 atom bond 56 114
-228 0xa1 atom bond 88 114
-229 0xa1 atom bond 56 115
-230 0xa1 atom bond 38 115
-231 0xa1 atom bond 109 116
-232 0xa1 atom bond 108 116
-233 0xa1 atom bond 108 117
-234 0xa1 atom bond 107 117
-235 0xa1 atom bond 107 118
-236 0xa1 atom bond 106 118
-237 0xa1 atom bond 106 119
-238 0xa1 atom bond 105 119
-239 0xa1 atom bond 105 120
-240 0xa1 atom bond 104 120
-241 0xa1 atom bond 105 121
-242 0xa1 atom bond 89 121
-243 0xa1 atom bond 104 122
-244 0xa1 atom bond 89 122
-245 0xa1 atom bond 103 123
-246 0xa1 atom bond 102 123
-247 0xa1 atom bond 103 124
-248 0xa1 atom bond 101 124
-249 0xa1 atom bond 102 125
-250 0xa1 atom bond 101 125
-251 0xa1 atom bond 102 126
-252 0xa1 atom bond 100 126
-253 0xa1 atom bond 101 127
-254 0xa1 atom bond 100 127
-255 0xa1 atom bond 100 128
-256 0xa1 atom bond 99 128
-257 0xa1 atom bond 99 129
-258 0xa1 atom bond 98 129
-259 0xa1 atom bond 99 130
-260 0xa1 atom bond 97 130
-261 0xa1 atom bond 98 131
-262 0xa1 atom bond 97 131
-263 0xa1 atom bond 97 132
-264 0xa1 atom bond 96 132
-265 0xa1 atom bond 96 133
-266 0xa1 atom bond 95 133
-267 0xa1 atom bond 96 134
-268 0xa1 atom bond 94 134
-269 0xa1 atom bond 95 135
-270 0xa1 atom bond 94 135
-271 0xa1 atom bond 94 136
-272 0xa1 atom bond 93 136
-273 0xa1 atom bond 93 137
-274 0xa1 atom bond 92 137
-275 0xa1 atom bond 93 138
-276 0xa1 atom bond 91 138
-277 0xa1 atom bond 92 139
-278 0xa1 atom bond 91 139
-279 0xa1 atom bond 92 140
-280 0xa1 atom bond 90 140
-281 0xa1 atom bond 91 141
-282 0xa1 atom bond 90 141
-283 0xa1 atom bond 89 142
-284 0xa1 atom bond 88 142
-285 0xa1 atom bond 87 143
-286 0xa1 atom bond 55 143
-287 0xa1 atom bond 85 144
-288 0xa1 atom bond 53 144
-289 0xa1 atom bond 84 145
-290 0xa1 atom bond 83 145
-291 0xa1 atom bond 84 146
-292 0xa1 atom bond 52 146
-293 0xa1 atom bond 83 147
-294 0xa1 atom bond 51 147
-295 0xa1 atom bond 27 148
-296 0xa1 atom bond 26 148
-297 0xa1 atom bond 27 149
-298 0xa1 atom bond 46 149
-299 0xa1 atom bond 27 150
-300 0xa1 atom bond 45 150
-301 0xa1 atom bond 27 151
-302 0xa1 atom bond 28 151
-303 0xa1 atom bond 26 152
-304 0xa1 atom bond 25 152
-305 0xa1 atom bond 26 153
-306 0xa1 atom bond 24 153
-307 0xa1 atom bond 26 154
-308 0xa1 atom bond 44 154
-309 0xa1 atom bond 26 155
-310 0xa1 atom bond 43 155
-311 0xa1 atom bond 25 156
-312 0xa1 atom bond 24 156
-313 0xa1 atom bond 25 157
-314 0xa1 atom bond 44 157
-315 0xa1 atom bond 25 158
-316 0xa1 atom bond 43 158
-317 0xa1 atom bond 25 159
-318 0xa1 atom bond 42 159
-319 0xa1 atom bond 24 160
-320 0xa1 atom bond 23 160
-321 0xa1 atom bond 24 161
-322 0xa1 atom bond 43 161
-323 0xa1 atom bond 24 162
-324 0xa1 atom bond 42 162
-325 0xa1 atom bond 24 163
-326 0xa1 atom bond 41 163
-327 0xa1 atom bond 23 164
-328 0xa1 atom bond 22 164
-329 0xa1 atom bond 23 165
-330 0xa1 atom bond 21 165
-331 0xa1 atom bond 23 166
-332 0xa1 atom bond 42 166
-333 0xa1 atom bond 23 167
-334 0xa1 atom bond 41 167
-335 0xa1 atom bond 22 168
-336 0xa1 atom bond 21 168
-337 0xa1 atom bond 22 169
-338 0xa1 atom bond 40 169
-339 0xa1 atom bond 22 170
-340 0xa1 atom bond 39 170
-341 0xa1 atom bond 21 171
-342 0xa1 atom bond 40 171
-343 0xa1 atom bond 21 172
-344 0xa1 atom bond 39 172
-345 0xa1 atom bond 20 173
-346 0xa1 atom bond 12 173
-347 0xa1 atom bond 20 174
-348 0xa1 atom bond 38 174
-349 0xa1 atom bond 19 175
-350 0xa1 atom bond 11 175
-351 0xa1 atom bond 17 176
-352 0xa1 atom bond 35 176
-353 0xa1 atom bond 16 177
-354 0xa1 atom bond 15 177
-355 0xa1 atom bond 16 178
-356 0xa1 atom bond 8 178
-357 0xa1 atom bond 16 179
-358 0xa1 atom bond 7 179
-359 0xa1 atom bond 16 180
-360 0xa1 atom bond 34 180
-361 0xa1 atom bond 15 181
-362 0xa1 atom bond 14 181
-363 0xa1 atom bond 15 182
-364 0xa1 atom bond 7 182
-365 0xa1 atom bond 15 183
-366 0xa1 atom bond 33 183
-367 0xa1 atom bond 14 184
-368 0xa1 atom bond 13 184
-369 0xa1 atom bond 14 185
-370 0xa1 atom bond 6 185
-371 0xa1 atom bond 14 186
-372 0xa1 atom bond 32 186
-373 0xa1 atom bond 13 187
-374 0xa1 atom bond 6 187
-375 0xa1 atom bond 13 188
-376 0xa1 atom bond 5 188
-377 0xa1 atom bond 13 189
-378 0xa1 atom bond 31 189
-379 0xa1 atom bond 13 190
-380 0xa1 atom bond 30 190
-381 0xa1 atom bond 12 191
-382 0xa1 atom bond 4 191
-383 0xa1 atom bond 8 192
-384 0xa1 atom bond 7 192
-385 0xa1 atom bond 7 193
-386 0xa1 atom bond 6 193
-387 0xa1 atom bond 6 194
-388 0xa1 atom bond 5 194
-389 0xa1 atom bond 3 195
-390 0xa1 atom bond 1 195
-391 0xa1 atom bond 52 196
-392 0xa1 atom bond 51 196
-393 0xa1 atom bond 51 197
-394 0xa1 atom bond 33 197
-395 0xa1 atom bond 50 198
-396 0xa1 atom bond 49 198
-397 0xa1 atom bond 50 199
-398 0xa1 atom bond 32 199
-399 0xa1 atom bond 49 200
-400 0xa1 atom bond 48 200
-401 0xa1 atom bond 48 201
-402 0xa1 atom bond 47 201
-403 0xa1 atom bond 48 202
-404 0xa1 atom bond 30 202
-405 0xa1 atom bond 48 203
-406 0xa1 atom bond 29 203
-407 0xa1 atom bond 47 204
-408 0xa1 atom bond 46 204
-409 0xa1 atom bond 47 205
-410 0xa1 atom bond 29 205
-411 0xa1 atom bond 47 206
-412 0xa1 atom bond 28 206
-413 0xa1 atom bond 46 207
-414 0xa1 atom bond 45 207
-415 0xa1 atom bond 46 208
-416 0xa1 atom bond 29 208
-417 0xa1 atom bond 46 209
-418 0xa1 atom bond 28 209
-419 0xa1 atom bond 45 210
-420 0xa1 atom bond 44 210
-421 0xa1 atom bond 45 211
-422 0xa1 atom bond 28 211
-423 0xa1 atom bond 44 212
-424 0xa1 atom bond 43 212
-425 0xa1 atom bond 43 213
-426 0xa1 atom bond 42 213
-427 0xa1 atom bond 42 214
-428 0xa1 atom bond 41 214
-429 0xa1 atom bond 41 215
-430 0xa1 atom bond 40 215
-431 0xa1 atom bond 40 216
-432 0xa1 atom bond 39 216
-433 0xa1 atom bond 34 217
-434 0xa1 atom bond 33 217
-435 0xa1 atom bond 32 218
-436 0xa1 atom bond 31 218
-437 0xa1 atom bond 31 219
-438 0xa1 atom bond 30 219
-439 0xa1 atom bond 30 220
-440 0xa1 atom bond 29 220
-441 0xa1 atom bond 29 221
-442 0xa1 atom bond 28 221
+217 0xa1 atom bond 89 109
+218 0xa1 atom bond 88 109
+219 0xa1 atom bond 87 110
+220 0xa1 atom bond 55 110
+221 0xa1 atom bond 85 111
+222 0xa1 atom bond 53 111
+223 0xa1 atom bond 84 112
+224 0xa1 atom bond 83 112
+225 0xa1 atom bond 84 113
+226 0xa1 atom bond 52 113
+227 0xa1 atom bond 83 114
+228 0xa1 atom bond 51 114
+229 0xa1 atom bond 27 115
+230 0xa1 atom bond 26 115
+231 0xa1 atom bond 27 116
+232 0xa1 atom bond 45 116
+233 0xa1 atom bond 27 117
+234 0xa1 atom bond 28 117
+235 0xa1 atom bond 26 118
+236 0xa1 atom bond 25 118
+237 0xa1 atom bond 26 119
+238 0xa1 atom bond 44 119
+239 0xa1 atom bond 25 120
+240 0xa1 atom bond 24 120
+241 0xa1 atom bond 25 121
+242 0xa1 atom bond 43 121
+243 0xa1 atom bond 24 122
+244 0xa1 atom bond 23 122
+245 0xa1 atom bond 24 123
+246 0xa1 atom bond 42 123
+247 0xa1 atom bond 23 124
+248 0xa1 atom bond 22 124
+249 0xa1 atom bond 23 125
+250 0xa1 atom bond 41 125
+251 0xa1 atom bond 22 126
+252 0xa1 atom bond 21 126
+253 0xa1 atom bond 22 127
+254 0xa1 atom bond 40 127
+255 0xa1 atom bond 21 128
+256 0xa1 atom bond 39 128
+257 0xa1 atom bond 20 129
+258 0xa1 atom bond 12 129
+259 0xa1 atom bond 20 130
+260 0xa1 atom bond 38 130
+261 0xa1 atom bond 19 131
+262 0xa1 atom bond 11 131
+263 0xa1 atom bond 17 132
+264 0xa1 atom bond 35 132
+265 0xa1 atom bond 16 133
+266 0xa1 atom bond 15 133
+267 0xa1 atom bond 16 134
+268 0xa1 atom bond 8 134
+269 0xa1 atom bond 16 135
+270 0xa1 atom bond 34 135
+271 0xa1 atom bond 15 136
+272 0xa1 atom bond 14 136
+273 0xa1 atom bond 15 137
+274 0xa1 atom bond 7 137
+275 0xa1 atom bond 15 138
+276 0xa1 atom bond 33 138
+277 0xa1 atom bond 14 139
+278 0xa1 atom bond 13 139
+279 0xa1 atom bond 14 140
+280 0xa1 atom bond 6 140
+281 0xa1 atom bond 14 141
+282 0xa1 atom bond 32 141
+283 0xa1 atom bond 13 142
+284 0xa1 atom bond 6 142
+285 0xa1 atom bond 13 143
+286 0xa1 atom bond 5 143
+287 0xa1 atom bond 13 144
+288 0xa1 atom bond 31 144
+289 0xa1 atom bond 12 145
+290 0xa1 atom bond 4 145
+291 0xa1 atom bond 8 146
+292 0xa1 atom bond 7 146
+293 0xa1 atom bond 7 147
+294 0xa1 atom bond 6 147
+295 0xa1 atom bond 6 148
+296 0xa1 atom bond 5 148
+297 0xa1 atom bond 3 149
+298 0xa1 atom bond 1 149
+299 0xa1 atom bond 52 150
+300 0xa1 atom bond 51 150
+301 0xa1 atom bond 51 151
+302 0xa1 atom bond 33 151
+303 0xa1 atom bond 50 152
+304 0xa1 atom bond 49 152
+305 0xa1 atom bond 50 153
+306 0xa1 atom bond 32 153
+307 0xa1 atom bond 49 154
+308 0xa1 atom bond 48 154
+309 0xa1 atom bond 48 155
+310 0xa1 atom bond 47 155
+311 0xa1 atom bond 48 156
+312 0xa1 atom bond 30 156
+313 0xa1 atom bond 47 157
+314 0xa1 atom bond 46 157
+315 0xa1 atom bond 47 158
+316 0xa1 atom bond 29 158
+317 0xa1 atom bond 46 159
+318 0xa1 atom bond 45 159
+319 0xa1 atom bond 46 160
+320 0xa1 atom bond 29 160
+321 0xa1 atom bond 46 161
+322 0xa1 atom bond 28 161
+323 0xa1 atom bond 45 162
+324 0xa1 atom bond 44 162
+325 0xa1 atom bond 44 163
+326 0xa1 atom bond 43 163
+327 0xa1 atom bond 43 164
+328 0xa1 atom bond 42 164
+329 0xa1 atom bond 42 165
+330 0xa1 atom bond 41 165
+331 0xa1 atom bond 41 166
+332 0xa1 atom bond 40 166
+333 0xa1 atom bond 40 167
+334 0xa1 atom bond 39 167
+335 0xa1 atom bond 34 168
+336 0xa1 atom bond 33 168
+337 0xa1 atom bond 32 169
+338 0xa1 atom bond 31 169
+339 0xa1 atom bond 31 170
+340 0xa1 atom bond 30 170
+341 0xa1 atom bond 30 171
+342 0xa1 atom bond 29 171
+343 0xa1 atom bond 29 172
+344 0xa1 atom bond 28 172
 property_flags:

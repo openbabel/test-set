@@ -1,6 +1,6 @@
 BIOGRF 200
 DESCRP YOHIMBINE
-REMARK BGF file created by Open Babel 1.99.1
+REMARK BGF file created by Open Babel 1.100.0
 FORCEFIELD DREIDING  
 FORMAT ATOM   (a6,1x,i5,1x,a5,1x,a3,1x,a1,1x,a5,3f10.5,1x,a5,i3,i2,1x,f8.5)
 HETATM     1 C1    RES A   444  -0.46990   2.13360   0.00000 C_R    3 0  0.06415
@@ -50,8 +50,8 @@ CONECT     7     3    13     9
 ORDER      7     1     1     2
 CONECT     8     3    11
 ORDER      8     1     1
-CONECT     9     4     7    14
-ORDER      9     1     2     1
+CONECT     9     4    14     7
+ORDER      9     1     1     2
 CONECT    10     5    15
 ORDER     10     1     1
 CONECT    11     5     8
@@ -62,7 +62,7 @@ CONECT    13     7    17
 ORDER     13     1     2
 CONECT    14     9    18
 ORDER     14     1     2
-CONECT    15    10    12    19    29
+CONECT    15    10    19    12    29
 ORDER     15     1     1     1     1
 CONECT    16    12    20    21
 ORDER     16     1     1     1

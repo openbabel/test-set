@@ -1,0 +1,17 @@
+BIOGRF 200
+DESCRP mpqc/h2o.mpqc
+REMARK BGF file created by Open Babel 1.100.0
+FORCEFIELD DREIDING  
+FORMAT ATOM   (a6,1x,i5,1x,a5,1x,a3,1x,a1,1x,a5,3f10.5,1x,a5,i3,i2,1x,f8.5)
+HETATM     1 O1    RES A   444   0.00000   0.00000   0.36937 O_3    2 0 -0.41047
+HETATM     2 H2    RES A   444   0.78398   0.00000  -0.18469 H_     1 0  0.20523
+HETATM     3 H3    RES A   444  -0.78398  -0.00000  -0.18469 H_     1 0  0.20523
+FORMAT CONECT (a6,12i6)
+
+CONECT     1     2     3
+ORDER      1     1     1
+CONECT     2     1
+ORDER      2     1
+CONECT     3     1
+ORDER      3     1
+END

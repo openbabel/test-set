@@ -1,4 +1,5 @@
 <molecule title="cml/ascorbic1.box" id="m1">
+<atomArray>
     <atom id="a1">
 <string builtin="elementType">Xx</string>
 <float builtin="x3">-3.441</float>
@@ -47,6 +48,7 @@
 <float builtin="y3">2.946</float>
 <float builtin="z3">3.54</float>
     </atom>
+</atomArray>
   <bondArray>
     <bond>
 <string builtin="atomRef">a1</string>

@@ -62,25 +62,25 @@ ID rflag type bond_order
  11 0x7005 single
  12 0x7005 single
  13 0x7005 single
- 14 0x7005 double
+ 14 0x7005 single
  15 0x7005 single
- 16 0x7005 single
- 17 0x7005 single
+ 16 0x7005 double
+ 17 0x7005 double
  18 0x7005 single
  19 0x7005 single
  20 0x7005 single
- 21 0x7005 double
- 22 0x7005 double
+ 21 0x7005 single
+ 22 0x7005 single
  23 0x7005 single
- 24 0x7005 single
+ 24 0x7005 double
  25 0x7005 single
- 26 0x7005 single
+ 26 0x7005 double
  27 0x7005 single
  28 0x7005 single
  29 0x7005 single
  30 0x7005 single
  31 0x7005 single
- 32 0x7005 double
+ 32 0x7005 single
  33 0x7005 single
 property_flags:
 object_class connector
@@ -100,60 +100,60 @@ ID dflag objCls1 objCls2 objID1 objID2
   8 0xa1 atom bond 5 4
   9 0xa1 atom bond 2 5
  10 0xa1 atom bond 6 5
- 11 0xa1 atom bond 2 6
- 12 0xa1 atom bond 27 6
+ 11 0xa1 atom bond 3 6
+ 12 0xa1 atom bond 7 6
  13 0xa1 atom bond 3 7
- 14 0xa1 atom bond 7 7
- 15 0xa1 atom bond 3 8
- 16 0xa1 atom bond 8 8
- 17 0xa1 atom bond 4 9
- 18 0xa1 atom bond 9 9
+ 14 0xa1 atom bond 8 7
+ 15 0xa1 atom bond 4 8
+ 16 0xa1 atom bond 9 8
+ 17 0xa1 atom bond 5 9
+ 18 0xa1 atom bond 10 9
  19 0xa1 atom bond 5 10
- 20 0xa1 atom bond 10 10
- 21 0xa1 atom bond 5 11
- 22 0xa1 atom bond 11 11
- 23 0xa1 atom bond 6 12
- 24 0xa1 atom bond 12 12
- 25 0xa1 atom bond 7 13
- 26 0xa1 atom bond 13 13
- 27 0xa1 atom bond 7 14
- 28 0xa1 atom bond 9 14
- 29 0xa1 atom bond 8 15
- 30 0xa1 atom bond 11 15
- 31 0xa1 atom bond 9 16
- 32 0xa1 atom bond 14 16
- 33 0xa1 atom bond 10 17
- 34 0xa1 atom bond 15 17
- 35 0xa1 atom bond 12 18
- 36 0xa1 atom bond 16 18
- 37 0xa1 atom bond 12 19
- 38 0xa1 atom bond 15 19
- 39 0xa1 atom bond 12 20
- 40 0xa1 atom bond 28 20
- 41 0xa1 atom bond 13 21
- 42 0xa1 atom bond 17 21
- 43 0xa1 atom bond 14 22
- 44 0xa1 atom bond 18 22
- 45 0xa1 atom bond 15 23
- 46 0xa1 atom bond 19 23
- 47 0xa1 atom bond 15 24
- 48 0xa1 atom bond 29 24
- 49 0xa1 atom bond 16 25
- 50 0xa1 atom bond 20 25
- 51 0xa1 atom bond 16 26
- 52 0xa1 atom bond 21 26
- 53 0xa1 atom bond 17 27
- 54 0xa1 atom bond 18 27
- 55 0xa1 atom bond 19 28
- 56 0xa1 atom bond 22 28
- 57 0xa1 atom bond 20 29
- 58 0xa1 atom bond 23 29
+ 20 0xa1 atom bond 11 10
+ 21 0xa1 atom bond 6 11
+ 22 0xa1 atom bond 12 11
+ 23 0xa1 atom bond 7 12
+ 24 0xa1 atom bond 13 12
+ 25 0xa1 atom bond 9 13
+ 26 0xa1 atom bond 14 13
+ 27 0xa1 atom bond 10 14
+ 28 0xa1 atom bond 15 14
+ 29 0xa1 atom bond 12 15
+ 30 0xa1 atom bond 16 15
+ 31 0xa1 atom bond 13 16
+ 32 0xa1 atom bond 17 16
+ 33 0xa1 atom bond 14 17
+ 34 0xa1 atom bond 18 17
+ 35 0xa1 atom bond 15 18
+ 36 0xa1 atom bond 19 18
+ 37 0xa1 atom bond 16 19
+ 38 0xa1 atom bond 20 19
+ 39 0xa1 atom bond 16 20
+ 40 0xa1 atom bond 21 20
+ 41 0xa1 atom bond 19 21
+ 42 0xa1 atom bond 22 21
+ 43 0xa1 atom bond 20 22
+ 44 0xa1 atom bond 23 22
+ 45 0xa1 atom bond 21 23
+ 46 0xa1 atom bond 24 23
+ 47 0xa1 atom bond 21 24
+ 48 0xa1 atom bond 25 24
+ 49 0xa1 atom bond 24 25
+ 50 0xa1 atom bond 26 25
+ 51 0xa1 atom bond 7 26
+ 52 0xa1 atom bond 9 26
+ 53 0xa1 atom bond 8 27
+ 54 0xa1 atom bond 11 27
+ 55 0xa1 atom bond 12 28
+ 56 0xa1 atom bond 15 28
+ 57 0xa1 atom bond 17 29
+ 58 0xa1 atom bond 18 29
  59 0xa1 atom bond 20 30
  60 0xa1 atom bond 22 30
- 61 0xa1 atom bond 21 31
- 62 0xa1 atom bond 24 31
- 63 0xa1 atom bond 21 32
- 64 0xa1 atom bond 25 32
- 65 0xa1 atom bond 24 33
- 66 0xa1 atom bond 26 33
+ 61 0xa1 atom bond 2 31
+ 62 0xa1 atom bond 27 31
+ 63 0xa1 atom bond 12 32
+ 64 0xa1 atom bond 28 32
+ 65 0xa1 atom bond 15 33
+ 66 0xa1 atom bond 29 33
 property_flags:

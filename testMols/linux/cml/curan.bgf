@@ -1,0 +1,78 @@
+BIOGRF 200
+DESCRP 
+REMARK BGF file created by Open Babel 1.100.0
+FORCEFIELD DREIDING  
+FORMAT ATOM   (a6,1x,i5,1x,a5,1x,a3,1x,a1,1x,a5,3f10.5,1x,a5,i3,i2,1x,f8.5)
+HETATM     1 C1    RES A   444  10.62000  -9.09180   0.00000 C_R    3 0 -0.00624
+HETATM     2 C2    RES A   444  10.62000 -10.04420   0.00000 C_R    3 0  0.06088
+HETATM     3 C3    RES A   444   9.79510  -8.61560   0.00000 C_R    3 0 -0.00296
+HETATM     4 C4    RES A   444   9.79510 -10.52040   0.00000 C_R    3 0  0.01575
+HETATM     5 C5    RES A   444   8.97030  -9.09180   0.00000 C_R    3 0 -0.00024
+HETATM     6 C6    RES A   444   8.97030 -10.04420   0.00000 C_R    3 0  0.00130
+HETATM     7 C7    RES A   444  12.26970  -9.09180   0.00000 C_3    4 0  0.03470
+HETATM     8 C8    RES A   444  12.26970 -10.04420   0.00000 C_3    4 0  0.05905
+HETATM     9 N9    RES A   444  11.44480 -10.52040   0.00000 N_2    3 0 -0.24514
+HETATM    10 C10   RES A   444  13.91930  -9.09180   0.00000 C_3    4 0  0.00758
+HETATM    11 C11   RES A   444  13.91930 -10.04420   0.00000 C_3    4 0 -0.04383
+HETATM    12 C12   RES A   444  13.09440  -8.61560   0.00000 C_3    4 0  0.05850
+HETATM    13 C13   RES A   444  13.09440 -10.52040   0.00000 C_3    4 0  0.01738
+HETATM    14 C14   RES A   444  13.09440 -11.59950   0.00000 C_3    4 0  0.00000
+HETATM    15 C15   RES A   444  11.44490  -8.61560   0.00000 C_3    4 0  0.04214
+HETATM    16 C16   RES A   444  11.44500  -7.66320   0.00000 C_3    4 0  0.07652
+HETATM    17 N17   RES A   444  13.09450  -7.66330   0.00000 N_3    3 0 -0.27364
+HETATM    18 C18   RES A   444  14.87790  -7.66920   0.00000 C_3    4 0  0.07205
+HETATM    19 C19   RES A   444  14.88170 -10.59990   0.00000 C_3    4 0  0.01733
+HETATM    20 H20   RES A   444  12.26900 -10.82590   0.00000 H_     1 0  0.05304
+HETATM    21 H21   RES A   444  13.10040  -9.57780   0.00000 H_     1 0  0.02717
+HETATM    22 H22   RES A   444  13.91990 -10.95250   0.00000 H_     1 0  0.02717
+HETATM    23 C23   RES A   444  15.43790 -11.56190   0.00000 C_3    4 0  0.00143
+HETATM    24 C24   RES A   444  15.43440 -12.58710   0.00000 C_3    4 0  0.00005
+FORMAT CONECT (a6,12i6)
+
+CONECT     1     3     2    15
+ORDER      1     2     1     1
+CONECT     2     4     9     1
+ORDER      2     2     1     1
+CONECT     3     1     5
+ORDER      3     2     1
+CONECT     4     2     6
+ORDER      4     2     1
+CONECT     5     3     6
+ORDER      5     1     2
+CONECT     6     4     5
+ORDER      6     1     2
+CONECT     7     8    15    12
+ORDER      7     1     1     1
+CONECT     8     9    13     7    20
+ORDER      8     1     1     1     1
+CONECT     9     8     2
+ORDER      9     1     1
+CONECT    10    11    12
+ORDER     10     1     1
+CONECT    11    10    22    21
+ORDER     11     1     1     1
+CONECT    12    10     7    17
+ORDER     12     1     1     1
+CONECT    13     8
+ORDER     13     1
+CONECT    15     7    16     1
+ORDER     15     1     1     1
+CONECT    16    15    17
+ORDER     16     1     1
+CONECT    17    12    16    18
+ORDER     17     1     1     1
+CONECT    18    17    19
+ORDER     18     1     1
+CONECT    19    18    23
+ORDER     19     1     1
+CONECT    20     8
+ORDER     20     1
+CONECT    21    11
+ORDER     21     1
+CONECT    22    11
+ORDER     22     1
+CONECT    23    19    24
+ORDER     23     1     1
+CONECT    24    23
+ORDER     24     1
+END

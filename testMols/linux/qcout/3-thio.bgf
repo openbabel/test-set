@@ -1,0 +1,77 @@
+BIOGRF 200
+DESCRP qcout/3-thio.qcout
+REMARK BGF file created by Open Babel 1.100.0
+FORCEFIELD DREIDING  
+FORMAT ATOM   (a6,1x,i5,1x,a5,1x,a3,1x,a1,1x,a5,3f10.5,1x,a5,i3,i2,1x,f8.5)
+HETATM     1 S1    RES A   444   3.93143  -1.08629  -0.02208 S_3    1 0  0.23888
+HETATM     2 C2    RES A   444   2.66131   0.12983   0.00536 C_3    4 0 -0.13551
+HETATM     3 C3    RES A   444   3.21743   1.39213   0.02303 C_3    4 0 -0.11924
+HETATM     4 C4    RES A   444   4.64050   1.38951   0.01661 C_3    4 0 -0.06745
+HETATM     5 C5    RES A   444   5.17036   0.12911  -0.00562 C_3    4 0 -0.30675
+HETATM     6 H6    RES A   444   2.62077   2.29821   0.04224 H_     1 0  0.12312
+HETATM     7 H7    RES A   444   5.24355   2.29090   0.02933 H_     1 0  0.11452
+HETATM     8 H8    RES A   444   6.21134  -0.16444  -0.01403 H_     1 0  0.14708
+HETATM     9 H9    RES A   444  -1.30275  -2.42110   0.01880 H_     1 0  0.12376
+HETATM    10 S10   RES A   444   0.00003   0.96628  -0.00681 S_3    1 0  0.23447
+HETATM    11 C11   RES A   444  -1.26643  -0.25249   0.00242 C_3    4 0 -0.10728
+HETATM    12 C12   RES A   444  -0.70797  -1.51370   0.01219 C_3    4 0 -0.12837
+HETATM    13 C13   RES A   444   0.70792  -1.51372   0.01430 C_3    4 0 -0.12834
+HETATM    14 C14   RES A   444   1.26643  -0.25253   0.00586 C_3    4 0 -0.10731
+HETATM    15 H15   RES A   444   1.30268  -2.42111   0.02369 H_     1 0  0.12376
+HETATM    16 H16   RES A   444  -6.21136  -0.16443  -0.00192 H_     1 0  0.14708
+HETATM    17 H17   RES A   444  -5.24340   2.29115  -0.01981 H_     1 0  0.11452
+HETATM    18 H18   RES A   444  -2.62061   2.29851  -0.01778 H_     1 0  0.12313
+HETATM    19 S19   RES A   444  -3.93153  -1.08640   0.00773 S_3    1 0  0.23888
+HETATM    20 C20   RES A   444  -5.17035   0.12914  -0.00318 C_3    4 0 -0.30676
+HETATM    21 C21   RES A   444  -4.64042   1.38967  -0.01226 C_3    4 0 -0.06743
+HETATM    22 C22   RES A   444  -3.21733   1.39230  -0.01121 C_3    4 0 -0.11928
+HETATM    23 C23   RES A   444  -2.66128   0.12988  -0.00117 C_3    4 0 -0.13547
+FORMAT CONECT (a6,12i6)
+
+CONECT     1     5     2
+ORDER      1     1     1
+CONECT     2     1    14     3
+ORDER      2     1     1     1
+CONECT     3     2     4     6
+ORDER      3     1     1     1
+CONECT     4     5     3     7
+ORDER      4     1     1     1
+CONECT     5     1     8     4
+ORDER      5     1     1     1
+CONECT     6     3
+ORDER      6     1
+CONECT     7     4
+ORDER      7     1
+CONECT     8     5
+ORDER      8     1
+CONECT     9    12
+ORDER      9     1
+CONECT    10    11    14
+ORDER     10     1     1
+CONECT    11    10    23    12
+ORDER     11     1     1     1
+CONECT    12    11    13     9
+ORDER     12     1     1     1
+CONECT    13    14    12    15
+ORDER     13     1     1     1
+CONECT    14    10     2    13
+ORDER     14     1     1     1
+CONECT    15    13
+ORDER     15     1
+CONECT    16    20
+ORDER     16     1
+CONECT    17    21
+ORDER     17     1
+CONECT    18    22
+ORDER     18     1
+CONECT    19    20    23
+ORDER     19     1     1
+CONECT    20    21    16    19
+ORDER     20     1     1     1
+CONECT    21    17    22    20
+ORDER     21     1     1     1
+CONECT    22    18    21    23
+ORDER     22     1     1     1
+CONECT    23    22    11    19
+ORDER     23     1     1     1
+END

@@ -1,0 +1,100 @@
+<molecule title="mopout/Ethanol.mopout" id="m1">
+<atomArray>
+    <atom id="a1">
+<string builtin="elementType">C</string>
+<float builtin="x3">0</float>
+<float builtin="y3">0</float>
+<float builtin="z3">0</float>
+    </atom>
+    <atom id="a2">
+<string builtin="elementType">C</string>
+<float builtin="x3">1.5115</float>
+<float builtin="y3">0</float>
+<float builtin="z3">0</float>
+    </atom>
+    <atom id="a3">
+<string builtin="elementType">O</string>
+<float builtin="x3">1.9342</float>
+<float builtin="y3">1.3552</float>
+<float builtin="z3">0</float>
+    </atom>
+    <atom id="a4">
+<string builtin="elementType">H</string>
+<float builtin="x3">-0.3716</float>
+<float builtin="y3">-1.0516</float>
+<float builtin="z3">0.0004</float>
+    </atom>
+    <atom id="a5">
+<string builtin="elementType">H</string>
+<float builtin="x3">-0.3904</float>
+<float builtin="y3">0.5256</float>
+<float builtin="z3">0.9035</float>
+    </atom>
+    <atom id="a6">
+<string builtin="elementType">H</string>
+<float builtin="x3">-0.3873</float>
+<float builtin="y3">0.5274</float>
+<float builtin="z3">-0.9038</float>
+    </atom>
+    <atom id="a7">
+<string builtin="elementType">H</string>
+<float builtin="x3">1.9059</float>
+<float builtin="y3">-0.5225</float>
+<float builtin="z3">0.9131</float>
+    </atom>
+    <atom id="a8">
+<string builtin="elementType">H</string>
+<float builtin="x3">1.9062</float>
+<float builtin="y3">-0.5221</float>
+<float builtin="z3">-0.9132</float>
+    </atom>
+    <atom id="a9">
+<string builtin="elementType">H</string>
+<float builtin="x3">2.8977</float>
+<float builtin="y3">1.345</float>
+<float builtin="z3">0</float>
+    </atom>
+</atomArray>
+  <bondArray>
+    <bond>
+<string builtin="atomRef">a6</string>
+<string builtin="atomRef">a1</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a2</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a4</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a5</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a8</string>
+<string builtin="atomRef">a2</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a2</string>
+<string builtin="atomRef">a3</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a2</string>
+<string builtin="atomRef">a7</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a3</string>
+<string builtin="atomRef">a9</string>
+<string builtin="order">1</string>
+    </bond>
+  </bondArray>
+</molecule>

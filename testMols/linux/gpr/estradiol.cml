@@ -1,4 +1,5 @@
 <molecule title="gpr/estradiol.gpr" id="m1">
+<atomArray>
     <atom id="a1">
 <string builtin="elementType">C</string>
 <float builtin="x3">-2.06396</float>
@@ -263,6 +264,7 @@
 <float builtin="y3">0.876876</float>
 <float builtin="z3">-0.0673166</float>
     </atom>
+</atomArray>
   <bondArray>
     <bond>
 <string builtin="atomRef">a2</string>

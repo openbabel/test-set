@@ -1,4 +1,5 @@
 <molecule title="Aromatic Test for Open Babel" id="m1">
+<atomArray>
     <atom id="a1">
 <string builtin="elementType">C</string>
 <float builtin="x3">0.6228</float>
@@ -287,6 +288,7 @@
 <float builtin="y3">-3.2264</float>
 <float builtin="z3">-0.5255</float>
     </atom>
+</atomArray>
   <bondArray>
     <bond>
 <string builtin="atomRef">a1</string>

@@ -1,4 +1,5 @@
 <molecule id="m1">
+<atomArray>
     <atom id="a1">
 <string builtin="elementType">O</string>
 <float builtin="x3">0</float>
@@ -71,4 +72,5 @@
 <float builtin="y3">0.97844</float>
 <float builtin="z3">2.54015</float>
     </atom>
+</atomArray>
 </molecule>

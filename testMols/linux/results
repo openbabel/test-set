@@ -1,27 +1,32 @@
 ------------------- testing curan.cml-------------------------
 .... roundtrip testing ...
-cml -> alc -> cml
-cml -> bs -> cml
-cml -> caccrt -> cml
-cml -> c3d1 -> cml
-cml -> c3d2 -> cml
-cml -> cml -> cml
-cml -> box -> cml
-cml -> dmol -> cml
-cml -> feat -> cml
-cml -> gpr -> cml
-cml -> hin -> cml
-cml -> bin -> cml
-cml -> mmd -> cml
-cml -> mol -> cml
-cml -> mmads -> cml
-cml -> pdb -> cml
-cml -> bgf -> cml
-cml -> smi -> cml
-cml -> mol2 -> cml
-cml -> unixyz -> cml
-cml -> vmol -> cml
-cml -> xyz -> cml
+cml -> alc  -> cml  + validation 
+cml -> bs  -> cml  + validation 
+cml -> caccrt  -> cml  + validation 
+cml -> c3d1  -> cml  + validation 
+cml -> c3d2  -> cml  + validation 
+cml -> box   ** ERROR ** Number of atoms differ: 24 and 8
+-> cml  + validation 
+cml -> dmol  -> cml  + validation 
+cml -> feat  -> cml  + validation 
+cml -> gpr  -> cml  + validation 
+cml -> hin   ** ERROR ** Number of atoms differ: 24 and 13
+-> cml  + validation 
+cml -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> cml  + validation 
+cml -> mmd  -> cml  + validation 
+cml -> mol  -> cml  + validation 
+cml -> mmads  -> cml  + validation 
+cml -> pdb   ** ERROR ** Coordinates for atom 1 differ.
+-> cml  + validation 
+cml -> bgf  -> cml  + validation 
+cml -> smi   ** ERROR ** Number of atoms differ: 24 and 25
+-> cml  + validation 
+cml -> mol2  -> cml  + validation 
+cml -> unixyz  -> cml  + validation 
+cml -> vmol   ** ERROR ** Number of atoms differ: 24 and 0
+-> cml  + validation 
+cml -> xyz  -> cml  + validation 
 .... output only ...
 cml -> cacint
 cml -> cache
@@ -43,87 +48,153 @@ cml -> txyz
 cml -> txt
 cml -> xed
 
-real	0m15.675s
-user	0m15.018s
-sys	0m0.521s
+real	0m36.284s
+user	0m31.393s
+sys	0m1.082s
 ------------------- testing 417.cml-------------------------
 .... roundtrip testing ...
-cml -> alc -> cml
+cml -> alc  Kekulization Error = 
 Kekulization Error = 
-cml -> bs -> cml
+ ** ERROR ** Elements for atom 1 differ: 26 and 0
+-> cml  + validation 
+cml -> bs  Kekulization Error = 
 Kekulization Error = 
-cml -> caccrt -> cml
+-> cml  + validation 
+cml -> caccrt  Kekulization Error = 
 Kekulization Error = 
-cml -> c3d1 -> cml
+-> cml  + validation 
+cml -> c3d1  Kekulization Error = 
 Kekulization Error = 
-cml -> c3d2 -> cml
+-> cml  + validation 
+cml -> c3d2  Kekulization Error = 
 Kekulization Error = 
-cml -> cml -> cml
+-> cml  + validation 
+cml -> box  Kekulization Error = 
 Kekulization Error = 
-cml -> box -> cml
-cml -> dmol -> cml
-cml -> feat -> cml
-cml -> gpr -> cml
-cml -> hin -> cml
-cml -> bin -> cml
-cml -> mmd -> cml
-cml -> mol -> cml
-cml -> mmads -> cml
-cml -> pdb -> cml
-cml -> bgf -> cml
-cml -> smi -> cml
-cml -> mol2 -> cml
-cml -> unixyz -> cml
-cml -> vmol -> cml
-cml -> xyz -> cml
+ ** ERROR ** Number of atoms differ: 43 and 8
+-> cml  + validation 
+cml -> dmol  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> feat  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> gpr  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> hin  Kekulization Error = 
+Kekulization Error = 
+ ** ERROR ** Number of atoms differ: 43 and 0
+-> cml  + validation 
+cml -> bin  Kekulization Error = 
+Kekulization Error = 
+ ** ERROR ** Coordinates for atom 1 differ.
+-> cml  + validation 
+cml -> mmd  Kekulization Error = 
+Kekulization Error = 
+ ** ERROR ** Elements for atom 1 differ: 26 and 0
+-> cml  + validation 
+cml -> mol  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> mmads  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> pdb  Kekulization Error = 
+Kekulization Error = 
+ ** ERROR ** Elements for atom 1 differ: 26 and 9
+-> cml  + validation 
+cml -> bgf  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> smi  Kekulization Error = 
+Kekulization Error = 
+ ** ERROR ** Number of atoms differ: 43 and 50
+-> cml  + validation 
+cml -> mol2  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> unixyz  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
+cml -> vmol  Kekulization Error = 
+Kekulization Error = 
+ ** ERROR ** Number of atoms differ: 43 and 0
+-> cml  + validation 
+cml -> xyz  Kekulization Error = 
+Kekulization Error = 
+-> cml  + validation 
 .... output only ...
 cml -> cacint
+Kekulization Error = 
 cml -> cache
+Kekulization Error = 
 cml -> ct
+Kekulization Error = 
 cml -> cssr
+Kekulization Error = 
 cml -> fh
+Kekulization Error = 
 cml -> inp
+Kekulization Error = 
 cml -> gau
+Kekulization Error = 
 cml -> gr96A
+Kekulization Error = 
 cml -> gr96N
+Kekulization Error = 
 cml -> jin
+Kekulization Error = 
 cml -> csr
+Kekulization Error = 
 cml -> nw
+Kekulization Error = 
 cml -> pov
+Kekulization Error = 
 cml -> report
+Kekulization Error = 
 cml -> qcin
+Kekulization Error = 
 cml -> fix
+Kekulization Error = 
 cml -> txyz
+Kekulization Error = 
 cml -> txt
+Kekulization Error = 
 cml -> xed
+Kekulization Error = 
 
-real	0m26.354s
-user	0m25.672s
-sys	0m0.637s
+real	1m0.270s
+user	0m56.197s
+sys	0m1.469s
 ------------------- testing ascorbic1.cml-------------------------
 .... roundtrip testing ...
-cml -> alc -> cml
-cml -> bs -> cml
-cml -> caccrt -> cml
-cml -> c3d1 -> cml
-cml -> c3d2 -> cml
-cml -> cml -> cml
-cml -> box -> cml
-cml -> dmol -> cml
-cml -> feat -> cml
-cml -> gpr -> cml
-cml -> hin -> cml
-cml -> bin -> cml
-cml -> mmd -> cml
-cml -> mol -> cml
-cml -> mmads -> cml
-cml -> pdb -> cml
-cml -> bgf -> cml
-cml -> smi -> cml
-cml -> mol2 -> cml
-cml -> unixyz -> cml
-cml -> vmol -> cml
-cml -> xyz -> cml
+cml -> alc  -> cml  + validation 
+cml -> bs  -> cml  + validation 
+cml -> caccrt  -> cml  + validation 
+cml -> c3d1  -> cml  + validation 
+cml -> c3d2  -> cml  + validation 
+cml -> box   ** ERROR ** Number of atoms differ: 12 and 8
+-> cml  + validation 
+cml -> dmol  -> cml  + validation 
+cml -> feat  -> cml  + validation 
+cml -> gpr  -> cml  + validation 
+cml -> hin  -> cml  + validation 
+cml -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> cml  + validation 
+cml -> mmd  -> cml  + validation 
+cml -> mol  -> cml  + validation 
+cml -> mmads  -> cml  + validation 
+cml -> pdb   ** ERROR ** Coordinates for atom 4 differ.
+-> cml  + validation 
+cml -> bgf  -> cml  + validation 
+cml -> smi   ** ERROR ** Number of atoms differ: 12 and 14
+-> cml  + validation 
+cml -> mol2  -> cml  + validation 
+cml -> unixyz  -> cml  + validation 
+cml -> vmol   ** ERROR ** Number of atoms differ: 12 and 0
+-> cml  + validation 
+cml -> xyz  -> cml  + validation 
 .... output only ...
 cml -> cacint
 cml -> cache
@@ -145,33 +216,37 @@ cml -> txyz
 cml -> txt
 cml -> xed
 
-real	0m8.544s
-user	0m8.055s
-sys	0m0.449s
+real	0m17.793s
+user	0m16.553s
+sys	0m0.668s
 ------------------- testing yohimbine.mol-------------------------
 .... roundtrip testing ...
-mol -> alc -> mol
-mol -> bs -> mol
-mol -> caccrt -> mol
-mol -> c3d1 -> mol
-mol -> c3d2 -> mol
-mol -> cml -> mol
-mol -> box -> mol
-mol -> dmol -> mol
-mol -> feat -> mol
-mol -> gpr -> mol
-mol -> hin -> mol
-mol -> bin -> mol
-mol -> mmd -> mol
-mol -> mol -> mol
-mol -> mmads -> mol
-mol -> pdb -> mol
-mol -> bgf -> mol
-mol -> smi -> mol
-mol -> mol2 -> mol
-mol -> unixyz -> mol
-mol -> vmol -> mol
-mol -> xyz -> mol
+mol -> alc  -> mol  + validation 
+mol -> bs  -> mol  + validation 
+mol -> caccrt  -> mol  + validation 
+mol -> c3d1  -> mol  + validation 
+mol -> c3d2  -> mol  + validation 
+mol -> cml  -> mol  + validation 
+mol -> box   ** ERROR ** Number of atoms differ: 29 and 8
+-> mol  + validation 
+mol -> dmol  -> mol  + validation 
+mol -> feat  -> mol  + validation 
+mol -> gpr  -> mol  + validation 
+mol -> hin  -> mol  + validation 
+mol -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> mol  + validation 
+mol -> mmd  -> mol  + validation 
+mol -> mmads  -> mol  + validation 
+mol -> pdb   ** ERROR ** Coordinates for atom 2 differ.
+-> mol  + validation 
+mol -> bgf  -> mol  + validation 
+mol -> smi   ** ERROR ** Number of atoms differ: 29 and 32
+-> mol  + validation 
+mol -> mol2  -> mol  + validation 
+mol -> unixyz  -> mol  + validation 
+mol -> vmol   ** ERROR ** Coordinates for atom 1 differ.
+-> mol  + validation 
+mol -> xyz  -> mol  + validation 
 .... output only ...
 mol -> cacint
 mol -> cache
@@ -193,33 +268,45 @@ mol -> txyz
 mol -> txt
 mol -> xed
 
-real	0m2.449s
-user	0m2.029s
-sys	0m0.359s
+real	0m4.250s
+user	0m3.510s
+sys	0m0.621s
 ------------------- testing aromtest.mol2-------------------------
 .... roundtrip testing ...
-mol2 -> alc -> mol2
-mol2 -> bs -> mol2
-mol2 -> caccrt -> mol2
-mol2 -> c3d1 -> mol2
-mol2 -> c3d2 -> mol2
-mol2 -> cml -> mol2
-mol2 -> box -> mol2
-mol2 -> dmol -> mol2
-mol2 -> feat -> mol2
-mol2 -> gpr -> mol2
-mol2 -> hin -> mol2
-mol2 -> bin -> mol2
-mol2 -> mmd -> mol2
-mol2 -> mol -> mol2
-mol2 -> mmads -> mol2
-mol2 -> pdb -> mol2
-mol2 -> bgf -> mol2
-mol2 -> smi -> mol2
-mol2 -> mol2 -> mol2
-mol2 -> unixyz -> mol2
-mol2 -> vmol -> mol2
-mol2 -> xyz -> mol2
+mol2 -> alc   ** ERROR ** Elements for atom 28 differ: 37 and 2
+-> mol2  + validation 
+mol2 -> bs  -> mol2  + validation 
+mol2 -> caccrt  -> mol2  + validation 
+mol2 -> c3d1  -> mol2  + validation  ** ERROR ** Elements for atom 27 differ: 14 and 0
+
+mol2 -> c3d2  -> mol2  + validation  ** ERROR ** Elements for atom 27 differ: 14 and 1
+
+mol2 -> cml  -> mol2  + validation 
+mol2 -> box   ** ERROR ** Number of atoms differ: 48 and 8
+-> mol2  + validation 
+mol2 -> dmol  -> mol2  + validation 
+mol2 -> feat  -> mol2  + validation 
+mol2 -> gpr  -> mol2  + validation 
+mol2 -> hin  -> mol2  + validation 
+mol2 -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> mol2  + validation 
+mol2 -> mmd   ** ERROR ** Elements for atom 28 differ: 37 and 19
+-> mol2  + validation 
+mol2 -> mol  -> mol2  + validation 
+mol2 -> mmads  -> mol2  + validation  ** ERROR ** Elements for atom 27 differ: 14 and 0
+
+mol2 -> pdb   ** ERROR ** Coordinates for atom 1 differ.
+-> mol2  + validation 
+mol2 -> bgf   ** ERROR ** Elements for atom 28 differ: 37 and 1
+-> mol2  + validation  ** ERROR ** Elements for atom 28 differ: 1 and 2
+
+mol2 -> smi   ** ERROR ** Number of atoms differ: 48 and 34
+-> mol2  + validation 
+mol2 -> unixyz  -> mol2  + validation 
+mol2 -> vmol   ** ERROR ** Coordinates for atom 1 differ.
+-> mol2  + validation Kekulization Error = mol2/aromtest.vmol
+
+mol2 -> xyz  -> mol2  + validation 
 .... output only ...
 mol2 -> cacint
 mol2 -> cache
@@ -241,33 +328,37 @@ mol2 -> txyz
 mol2 -> txt
 mol2 -> xed
 
-real	0m6.255s
-user	0m5.734s
-sys	0m0.484s
+real	0m10.445s
+user	0m9.549s
+sys	0m0.713s
 ------------------- testing estradiol.gpr-------------------------
 .... roundtrip testing ...
-gpr -> alc -> gpr
-gpr -> bs -> gpr
-gpr -> caccrt -> gpr
-gpr -> c3d1 -> gpr
-gpr -> c3d2 -> gpr
-gpr -> cml -> gpr
-gpr -> box -> gpr
-gpr -> dmol -> gpr
-gpr -> feat -> gpr
-gpr -> gpr -> gpr
-gpr -> hin -> gpr
-gpr -> bin -> gpr
-gpr -> mmd -> gpr
-gpr -> mol -> gpr
-gpr -> mmads -> gpr
-gpr -> pdb -> gpr
-gpr -> bgf -> gpr
-gpr -> smi -> gpr
-gpr -> mol2 -> gpr
-gpr -> unixyz -> gpr
-gpr -> vmol -> gpr
-gpr -> xyz -> gpr
+gpr -> alc  -> gpr  + validation 
+gpr -> bs  -> gpr  + validation 
+gpr -> caccrt  -> gpr  + validation 
+gpr -> c3d1  -> gpr  + validation 
+gpr -> c3d2  -> gpr  + validation 
+gpr -> cml  -> gpr  + validation 
+gpr -> box   ** ERROR ** Number of atoms differ: 44 and 8
+-> gpr  + validation 
+gpr -> dmol  -> gpr  + validation 
+gpr -> feat  -> gpr  + validation 
+gpr -> hin  -> gpr  + validation 
+gpr -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> gpr  + validation 
+gpr -> mmd  -> gpr  + validation 
+gpr -> mol  -> gpr  + validation 
+gpr -> mmads  -> gpr  + validation 
+gpr -> pdb   ** ERROR ** Coordinates for atom 2 differ.
+-> gpr  + validation 
+gpr -> bgf  -> gpr  + validation 
+gpr -> smi   ** ERROR ** Number of atoms differ: 44 and 24
+-> gpr  + validation 
+gpr -> mol2  -> gpr  + validation 
+gpr -> unixyz  -> gpr  + validation 
+gpr -> vmol   ** ERROR ** Coordinates for atom 1 differ.
+-> gpr  + validation 
+gpr -> xyz  -> gpr  + validation 
 .... output only ...
 gpr -> cacint
 gpr -> cache
@@ -289,33 +380,104 @@ gpr -> txyz
 gpr -> txt
 gpr -> xed
 
-real	0m5.831s
-user	0m5.313s
-sys	0m0.471s
+real	0m8.864s
+user	0m8.049s
+sys	0m0.656s
+------------------- testing test.smi-------------------------
+.... roundtrip testing ...
+smi -> alc  -> smi  + validation 
+smi -> bs  -> smi  + validation 
+smi -> caccrt  -> smi  + validation 
+smi -> c3d1  -> smi  + validation 
+smi -> c3d2  -> smi  + validation 
+smi -> cml  -> smi  + validation 
+smi -> box   ** ERROR ** Number of atoms differ: 0 and 8
+-> smi  + validation Kekulization Error = smi/test.box
+ ** ERROR ** Coordinates for atom 1 differ.
+
+smi -> dmol  -> smi  + validation 
+smi -> feat  -> smi  + validation 
+smi -> gpr  -> smi  + validation 
+smi -> hin  -> smi  + validation 
+smi -> bin  -> smi  + validation  ** ERROR ** Number of atoms differ: 0 and 4
+
+smi -> mmd  -> smi  + validation 
+smi -> mol  -> smi  + validation 
+smi -> mmads  -> smi  + validation 
+smi -> pdb  -> smi  + validation 
+smi -> bgf  -> smi  + validation 
+smi -> mol2  -> smi  + validation  ** ERROR ** Number of atoms differ: 0 and 5
+
+smi -> unixyz  -> smi  + validation 
+smi -> vmol  -> smi  + validation 
+smi -> xyz  WARNING: Problems reading an XYZ file, method 'bool ReadXYZ(istream &,OBMol &,const char *)'
+  Problems reading the first line. The first line must contain the number of atoms.
+  OpenBabel found the number '0' which obviously does not work.
+-> smi  + validation WARNING: Problems reading an XYZ file, method 'bool ReadXYZ(istream &,OBMol &,const char *)'
+  Problems reading the first line. The first line must contain the number of atoms.
+  OpenBabel found the number '0' which obviously does not work.
+WARNING: Problems reading an XYZ file, method 'bool ReadXYZ(istream &,OBMol &,const char *)'
+  Problems reading the first line. The first line must contain the number of atoms.
+  OpenBabel found the number '0' which obviously does not work.
+
+.... output only ...
+smi -> cacint
+smi -> cache
+smi -> ct
+smi -> cssr
+smi -> fh
+smi -> inp
+smi -> gau
+smi -> gr96A
+smi -> gr96N
+smi -> jin
+smi -> csr
+smi -> nw
+smi -> pov
+smi -> report
+smi -> qcin
+smi -> fix
+smi -> txyz
+smi -> txt
+smi -> xed
+
+real	0m1.734s
+user	0m1.139s
+sys	0m0.543s
 ------------------- testing TRP.pdb-------------------------
 .... roundtrip testing ...
-pdb -> alc -> pdb
-pdb -> bs -> pdb
-pdb -> caccrt -> pdb
-pdb -> c3d1 -> pdb
-pdb -> c3d2 -> pdb
-pdb -> cml -> pdb
-pdb -> box -> pdb
-pdb -> dmol -> pdb
-pdb -> feat -> pdb
-pdb -> gpr -> pdb
-pdb -> hin -> pdb
-pdb -> bin -> pdb
-pdb -> mmd -> pdb
-pdb -> mol -> pdb
-pdb -> mmads -> pdb
-pdb -> pdb -> pdb
-pdb -> bgf -> pdb
-pdb -> smi -> pdb
-pdb -> mol2 -> pdb
-pdb -> unixyz -> pdb
-pdb -> vmol -> pdb
-pdb -> xyz -> pdb
+pdb -> alc  -> pdb  + validation 
+pdb -> bs  -> pdb  + validation 
+pdb -> caccrt  -> pdb  + validation 
+pdb -> c3d1  -> pdb  + validation 
+pdb -> c3d2  -> pdb  + validation 
+pdb -> cml  -> pdb  + validation 
+pdb -> box   ** ERROR ** Number of atoms differ: 14 and 8
+-> pdb  + validation  ** ERROR ** Elements for atom 1 differ: 0 and 1
+
+pdb -> dmol  -> pdb  + validation 
+pdb -> feat  -> pdb  + validation 
+pdb -> gpr  -> pdb  + validation 
+pdb -> hin  -> pdb  + validation 
+pdb -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> pdb  + validation  ** ERROR ** Coordinates for atom 1 differ.
+
+pdb -> mmd  -> pdb  + validation 
+pdb -> mol  -> pdb  + validation 
+pdb -> mmads  -> pdb  + validation 
+pdb -> bgf  -> pdb  + validation 
+pdb -> smi  Kekulization Error = pdb/TRP.pdb
+ ** ERROR ** Number of atoms differ: 14 and 15
+-> pdb  + validation Kekulization Error = pdb/TRP.pdb
+Kekulization Error = pdb/TRP.pdb
+
+pdb -> mol2  -> pdb  + validation  ** ERROR ** Coordinates for atom 1 differ.
+
+pdb -> unixyz  -> pdb  + validation 
+pdb -> vmol   ** ERROR ** Coordinates for atom 1 differ.
+-> pdb  + validation  ** ERROR ** Coordinates for atom 2 differ.
+
+pdb -> xyz  -> pdb  + validation 
 .... output only ...
 pdb -> cacint
 pdb -> cache
@@ -337,91 +499,37 @@ pdb -> txyz
 pdb -> txt
 pdb -> xed
 
-real	0m3.895s
-user	0m2.936s
-sys	0m0.400s
-------------------- testing 1hvc.pdb-------------------------
-.... roundtrip testing ...
-pdb -> alc -> pdb
-pdb -> bs -> pdb
-pdb -> caccrt -> pdb
-pdb -> c3d1 -> pdb
-pdb -> c3d2 -> pdb
-pdb -> cml -> pdb
-pdb -> box -> pdb
-pdb -> dmol -> pdb
-pdb -> feat -> pdb
-pdb -> gpr -> pdb
-pdb -> hin -> pdb
-pdb -> bin -> pdb
-0 3491
-Assert at File mol.cpp Line 579
-./foo2bar2foo.sh: line 12:  7669 Segmentation fault      obabel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
-pdb -> mmd -> pdb
-pdb -> mol -> pdb
-MDL Molfile conversion failed: Molecule is too large to convert.
-  File format limited to 999 atoms.
-  Molecule size: 3491 atoms 
-pdb -> mmads -> pdb
-pdb -> pdb -> pdb
-pdb -> bgf -> pdb
-pdb -> smi -> pdb
-SMILES Conversion failed: Molecule is too large to convert.
-  Molecule size: 3491 atoms 
-pdb -> mol2 -> pdb
-pdb -> unixyz -> pdb
-pdb -> vmol -> pdb
-pdb -> xyz -> pdb
-.... output only ...
-pdb -> cacint
-pdb -> cache
-pdb -> ct
-pdb -> cssr
-pdb -> fh
-pdb -> inp
-pdb -> gau
-pdb -> gr96A
-pdb -> gr96N
-pdb -> jin
-pdb -> csr
-pdb -> nw
-pdb -> pov
-pdb -> report
-pdb -> qcin
-pdb -> fix
-SMILES Conversion failed: Molecule is too large to convert.
-  Molecule size: 3491 atoms 
-pdb -> txyz
-pdb -> txt
-pdb -> xed
-
-real	42m16.505s
-user	41m53.607s
-sys	0m21.488s
+real	0m6.063s
+user	0m5.494s
+sys	0m0.473s
 ------------------- testing buckyball.xyz-------------------------
 .... roundtrip testing ...
-xyz -> alc -> xyz
-xyz -> bs -> xyz
-xyz -> caccrt -> xyz
-xyz -> c3d1 -> xyz
-xyz -> c3d2 -> xyz
-xyz -> cml -> xyz
-xyz -> box -> xyz
-xyz -> dmol -> xyz
-xyz -> feat -> xyz
-xyz -> gpr -> xyz
-xyz -> hin -> xyz
-xyz -> bin -> xyz
-xyz -> mmd -> xyz
-xyz -> mol -> xyz
-xyz -> mmads -> xyz
-xyz -> pdb -> xyz
-xyz -> bgf -> xyz
-xyz -> smi -> xyz
-xyz -> mol2 -> xyz
-xyz -> unixyz -> xyz
-xyz -> vmol -> xyz
-xyz -> xyz -> xyz
+xyz -> alc  -> xyz  + validation 
+xyz -> bs  -> xyz  + validation 
+xyz -> caccrt  -> xyz  + validation 
+xyz -> c3d1  -> xyz  + validation 
+xyz -> c3d2  -> xyz  + validation 
+xyz -> cml  -> xyz  + validation 
+xyz -> box   ** ERROR ** Number of atoms differ: 60 and 8
+-> xyz  + validation 
+xyz -> dmol  -> xyz  + validation 
+xyz -> feat  -> xyz  + validation 
+xyz -> gpr  -> xyz  + validation 
+xyz -> hin  -> xyz  + validation 
+xyz -> bin   ** ERROR ** Coordinates for atom 1 differ.
+-> xyz  + validation 
+xyz -> mmd  -> xyz  + validation 
+xyz -> mol  -> xyz  + validation 
+xyz -> mmads  -> xyz  + validation 
+xyz -> pdb   ** ERROR ** Coordinates for atom 1 differ.
+-> xyz  + validation 
+xyz -> bgf  -> xyz  + validation 
+xyz -> smi   ** ERROR ** Coordinates for atom 1 differ.
+-> xyz  + validation 
+xyz -> mol2  -> xyz  + validation 
+xyz -> unixyz  -> xyz  + validation 
+xyz -> vmol   ** ERROR ** Coordinates for atom 1 differ.
+-> xyz  + validation 
 .... output only ...
 xyz -> cacint
 xyz -> cache
@@ -443,37 +551,48 @@ xyz -> txyz
 xyz -> txt
 xyz -> xed
 
-real	0m20.606s
-user	0m20.100s
-sys	0m0.467s
+real	0m22.865s
+user	0m21.396s
+sys	0m0.643s
 ------------------- testing table.xyz-------------------------
 .... roundtrip testing ...
-xyz -> alc -> xyz
-xyz -> bs -> xyz
-xyz -> caccrt -> xyz
-xyz -> c3d1 -> xyz
-xyz -> c3d2 -> xyz
-xyz -> cml -> xyz
-xyz -> box -> xyz
-xyz -> dmol -> xyz
-xyz -> feat -> xyz
-xyz -> gpr -> xyz
-xyz -> hin -> xyz
-xyz -> bin -> xyz
-xyz -> mmd -> xyz
-xyz -> mol -> xyz
-xyz -> mmads -> xyz
-xyz -> pdb -> xyz
-xyz -> bgf -> xyz
-xyz -> smi -> xyz
-./foo2bar2foo.sh: line 11:  8002 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
-xyz -> mol2 -> xyz
-xyz -> unixyz -> xyz
-xyz -> vmol -> xyz
-xyz -> xyz -> xyz
+xyz -> alc   ** ERROR ** Elements for atom 4 differ: 4 and 2
+-> xyz  + validation 
+xyz -> bs  -> xyz  + validation 
+xyz -> caccrt  -> xyz  + validation 
+xyz -> c3d1  -> xyz  + validation 
+xyz -> c3d2  -> xyz  + validation 
+xyz -> cml  -> xyz  + validation 
+xyz -> box   ** ERROR ** Number of atoms differ: 109 and 8
+-> xyz  + validation 
+xyz -> dmol  -> xyz  + validation 
+xyz -> feat  -> xyz  + validation 
+xyz -> gpr  -> xyz  + validation 
+xyz -> hin   ** ERROR ** Number of atoms differ: 109 and 1
+-> xyz  + validation 
+xyz -> bin   ** ERROR ** Coordinates for atom 3 differ.
+-> xyz  + validation 
+xyz -> mmd   ** ERROR ** Elements for atom 2 differ: 2 and 19
+-> xyz  + validation 
+xyz -> mol  -> xyz  + validation 
+xyz -> mmads  -> xyz  + validation 
+xyz -> pdb   ** ERROR ** Elements for atom 2 differ: 2 and 1
+-> xyz  + validation 
+xyz -> bgf   ** ERROR ** Elements for atom 2 differ: 2 and 1
+-> xyz  + validation 
+xyz -> smi  Assert at File mol.cpp Line 1005
+./foo2bar2foo.sh: line 13: 14443 Segmentation fault      roundtrip $1/$3.$1 $1/$3.$2
+-> xyz  + validation Assert at File mol.cpp Line 1005
+./foo2bar2foo.sh: line 15: 14444 Segmentation fault      obabel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
+roundtrip: Cannot read input file-2!
+
+xyz -> mol2  -> xyz  + validation 
+xyz -> unixyz  -> xyz  + validation 
+xyz -> vmol   ** ERROR ** Coordinates for atom 1 differ.
+-> xyz  + validation 
 .... output only ...
 xyz -> cacint
-./foo2bar.sh: line 11:  8038 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+./foo2bar.sh: line 11: 14462 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
 xyz -> cache
 xyz -> ct
 xyz -> cssr
@@ -489,11 +608,329 @@ xyz -> pov
 xyz -> report
 xyz -> qcin
 xyz -> fix
-./foo2bar.sh: line 11:  8092 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
 xyz -> txyz
 xyz -> txt
 xyz -> xed
 
-real	5m49.487s
-user	5m48.695s
-sys	0m0.771s
+real	2m15.138s
+user	2m7.926s
+sys	0m1.428s
+------------------- testing 3-pyrrole.jout-------------------------
+.... roundtrip testing ...
+jout -> alc  + validation 
+jout -> bs  + validation 
+jout -> caccrt  + validation 
+jout -> c3d1  + validation 
+jout -> c3d2  + validation 
+jout -> cml  + validation 
+jout -> box  + validation 
+ ** ERROR ** Number of atoms differ: 26 and 8
+jout -> dmol  + validation 
+jout -> feat  + validation 
+jout -> gpr  + validation 
+jout -> hin  + validation 
+jout -> bin  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+jout -> mmd  + validation 
+jout -> mol  + validation 
+jout -> mmads  + validation 
+jout -> pdb  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+jout -> bgf  + validation 
+jout -> smi  + validation 
+ ** ERROR ** Number of atoms differ: 26 and 18
+jout -> mol2  + validation 
+jout -> unixyz  + validation 
+jout -> vmol  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+jout -> xyz  + validation 
+.... output only ...
+jout -> cacint
+jout -> cache
+jout -> ct
+jout -> cssr
+jout -> fh
+jout -> inp
+jout -> gau
+jout -> gr96A
+jout -> gr96N
+jout -> jin
+jout -> csr
+jout -> nw
+jout -> pov
+jout -> report
+jout -> qcin
+jout -> fix
+jout -> txyz
+jout -> txt
+jout -> xed
+
+real	0m4.581s
+user	0m3.916s
+sys	0m0.416s
+------------------- testing 3-thio.qcout-------------------------
+.... roundtrip testing ...
+qcout -> alc  + validation 
+qcout -> bs  + validation 
+qcout -> caccrt  + validation 
+qcout -> c3d1  + validation 
+qcout -> c3d2  + validation 
+qcout -> cml  + validation 
+qcout -> box  + validation 
+ ** ERROR ** Number of atoms differ: 23 and 8
+qcout -> dmol  + validation 
+qcout -> feat  + validation 
+qcout -> gpr  + validation 
+qcout -> hin  + validation 
+qcout -> bin  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+qcout -> mmd  + validation 
+qcout -> mol  + validation 
+qcout -> mmads  + validation 
+qcout -> pdb  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+qcout -> bgf  + validation 
+qcout -> smi  + validation 
+ ** ERROR ** Number of atoms differ: 23 and 17
+qcout -> mol2  + validation 
+qcout -> unixyz  + validation 
+qcout -> vmol  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+qcout -> xyz  + validation 
+.... output only ...
+qcout -> cacint
+qcout -> cache
+qcout -> ct
+qcout -> cssr
+qcout -> fh
+qcout -> inp
+qcout -> gau
+qcout -> gr96A
+qcout -> gr96N
+qcout -> jin
+qcout -> csr
+qcout -> nw
+qcout -> pov
+qcout -> report
+qcout -> qcin
+qcout -> fix
+qcout -> txyz
+qcout -> txt
+qcout -> xed
+
+real	0m3.531s
+user	0m2.955s
+sys	0m0.379s
+------------------- testing b2h6.mpqc-------------------------
+.... roundtrip testing ...
+mpqc -> alc  + validation 
+mpqc -> bs  + validation 
+mpqc -> caccrt  + validation 
+mpqc -> c3d1  + validation 
+mpqc -> c3d2  + validation 
+mpqc -> cml  + validation 
+mpqc -> box  + validation 
+ ** ERROR ** Elements for atom 1 differ: 1 and 0
+mpqc -> dmol  + validation 
+mpqc -> feat  + validation 
+mpqc -> gpr  + validation 
+mpqc -> hin  + validation 
+mpqc -> bin  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+mpqc -> mmd  + validation 
+mpqc -> mol  + validation 
+mpqc -> mmads  + validation 
+mpqc -> pdb  + validation 
+ ** ERROR ** Coordinates for atom 5 differ.
+mpqc -> bgf  + validation 
+mpqc -> smi  + validation 
+ ** ERROR ** Number of atoms differ: 8 and 2
+mpqc -> mol2  + validation 
+mpqc -> unixyz  + validation 
+mpqc -> vmol  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+mpqc -> xyz  + validation 
+.... output only ...
+mpqc -> cacint
+mpqc -> cache
+mpqc -> ct
+mpqc -> cssr
+mpqc -> fh
+mpqc -> inp
+mpqc -> gau
+mpqc -> gr96A
+mpqc -> gr96N
+mpqc -> jin
+mpqc -> csr
+mpqc -> nw
+mpqc -> pov
+mpqc -> report
+mpqc -> qcin
+mpqc -> fix
+mpqc -> txyz
+mpqc -> txt
+mpqc -> xed
+
+real	0m3.019s
+user	0m2.480s
+sys	0m0.369s
+------------------- testing h2o.mpqc-------------------------
+.... roundtrip testing ...
+mpqc -> alc  + validation 
+mpqc -> bs  + validation 
+mpqc -> caccrt  + validation 
+mpqc -> c3d1  + validation 
+mpqc -> c3d2  + validation 
+mpqc -> cml  + validation 
+mpqc -> box  + validation 
+ ** ERROR ** Number of atoms differ: 3 and 8
+mpqc -> dmol  + validation 
+mpqc -> feat  + validation 
+mpqc -> gpr  + validation 
+mpqc -> hin  + validation 
+mpqc -> bin  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+mpqc -> mmd  + validation 
+mpqc -> mol  + validation 
+mpqc -> mmads  + validation 
+mpqc -> pdb  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+mpqc -> bgf  + validation 
+mpqc -> smi  + validation 
+ ** ERROR ** Number of atoms differ: 3 and 1
+mpqc -> mol2  + validation 
+mpqc -> unixyz  + validation 
+mpqc -> vmol  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+mpqc -> xyz  + validation 
+.... output only ...
+mpqc -> cacint
+mpqc -> cache
+mpqc -> ct
+mpqc -> cssr
+mpqc -> fh
+mpqc -> inp
+mpqc -> gau
+mpqc -> gr96A
+mpqc -> gr96N
+mpqc -> jin
+mpqc -> csr
+mpqc -> nw
+mpqc -> pov
+mpqc -> report
+mpqc -> qcin
+mpqc -> fix
+mpqc -> txyz
+mpqc -> txt
+mpqc -> xed
+
+real	0m1.988s
+user	0m1.576s
+sys	0m0.303s
+------------------- testing benzenesulfonamide.gamout-------------------------
+.... roundtrip testing ...
+gamout -> alc  + validation 
+gamout -> bs  + validation 
+gamout -> caccrt  + validation 
+gamout -> c3d1  + validation 
+gamout -> c3d2  + validation 
+gamout -> cml  + validation 
+gamout -> box  + validation 
+ ** ERROR ** Number of atoms differ: 27 and 8
+gamout -> dmol  + validation 
+gamout -> feat  + validation 
+gamout -> gpr  + validation 
+gamout -> hin  + validation 
+gamout -> bin  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+gamout -> mmd  + validation 
+gamout -> mol  + validation 
+gamout -> mmads  + validation 
+gamout -> pdb  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+gamout -> bgf  + validation 
+gamout -> smi  + validation 
+Kekulization Error = gamout/benzenesulfonamide.gamout
+ ** ERROR ** Number of atoms differ: 27 and 18
+gamout -> mol2  + validation 
+gamout -> unixyz  + validation 
+gamout -> vmol  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+gamout -> xyz  + validation 
+.... output only ...
+gamout -> cacint
+gamout -> cache
+gamout -> ct
+gamout -> cssr
+gamout -> fh
+gamout -> inp
+gamout -> gau
+gamout -> gr96A
+gamout -> gr96N
+gamout -> jin
+gamout -> csr
+gamout -> nw
+gamout -> pov
+gamout -> report
+gamout -> qcin
+gamout -> fix
+gamout -> txyz
+gamout -> txt
+gamout -> xed
+
+real	0m18.974s
+user	0m16.953s
+sys	0m0.766s
+------------------- testing Ethanol.mopout-------------------------
+.... roundtrip testing ...
+mopout -> alc  + validation 
+mopout -> bs  + validation 
+mopout -> caccrt  + validation 
+mopout -> c3d1  + validation 
+mopout -> c3d2  + validation 
+mopout -> cml  + validation 
+mopout -> box  + validation 
+ ** ERROR ** Number of atoms differ: 9 and 8
+mopout -> dmol  + validation 
+mopout -> feat  + validation 
+mopout -> gpr  + validation 
+mopout -> hin  + validation 
+mopout -> bin  + validation 
+ ** ERROR ** Coordinates for atom 1 differ.
+mopout -> mmd  + validation 
+mopout -> mol  + validation 
+mopout -> mmads  + validation 
+mopout -> pdb  + validation 
+ ** ERROR ** Coordinates for atom 3 differ.
+mopout -> bgf  + validation 
+mopout -> smi  + validation 
+ ** ERROR ** Number of atoms differ: 9 and 3
+mopout -> mol2  + validation 
+mopout -> unixyz  + validation 
+mopout -> vmol  + validation 
+ ** ERROR ** Coordinates for atom 2 differ.
+mopout -> xyz  + validation 
+.... output only ...
+mopout -> cacint
+mopout -> cache
+mopout -> ct
+mopout -> cssr
+mopout -> fh
+mopout -> inp
+mopout -> gau
+mopout -> gr96A
+mopout -> gr96N
+mopout -> jin
+mopout -> csr
+mopout -> nw
+mopout -> pov
+mopout -> report
+mopout -> qcin
+mopout -> fix
+mopout -> txyz
+mopout -> txt
+mopout -> xed
+
+real	0m2.686s
+user	0m2.242s
+sys	0m0.359s

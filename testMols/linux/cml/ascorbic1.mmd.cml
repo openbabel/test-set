@@ -1,4 +1,5 @@
 <molecule title="E" id="m1">
+<atomArray>
     <atom id="a1">
 <string builtin="elementType">O</string>
 <float builtin="x3">0</float>
@@ -45,7 +46,7 @@
 <string builtin="elementType">O</string>
 <float builtin="x3">1.4311</float>
 <float builtin="y3">-0.424735</float>
-<float builtin="z3">1.79786</float>
+<float builtin="z3">1.79787</float>
     </atom>
     <atom id="a9">
 <string builtin="elementType">C</string>
@@ -71,6 +72,7 @@
 <float builtin="y3">0.97844</float>
 <float builtin="z3">2.54015</float>
     </atom>
+</atomArray>
   <bondArray>
     <bond>
 <string builtin="atomRef">a1</string>
@@ -83,6 +85,16 @@
 <string builtin="order">1</string>
     </bond>
     <bond>
+<string builtin="atomRef">a2</string>
+<string builtin="atomRef">a10</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a3</string>
+<string builtin="atomRef">a5</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
 <string builtin="atomRef">a3</string>
 <string builtin="atomRef">a6</string>
 <string builtin="order">1</string>
@@ -98,43 +110,18 @@
 <string builtin="order">1</string>
     </bond>
     <bond>
-<string builtin="atomRef">a3</string>
 <string builtin="atomRef">a4</string>
+<string builtin="atomRef">a6</string>
 <string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a4</string>
 <string builtin="atomRef">a5</string>
-<string builtin="order">1</string>
-    </bond>
-    <bond>
-<string builtin="atomRef">a5</string>
-<string builtin="atomRef">a8</string>
 <string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a5</string>
 <string builtin="atomRef">a7</string>
-<string builtin="order">1</string>
-    </bond>
-    <bond>
-<string builtin="atomRef">a5</string>
-<string builtin="atomRef">a6</string>
-<string builtin="order">1</string>
-    </bond>
-    <bond>
-<string builtin="atomRef">a6</string>
-<string builtin="atomRef">a9</string>
-<string builtin="order">1</string>
-    </bond>
-    <bond>
-<string builtin="atomRef">a9</string>
-<string builtin="atomRef">a10</string>
-<string builtin="order">1</string>
-    </bond>
-    <bond>
-<string builtin="atomRef">a9</string>
-<string builtin="atomRef">a11</string>
 <string builtin="order">1</string>
     </bond>
     <bond>

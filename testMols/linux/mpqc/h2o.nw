@@ -1,0 +1,10 @@
+start molecule
+
+title 
+ mpqc/h2o.mpqc
+
+geometry units angstroms print xyz autosym
+  O        0.00000        0.00000        0.36937
+  H        0.78398        0.00000       -0.18469
+  H       -0.78398       -0.00000       -0.18469
+end

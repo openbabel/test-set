@@ -1,0 +1,26 @@
+FILENAME: mpqc/h2o.mpqc
+MASS: 18.0153
+EXACT MASS: 18.0105667
+INTERATOMIC DISTANCES
+
+              O   1      H   2      H   3
+              ---------------------------------
+   O   1    0.0000 
+   H   2    0.9600     0.0000 
+   H   3    0.9600     1.5680     0.0000 
+
+
+
+ATOMIC CHARGES
+   O   1   -0.4104664624
+   H   2    0.2052332461
+   H   3    0.2052332461
+
+
+BOND ANGLES
+
+
+TORSION ANGLES
+
+
+CHIRAL ATOMS
