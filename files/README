@@ -1,0 +1,15 @@
+This directory is for the purposes of test molecules.
+
+ It contains a set of subdirectories for particular file formats.
+
+ Each subdirectory contains the original test files as well as the resulting
+  translated files and "roundtrip" files with names like foo.xyz.mol.xyz
+  which would represent a roundtrip of a file "foo" from XYZ format -> MOL
+  format -> XYZ format.
+
+ Each file is (if possible) run through a "roundtrip" checking program. This
+  attempts to find mistakes, i.e. in the number of atoms, the elements of 
+  each atom, or the coordinates. (The last is checked to .1A, which is 
+  unfortunately the least common denomination in current formats.) It does not
+  presently check bonding, even on formats that support it.
+
