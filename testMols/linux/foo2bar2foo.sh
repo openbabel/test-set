@@ -9,9 +9,9 @@
 # test.foo to test.bar and roundtrip to test.bar.foo
 
 echo -n $1 "->" $2 " "
-obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
-roundtrip $1/$3.$1 $1/$3.$2
+valgrind -v obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+valgrind -v roundtrip $1/$3.$1 $1/$3.$2
 echo -n "->" $1 " + validation "
-obabel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
-roundtrip $1/$3.$2 $1/$3.$2.$1
+valgrind -v obabel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
+valgrind -v roundtrip $1/$3.$2 $1/$3.$2.$1
 echo

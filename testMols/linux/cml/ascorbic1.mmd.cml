@@ -14,7 +14,7 @@
     </atom>
     <atom id="a3">
 <string builtin="elementType">C</string>
-<float builtin="x3">0.904702</float>
+<float builtin="x3">0.904701</float>
 <float builtin="y3">0</float>
 <float builtin="z3">1.22393</float>
     </atom>
@@ -26,51 +26,51 @@
     </atom>
     <atom id="a5">
 <string builtin="elementType">C</string>
-<float builtin="x3">1.48615</float>
+<float builtin="x3">1.48614</float>
 <float builtin="y3">1.08908</float>
 <float builtin="z3">1.94554</float>
     </atom>
     <atom id="a6">
 <string builtin="elementType">C</string>
-<float builtin="x3">0.524131</float>
-<float builtin="y3">0.699147</float>
-<float builtin="z3">0.832451</float>
+<float builtin="x3">0.524132</float>
+<float builtin="y3">0.699144</float>
+<float builtin="z3">0.83245</float>
     </atom>
     <atom id="a7">
 <string builtin="elementType">O</string>
-<float builtin="x3">0.49064</float>
+<float builtin="x3">0.490637</float>
 <float builtin="y3">1.94562</float>
-<float builtin="z3">1.72251</float>
+<float builtin="z3">1.7225</float>
     </atom>
     <atom id="a8">
 <string builtin="elementType">O</string>
-<float builtin="x3">1.4311</float>
-<float builtin="y3">-0.424735</float>
-<float builtin="z3">1.79787</float>
+<float builtin="x3">1.43109</float>
+<float builtin="y3">-0.424734</float>
+<float builtin="z3">1.79786</float>
     </atom>
     <atom id="a9">
 <string builtin="elementType">C</string>
-<float builtin="x3">-0.064091</float>
-<float builtin="y3">-0.093011</float>
+<float builtin="x3">-0.064094</float>
+<float builtin="y3">-0.093007</float>
 <float builtin="z3">1.83522</float>
     </atom>
     <atom id="a10">
 <string builtin="elementType">O</string>
 <float builtin="x3">-1.44688</float>
-<float builtin="y3">-0.10347</float>
-<float builtin="z3">1.44073</float>
+<float builtin="y3">-0.103463</float>
+<float builtin="z3">1.44072</float>
     </atom>
     <atom id="a11">
 <string builtin="elementType">C</string>
 <float builtin="x3">-1.25466</float>
-<float builtin="y3">0.709248</float>
-<float builtin="z3">1.91753</float>
+<float builtin="y3">0.709258</float>
+<float builtin="z3">1.91752</float>
     </atom>
     <atom id="a12">
 <string builtin="elementType">O</string>
 <float builtin="x3">-2.44149</float>
-<float builtin="y3">0.97844</float>
-<float builtin="z3">2.54015</float>
+<float builtin="y3">0.978448</float>
+<float builtin="z3">2.54014</float>
     </atom>
 </atomArray>
   <bondArray>

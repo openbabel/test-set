@@ -116,7 +116,7 @@
     </atom>
     <atom id="a20">
 <string builtin="elementType">C</string>
-<float builtin="x3">52.5336</float>
+<float builtin="x3">52.5337</float>
 <float builtin="y3">45.2936</float>
 <float builtin="z3">9.25915</float>
     </atom>
@@ -130,17 +130,17 @@
 <string builtin="elementType">C</string>
 <float builtin="x3">52.8244</float>
 <float builtin="y3">42.7326</float>
-<float builtin="z3">9.15924</float>
+<float builtin="z3">9.164</float>
     </atom>
     <atom id="a23">
 <string builtin="elementType">C</string>
 <float builtin="x3">53.9731</float>
 <float builtin="y3">45.852</float>
-<float builtin="z3">9.17352</float>
+<float builtin="z3">9.17351</float>
     </atom>
     <atom id="a24">
 <string builtin="elementType">C</string>
-<float builtin="x3">55.049</float>
+<float builtin="x3">55.0345</float>
 <float builtin="y3">45.0752</float>
 <float builtin="z3">9.26867</float>
     </atom>
@@ -189,7 +189,7 @@
     <atom id="a32">
 <string builtin="elementType">C</string>
 <float builtin="x3">48.637</float>
-<float builtin="y3">52.37</float>
+<float builtin="y3">52.3579</float>
 <float builtin="z3">10.7768</float>
     </atom>
     <atom id="a33">

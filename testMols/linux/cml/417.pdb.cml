@@ -1,7 +1,7 @@
 <molecule title="cml/417.pdb" id="m1">
 <atomArray>
     <atom id="a1">
-<string builtin="elementType">F</string>
+<string builtin="elementType">Fe</string>
 <float builtin="x3">48.383</float>
 <float builtin="y3">46.236</float>
 <float builtin="z3">8.805</float>
@@ -261,6 +261,26 @@
 </atomArray>
   <bondArray>
     <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a6</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a33</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a17</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
+<string builtin="atomRef">a1</string>
+<string builtin="atomRef">a25</string>
+<string builtin="order">1</string>
+    </bond>
+    <bond>
 <string builtin="atomRef">a2</string>
 <string builtin="atomRef">a7</string>
 <string builtin="order">1</string>
@@ -283,7 +303,7 @@
     <bond>
 <string builtin="atomRef">a4</string>
 <string builtin="atomRef">a21</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a4</string>
@@ -293,17 +313,17 @@
     <bond>
 <string builtin="atomRef">a5</string>
 <string builtin="atomRef">a29</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a5</string>
 <string builtin="atomRef">a34</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a6</string>
 <string builtin="atomRef">a7</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a6</string>
@@ -313,12 +333,12 @@
     <bond>
 <string builtin="atomRef">a7</string>
 <string builtin="atomRef">a8</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a8</string>
 <string builtin="atomRef">a9</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a8</string>
@@ -333,7 +353,7 @@
     <bond>
 <string builtin="atomRef">a9</string>
 <string builtin="atomRef">a11</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a12</string>
@@ -363,17 +383,17 @@
     <bond>
 <string builtin="atomRef">a17</string>
 <string builtin="atomRef">a21</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a18</string>
 <string builtin="atomRef">a19</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a19</string>
 <string builtin="atomRef">a20</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a19</string>
@@ -398,7 +418,7 @@
     <bond>
 <string builtin="atomRef">a25</string>
 <string builtin="atomRef">a26</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a25</string>
@@ -408,12 +428,12 @@
     <bond>
 <string builtin="atomRef">a26</string>
 <string builtin="atomRef">a27</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a27</string>
 <string builtin="atomRef">a28</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a27</string>
@@ -423,7 +443,7 @@
     <bond>
 <string builtin="atomRef">a28</string>
 <string builtin="atomRef">a29</string>
-<string builtin="order">1</string>
+<string builtin="order">2</string>
     </bond>
     <bond>
 <string builtin="atomRef">a28</string>
@@ -438,7 +458,7 @@
     <bond>
 <string builtin="atomRef">a33</string>
 <string builtin="atomRef">a34</string>
-<string builtin="order">2</string>
+<string builtin="order">1</string>
     </bond>
     <bond>
 <string builtin="atomRef">a33</string>

@@ -8,6 +8,6 @@
 
 # test.foo to test.bar only
 
-obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+valgrind -v obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
 # This script is called for output-only formats
 #  so there's no easy way to validate the roundtrip data

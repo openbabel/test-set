@@ -8,7 +8,7 @@
 
 # test.foo to test.bar only
 
-obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+valgrind -v obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
 # This script is called for input-only formats
 #  so we must validate our results!
-roundtrip $1/$3.$1 $1/$3.$2
+valgrind -v roundtrip $1/$3.$1 $1/$3.$2

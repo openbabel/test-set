@@ -81,7 +81,7 @@
     <atom id="a14">
 <string builtin="elementType">C</string>
 <float builtin="x3">13.094</float>
-<float builtin="y3">-11.599</float>
+<float builtin="y3">-11.6</float>
 <float builtin="z3">0</float>
     </atom>
     <atom id="a15">
@@ -98,7 +98,7 @@
     </atom>
     <atom id="a17">
 <string builtin="elementType">N</string>
-<float builtin="x3">13.094</float>
+<float builtin="x3">13.095</float>
 <float builtin="y3">-7.663</float>
 <float builtin="z3">0</float>
     </atom>
