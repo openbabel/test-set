@@ -1,0 +1,524 @@
+<molecule convention="MDLMol" id="mols5" type="">
+  <comment>COc1ccc(CCNC2CCCCC2CCO)cc1OC</comment>
+  <atomArray>
+    <atom id="a1">
+      <string builtin="elementType">C</string>
+      <integer builtin="hydrogenCount">1</integer>
+      <float builtin="x2">4.91</float>
+      <float builtin="y2">2.51</float>
+    </atom>
+    <atom id="a2">
+      <string builtin="elementType">O</string>
+      <float builtin="x2">5.15</float>
+      <float builtin="y2">1.2</float>
+    </atom>
+    <atom id="a3">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">4.07</float>
+      <float builtin="y2">0.58</float>
+    </atom>
+    <atom id="a4">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">2.94</float>
+      <float builtin="y2">1.31</float>
+    </atom>
+    <atom id="a5">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">1.88</float>
+      <float builtin="y2">0.66</float>
+    </atom>
+    <atom id="a6">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">1.95</float>
+      <float builtin="y2">-0.71</float>
+    </atom>
+    <atom id="a7">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">0.81</float>
+      <float builtin="y2">-1.4</float>
+    </atom>
+    <atom id="a8">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-0.24</float>
+      <float builtin="y2">-1.76</float>
+    </atom>
+    <atom id="a9">
+      <string builtin="elementType">N</string>
+      <float builtin="x2">-0.74</float>
+      <float builtin="y2">-0.62</float>
+    </atom>
+    <atom id="a10">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-1.94</float>
+      <float builtin="y2">0.0</float>
+    </atom>
+    <atom id="a11">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-1.62</float>
+      <float builtin="y2">1.06</float>
+    </atom>
+    <atom id="a12">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-2.89</float>
+      <float builtin="y2">1.71</float>
+    </atom>
+    <atom id="a13">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-3.6</float>
+      <float builtin="y2">2.34</float>
+    </atom>
+    <atom id="a14">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-3.92</float>
+      <float builtin="y2">1.28</float>
+    </atom>
+    <atom id="a15">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-2.66</float>
+      <float builtin="y2">0.64</float>
+    </atom>
+    <atom id="a16">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-2.94</float>
+      <float builtin="y2">-0.37</float>
+    </atom>
+    <atom id="a17">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">-3.83</float>
+      <float builtin="y2">-1.47</float>
+    </atom>
+    <atom id="a18">
+      <string builtin="elementType">O</string>
+      <float builtin="x2">-5.04</float>
+      <float builtin="y2">-0.99</float>
+    </atom>
+    <atom id="a19">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">3.08</float>
+      <float builtin="y2">-1.44</float>
+    </atom>
+    <atom id="a20">
+      <string builtin="elementType">C</string>
+      <float builtin="x2">4.14</float>
+      <float builtin="y2">-0.8</float>
+    </atom>
+    <atom id="a21">
+      <string builtin="elementType">O</string>
+      <float builtin="x2">5.28</float>
+      <float builtin="y2">-1.5</float>
+    </atom>
+    <atom id="a22">
+      <string builtin="elementType">C</string>
+      <integer builtin="hydrogenCount">1</integer>
+      <float builtin="x2">5.18</float>
+      <float builtin="y2">-2.8</float>
+    </atom>
+    <atom id="a23">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">5.78</float>
+      <float builtin="y2">2.97</float>
+    </atom>
+    <atom id="a24">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">4.01</float>
+      <float builtin="y2">2.65</float>
+    </atom>
+    <atom id="a25">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">4.78</float>
+      <float builtin="y2">3.0</float>
+    </atom>
+    <atom id="a26">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">2.88</float>
+      <float builtin="y2">2.39</float>
+    </atom>
+    <atom id="a27">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">0.99</float>
+      <float builtin="y2">1.24</float>
+    </atom>
+    <atom id="a28">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">0.38</float>
+      <float builtin="y2">-0.73</float>
+    </atom>
+    <atom id="a29">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">1.19</float>
+      <float builtin="y2">-2.31</float>
+    </atom>
+    <atom id="a30">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">0.21</float>
+      <float builtin="y2">-2.46</float>
+    </atom>
+    <atom id="a31">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-1.05</float>
+      <float builtin="y2">-2.31</float>
+    </atom>
+    <atom id="a32">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-0.04</float>
+      <float builtin="y2">0.03</float>
+    </atom>
+    <atom id="a33">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-2.6</float>
+      <float builtin="y2">-0.74</float>
+    </atom>
+    <atom id="a34">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-1.1</float>
+      <float builtin="y2">0.6</float>
+    </atom>
+    <atom id="a35">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-0.97</float>
+      <float builtin="y2">1.82</float>
+    </atom>
+    <atom id="a36">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-3.54</float>
+      <float builtin="y2">0.95</float>
+    </atom>
+    <atom id="a37">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-2.64</float>
+      <float builtin="y2">2.48</float>
+    </atom>
+    <atom id="a38">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-2.95</float>
+      <float builtin="y2">3.1</float>
+    </atom>
+    <atom id="a39">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-4.52</float>
+      <float builtin="y2">2.82</float>
+    </atom>
+    <atom id="a40">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-4.45</float>
+      <float builtin="y2">1.74</float>
+    </atom>
+    <atom id="a41">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-4.57</float>
+      <float builtin="y2">0.53</float>
+    </atom>
+    <atom id="a42">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-2.0</float>
+      <float builtin="y2">1.43</float>
+    </atom>
+    <atom id="a43">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-1.98</float>
+      <float builtin="y2">-0.81</float>
+    </atom>
+    <atom id="a44">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-3.42</float>
+      <float builtin="y2">0.12</float>
+    </atom>
+    <atom id="a45">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-3.98</float>
+      <float builtin="y2">-2.21</float>
+    </atom>
+    <atom id="a46">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-3.38</float>
+      <float builtin="y2">-1.99</float>
+    </atom>
+    <atom id="a47">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">-5.6</float>
+      <float builtin="y2">-1.69</float>
+    </atom>
+    <atom id="a48">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">3.12</float>
+      <float builtin="y2">-2.52</float>
+    </atom>
+    <atom id="a49">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">6.09</float>
+      <float builtin="y2">-3.33</float>
+    </atom>
+    <atom id="a50">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">5.07</float>
+      <float builtin="y2">-2.91</float>
+    </atom>
+    <atom id="a51">
+      <string builtin="elementType">H</string>
+      <float builtin="x2">4.31</float>
+      <float builtin="y2">-3.25</float>
+    </atom>
+  </atomArray>
+  <bondArray>
+    <bond id="b1">
+      <string builtin="atomRef">a1</string>
+      <string builtin="atomRef">a2</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b2">
+      <string builtin="atomRef">a2</string>
+      <string builtin="atomRef">a3</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b3">
+      <string builtin="atomRef">a3</string>
+      <string builtin="atomRef">a20</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b4">
+      <string builtin="atomRef">a3</string>
+      <string builtin="atomRef">a4</string>
+      <string builtin="order">2</string>
+    </bond>
+    <bond id="b5">
+      <string builtin="atomRef">a4</string>
+      <string builtin="atomRef">a5</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b6">
+      <string builtin="atomRef">a5</string>
+      <string builtin="atomRef">a6</string>
+      <string builtin="order">2</string>
+    </bond>
+    <bond id="b7">
+      <string builtin="atomRef">a6</string>
+      <string builtin="atomRef">a7</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b8">
+      <string builtin="atomRef">a7</string>
+      <string builtin="atomRef">a8</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b9">
+      <string builtin="atomRef">a8</string>
+      <string builtin="atomRef">a9</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b10">
+      <string builtin="atomRef">a9</string>
+      <string builtin="atomRef">a10</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b11">
+      <string builtin="atomRef">a10</string>
+      <string builtin="atomRef">a15</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b12">
+      <string builtin="atomRef">a10</string>
+      <string builtin="atomRef">a11</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b13">
+      <string builtin="atomRef">a11</string>
+      <string builtin="atomRef">a12</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b14">
+      <string builtin="atomRef">a12</string>
+      <string builtin="atomRef">a13</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b15">
+      <string builtin="atomRef">a13</string>
+      <string builtin="atomRef">a14</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b16">
+      <string builtin="atomRef">a14</string>
+      <string builtin="atomRef">a15</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b17">
+      <string builtin="atomRef">a15</string>
+      <string builtin="atomRef">a16</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b18">
+      <string builtin="atomRef">a16</string>
+      <string builtin="atomRef">a17</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b19">
+      <string builtin="atomRef">a17</string>
+      <string builtin="atomRef">a18</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b20">
+      <string builtin="atomRef">a6</string>
+      <string builtin="atomRef">a19</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b21">
+      <string builtin="atomRef">a19</string>
+      <string builtin="atomRef">a20</string>
+      <string builtin="order">2</string>
+    </bond>
+    <bond id="b22">
+      <string builtin="atomRef">a20</string>
+      <string builtin="atomRef">a21</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b23">
+      <string builtin="atomRef">a21</string>
+      <string builtin="atomRef">a22</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b24">
+      <string builtin="atomRef">a23</string>
+      <string builtin="atomRef">a1</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b25">
+      <string builtin="atomRef">a24</string>
+      <string builtin="atomRef">a1</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b26">
+      <string builtin="atomRef">a25</string>
+      <string builtin="atomRef">a1</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b27">
+      <string builtin="atomRef">a26</string>
+      <string builtin="atomRef">a4</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b28">
+      <string builtin="atomRef">a27</string>
+      <string builtin="atomRef">a5</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b29">
+      <string builtin="atomRef">a28</string>
+      <string builtin="atomRef">a7</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b30">
+      <string builtin="atomRef">a29</string>
+      <string builtin="atomRef">a7</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b31">
+      <string builtin="atomRef">a30</string>
+      <string builtin="atomRef">a8</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b32">
+      <string builtin="atomRef">a31</string>
+      <string builtin="atomRef">a8</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b33">
+      <string builtin="atomRef">a32</string>
+      <string builtin="atomRef">a9</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b34">
+      <string builtin="atomRef">a33</string>
+      <string builtin="atomRef">a10</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b35">
+      <string builtin="atomRef">a34</string>
+      <string builtin="atomRef">a11</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b36">
+      <string builtin="atomRef">a35</string>
+      <string builtin="atomRef">a11</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b37">
+      <string builtin="atomRef">a36</string>
+      <string builtin="atomRef">a12</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b38">
+      <string builtin="atomRef">a37</string>
+      <string builtin="atomRef">a12</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b39">
+      <string builtin="atomRef">a38</string>
+      <string builtin="atomRef">a13</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b40">
+      <string builtin="atomRef">a39</string>
+      <string builtin="atomRef">a13</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b41">
+      <string builtin="atomRef">a40</string>
+      <string builtin="atomRef">a14</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b42">
+      <string builtin="atomRef">a41</string>
+      <string builtin="atomRef">a14</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b43">
+      <string builtin="atomRef">a42</string>
+      <string builtin="atomRef">a15</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b44">
+      <string builtin="atomRef">a43</string>
+      <string builtin="atomRef">a16</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b45">
+      <string builtin="atomRef">a44</string>
+      <string builtin="atomRef">a16</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b46">
+      <string builtin="atomRef">a45</string>
+      <string builtin="atomRef">a17</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b47">
+      <string builtin="atomRef">a46</string>
+      <string builtin="atomRef">a17</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b48">
+      <string builtin="atomRef">a47</string>
+      <string builtin="atomRef">a18</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b49">
+      <string builtin="atomRef">a48</string>
+      <string builtin="atomRef">a19</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b50">
+      <string builtin="atomRef">a49</string>
+      <string builtin="atomRef">a22</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b51">
+      <string builtin="atomRef">a50</string>
+      <string builtin="atomRef">a22</string>
+      <string builtin="order">1</string>
+    </bond>
+    <bond id="b52">
+      <string builtin="atomRef">a51</string>
+      <string builtin="atomRef">a22</string>
+      <string builtin="order">1</string>
+    </bond>
+  </bondArray>
+</molecule>
