@@ -15,7 +15,7 @@ cd $popdir
 # roundtrip formats (for looping in runtest0.sh and runtest1.sh)
 export roundformats="alc bs caccrt c3d1 c3d2 cml box dmol feat gpr hin"
 export roundformats="${roundformats} bin mmd mol mmads pdb bgf smi mol2"
-export roundformats="${roundformats} unixyz vmol xyz"
+export roundformats="${roundformats} unixyz vmol xyz crk2d crk3d"
 
 # not used currently -- just make sure there's a test file for each format
 # export informats=""
@@ -26,7 +26,8 @@ export outformats="${outformats} csr nw pov report qcin fix txyz txt xed zin"
 
 # Delete old data in subdirectories
 rm -f car/* cml/* dmol/* gamout/* gpr/* ins/* jout/* mmod/* mol/* 2>/dev/null
-rm -f mol2/* mopout/* mpqc/* pdb/* qcout/* smi/* xyz/* 2>/dev/null
+rm -f mol2/* mopout/* mpqc/* pdb/* qcout/* smi/* xyz/* crk2d/* 2>/dev/null
+rm -f crk3d/* 2>/dev/null
 
 #
 #
@@ -63,6 +64,10 @@ sh scripts/runtest0.sh cml curan >>${FILE} 2>&1
 sh scripts/runtest0.sh cml 417 >>${FILE} 2>&1
 # Z-Matrix CML
 sh scripts/runtest0.sh cml ascorbic1 >>${FILE} 2>&1
+
+# Chemical Resource Kit (CRK)
+sh scripts/runtest0.sh crk2d test >>${FILE} 2>&1
+sh scripts/runtest0.sh crk3d test >>${FILE} 2>&1
 
 # DMol3 with unit cell (silicon bulk)
 sh scripts/runtest0.sh dmol si >>${FILE} 2>&1
@@ -107,6 +112,11 @@ sh scripts/runtest0.sh xyz table >>${FILE} 2>&1
 sh scripts/runtest0.sh xyz met-enkaphalin_movie >>${FILE} 2>&1
 # HMX (lots o' nitro-groups)
 sh scripts/runtest0.sh xyz hmx >>${FILE} 2>&1
+# Random (piped from /dev/random one day. Not really a molecule at all)
+# Used to make sure we don't crash when given nasty stuff
+#  (should probably use the same type of random data for other formats too)
+# Currently disabled
+# sh scripts/runtest0.sh xyz random >>${FILE} 2>&1
 
 # **************************
 # *** INPUT-ONLY testing ***

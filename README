@@ -1,19 +1,36 @@
+Open Babel Test Suite: 2003-02-23
+---------------------------------
+
 This directory is for the purposes of test molecules, scripts and results.
 
 The molecules may or may not have different copyrights than the entire
-Open Babel distribution. As such, we will distribute them separately.
+Open Babel distribution. As such, we will distribute them
+separately. Additionally, end users may not wish to download a
+potentially large test suite. To use, either uncompress and create a
+link in your openbabel/test/ directory to this as "test-set"
 
-Additionally, end users may not wish to download a potentially large test suite.
+For example:
+
+> tar xvzf openbabel-tests-20030223.tar.gz	# uncompress the test files
+...
+> cd openbabel-1.100.2/test			# go to your openbabel source
+> ln -s ../../openbabel-tests-20030223 test-set	# create the link
+> make check					# run the tests
 
 The organization of this directory may change over time and there will
 eventually be additional documentation on the origins of all test files
 and documentation on running the various regression tests.
 
 * original/     The test molecules themselves.
-* results/      HTML results and summaries (os/file-format/files)
-  * linux/      Subdirectory for most recent linux result files
-  * windows/    Ditto.
-  * macosx/     Ditto.
+* files/	Directory for result files created by running the
+		tests (subdirectories for: file-format/files)
 * others/       Files not currently part of the "canonical" test set.
+* results-DATE.txt	Result files organized by the date run.
+		These include the version/usage info from babel, info
+		on the machine running the tests and then the output
+		and errors from running the tests. In particular, look
+		for crashes and errors from the roundtrip test program.
 
+The following directories are depreciated and may be found in the CVS
+repository, but not necessarily in distributed test sets.
 * testMols/     Previous directory structure.
