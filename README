@@ -1,0 +1,19 @@
+This directory is for the purposes of test molecules, scripts and results.
+
+The molecules may or may not have different copyrights than the entire
+Open Babel distribution. As such, we will distribute them separately.
+
+Additionally, end users may not wish to download a potentially large test suite.
+
+The organization of this directory may change over time and there will
+eventually be additional documentation on the origins of all test files
+and documentation on running the various regression tests.
+
+* original/     The test molecules themselves.
+* results/      HTML results and summaries (os/file-format/files)
+  * linux/      Subdirectory for most recent linux result files
+  * windows/    Ditto.
+  * macosx/     Ditto.
+* others/       Files not currently part of the "canonical" test set.
+
+* testMols/     Previous directory structure.
