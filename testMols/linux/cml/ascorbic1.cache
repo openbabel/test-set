@@ -1,0 +1,88 @@
+molstruct88_Apr_30_1993_11:02:29 <molecule> 0x1d00
+Written by Molecular Editor on <date>
+Using data dictionary         9/9/93  4:47 AM
+Version 6
+local_transform
+0.100000 0.000000 0.000000 0.000000
+0.000000 0.100000 0.000000 0.000000
+0.000000 0.000000 0.100000 0.000000
+0.000000 0.000000 0.000000 1.000000
+object_class atom
+property xyz_coordinates MoleculeEditor angstrom 6 3 FLOAT
+property anum MoleculeEditor unit 0 1 INTEGER
+property sym MoleculeEditor noUnit 0 2 STRING
+property chrg MoleculeEditor charge_au 0 1 INTEGER
+property rflag MoleculeEditor noUnit 0 1 HEX
+ID xyz_coordinates             anum sym	chrg rflag
+  1   0.000000   0.000000   0.000000  8  O  0 0x7052
+  2  -1.430000   0.000000   0.000000  6  C  0 0x7052
+  3   0.904702   0.000000   1.223930  6  C  0 0x7052
+  4   1.807270   1.103800   1.332980  8  O  0 0x7052
+  5   1.486150   1.089080   1.945540  6  C  0 0x7052
+  6   0.524131   0.699147   0.832451  6  C  0 0x7052
+  7   0.490640   1.945620   1.722510  8  O  0 0x7052
+  8   1.431100  -0.424735   1.797860  8  O  0 0x7052
+  9  -0.064091  -0.093011   1.835220  6  C  0 0x7052
+ 10  -1.446880  -0.103470   1.440730  8  O  0 0x7052
+ 11  -1.254660   0.709248   1.917530  6  C  0 0x7052
+ 12  -2.441490   0.978440   2.540150  8  O  0 0x7052
+property_flags:
+object_class bond
+property rflag MoleculeEditor noUnit 0 1 HEX
+property type MoleculeEditor noUnit 0 1 NAME
+property bond_order MoleculeEditor noUnit 4 1 FLOAT
+ID rflag type bond_order
+  1 0x7005 single
+  2 0x7005 single
+  3 0x7005 single
+  4 0x7005 single
+  5 0x7005 single
+  6 0x7005 single
+  7 0x7005 single
+  8 0x7005 single
+  9 0x7005 single
+ 10 0x7005 single
+ 11 0x7005 single
+ 12 0x7005 single
+ 13 0x7005 single
+ 14 0x7005 single
+ 15 0x7005 single
+property_flags:
+object_class connector
+property dflag MoleculeEditor noUnit 0 1 HEX
+property objCls1 MoleculeEditor noUnit 0 1 NAME
+property objCls2 MoleculeEditor noUnit 0 1 NAME
+property objID1 MoleculeEditor noUnit 0 1 INTEGER
+property objID2 MoleculeEditor noUnit 0 1 INTEGER
+ID dflag objCls1 objCls2 objID1 objID2
+  1 0xa1 atom bond 1 1
+  2 0xa1 atom bond 2 1
+  3 0xa1 atom bond 1 2
+  4 0xa1 atom bond 6 2
+  5 0xa1 atom bond 6 3
+  6 0xa1 atom bond 3 3
+  7 0xa1 atom bond 3 4
+  8 0xa1 atom bond 8 4
+  9 0xa1 atom bond 3 5
+ 10 0xa1 atom bond 9 5
+ 11 0xa1 atom bond 4 6
+ 12 0xa1 atom bond 5 6
+ 13 0xa1 atom bond 5 7
+ 14 0xa1 atom bond 8 7
+ 15 0xa1 atom bond 7 8
+ 16 0xa1 atom bond 5 8
+ 17 0xa1 atom bond 6 9
+ 18 0xa1 atom bond 9 9
+ 19 0xa1 atom bond 9 10
+ 20 0xa1 atom bond 10 10
+ 21 0xa1 atom bond 9 11
+ 22 0xa1 atom bond 11 11
+ 23 0xa1 atom bond 10 12
+ 24 0xa1 atom bond 11 12
+ 25 0xa1 atom bond 11 13
+ 26 0xa1 atom bond 12 13
+ 27 0xa1 atom bond 6 14
+ 28 0xa1 atom bond 5 14
+ 29 0xa1 atom bond 3 15
+ 30 0xa1 atom bond 4 15
+property_flags:

@@ -1,0 +1,19 @@
+HEADER    CORNERS OF BOX
+REMARK    CENTER (X Y Z)          -0.175     -0.199      0.000
+REMARK    DIMENSIONS (X Y Z)      12.121     12.227      2.000
+ATOM      1  DUA BOX     1      -6.236  -6.312  -1.000
+ATOM      2  DUA BOX     1       5.886  -6.312  -1.000
+ATOM      3  DUA BOX     1       5.886  -6.312   1.000
+ATOM      4  DUA BOX     1      -6.236  -6.312   1.000
+ATOM      5  DUA BOX     1      -6.236   5.915  -1.000
+ATOM      6  DUA BOX     1       5.886   5.915  -1.000
+ATOM      7  DUA BOX     1       5.886   5.915   1.000
+ATOM      8  DUA BOX     1      -6.236   5.915   1.000
+CONECT    1    2    4    5
+CONECT    2    1    3    6
+CONECT    3    2    4    7
+CONECT    4    1    3    8
+CONECT    5    1    6    8
+CONECT    6    2    5    7
+CONECT    7    3    6    8
+CONECT    8    4    5    7

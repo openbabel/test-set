@@ -1,0 +1,499 @@
+------------------- testing curan.cml-------------------------
+.... roundtrip testing ...
+cml -> alc -> cml
+cml -> bs -> cml
+cml -> caccrt -> cml
+cml -> c3d1 -> cml
+cml -> c3d2 -> cml
+cml -> cml -> cml
+cml -> box -> cml
+cml -> dmol -> cml
+cml -> feat -> cml
+cml -> gpr -> cml
+cml -> hin -> cml
+cml -> bin -> cml
+cml -> mmd -> cml
+cml -> mol -> cml
+cml -> mmads -> cml
+cml -> pdb -> cml
+cml -> bgf -> cml
+cml -> smi -> cml
+cml -> mol2 -> cml
+cml -> unixyz -> cml
+cml -> vmol -> cml
+cml -> xyz -> cml
+.... output only ...
+cml -> cacint
+cml -> cache
+cml -> ct
+cml -> cssr
+cml -> fh
+cml -> inp
+cml -> gau
+cml -> gr96A
+cml -> gr96N
+cml -> jin
+cml -> csr
+cml -> nw
+cml -> pov
+cml -> report
+cml -> qcin
+cml -> fix
+cml -> txyz
+cml -> txt
+cml -> xed
+
+real	0m15.675s
+user	0m15.018s
+sys	0m0.521s
+------------------- testing 417.cml-------------------------
+.... roundtrip testing ...
+cml -> alc -> cml
+Kekulization Error = 
+cml -> bs -> cml
+Kekulization Error = 
+cml -> caccrt -> cml
+Kekulization Error = 
+cml -> c3d1 -> cml
+Kekulization Error = 
+cml -> c3d2 -> cml
+Kekulization Error = 
+cml -> cml -> cml
+Kekulization Error = 
+cml -> box -> cml
+cml -> dmol -> cml
+cml -> feat -> cml
+cml -> gpr -> cml
+cml -> hin -> cml
+cml -> bin -> cml
+cml -> mmd -> cml
+cml -> mol -> cml
+cml -> mmads -> cml
+cml -> pdb -> cml
+cml -> bgf -> cml
+cml -> smi -> cml
+cml -> mol2 -> cml
+cml -> unixyz -> cml
+cml -> vmol -> cml
+cml -> xyz -> cml
+.... output only ...
+cml -> cacint
+cml -> cache
+cml -> ct
+cml -> cssr
+cml -> fh
+cml -> inp
+cml -> gau
+cml -> gr96A
+cml -> gr96N
+cml -> jin
+cml -> csr
+cml -> nw
+cml -> pov
+cml -> report
+cml -> qcin
+cml -> fix
+cml -> txyz
+cml -> txt
+cml -> xed
+
+real	0m26.354s
+user	0m25.672s
+sys	0m0.637s
+------------------- testing ascorbic1.cml-------------------------
+.... roundtrip testing ...
+cml -> alc -> cml
+cml -> bs -> cml
+cml -> caccrt -> cml
+cml -> c3d1 -> cml
+cml -> c3d2 -> cml
+cml -> cml -> cml
+cml -> box -> cml
+cml -> dmol -> cml
+cml -> feat -> cml
+cml -> gpr -> cml
+cml -> hin -> cml
+cml -> bin -> cml
+cml -> mmd -> cml
+cml -> mol -> cml
+cml -> mmads -> cml
+cml -> pdb -> cml
+cml -> bgf -> cml
+cml -> smi -> cml
+cml -> mol2 -> cml
+cml -> unixyz -> cml
+cml -> vmol -> cml
+cml -> xyz -> cml
+.... output only ...
+cml -> cacint
+cml -> cache
+cml -> ct
+cml -> cssr
+cml -> fh
+cml -> inp
+cml -> gau
+cml -> gr96A
+cml -> gr96N
+cml -> jin
+cml -> csr
+cml -> nw
+cml -> pov
+cml -> report
+cml -> qcin
+cml -> fix
+cml -> txyz
+cml -> txt
+cml -> xed
+
+real	0m8.544s
+user	0m8.055s
+sys	0m0.449s
+------------------- testing yohimbine.mol-------------------------
+.... roundtrip testing ...
+mol -> alc -> mol
+mol -> bs -> mol
+mol -> caccrt -> mol
+mol -> c3d1 -> mol
+mol -> c3d2 -> mol
+mol -> cml -> mol
+mol -> box -> mol
+mol -> dmol -> mol
+mol -> feat -> mol
+mol -> gpr -> mol
+mol -> hin -> mol
+mol -> bin -> mol
+mol -> mmd -> mol
+mol -> mol -> mol
+mol -> mmads -> mol
+mol -> pdb -> mol
+mol -> bgf -> mol
+mol -> smi -> mol
+mol -> mol2 -> mol
+mol -> unixyz -> mol
+mol -> vmol -> mol
+mol -> xyz -> mol
+.... output only ...
+mol -> cacint
+mol -> cache
+mol -> ct
+mol -> cssr
+mol -> fh
+mol -> inp
+mol -> gau
+mol -> gr96A
+mol -> gr96N
+mol -> jin
+mol -> csr
+mol -> nw
+mol -> pov
+mol -> report
+mol -> qcin
+mol -> fix
+mol -> txyz
+mol -> txt
+mol -> xed
+
+real	0m2.449s
+user	0m2.029s
+sys	0m0.359s
+------------------- testing aromtest.mol2-------------------------
+.... roundtrip testing ...
+mol2 -> alc -> mol2
+mol2 -> bs -> mol2
+mol2 -> caccrt -> mol2
+mol2 -> c3d1 -> mol2
+mol2 -> c3d2 -> mol2
+mol2 -> cml -> mol2
+mol2 -> box -> mol2
+mol2 -> dmol -> mol2
+mol2 -> feat -> mol2
+mol2 -> gpr -> mol2
+mol2 -> hin -> mol2
+mol2 -> bin -> mol2
+mol2 -> mmd -> mol2
+mol2 -> mol -> mol2
+mol2 -> mmads -> mol2
+mol2 -> pdb -> mol2
+mol2 -> bgf -> mol2
+mol2 -> smi -> mol2
+mol2 -> mol2 -> mol2
+mol2 -> unixyz -> mol2
+mol2 -> vmol -> mol2
+mol2 -> xyz -> mol2
+.... output only ...
+mol2 -> cacint
+mol2 -> cache
+mol2 -> ct
+mol2 -> cssr
+mol2 -> fh
+mol2 -> inp
+mol2 -> gau
+mol2 -> gr96A
+mol2 -> gr96N
+mol2 -> jin
+mol2 -> csr
+mol2 -> nw
+mol2 -> pov
+mol2 -> report
+mol2 -> qcin
+mol2 -> fix
+mol2 -> txyz
+mol2 -> txt
+mol2 -> xed
+
+real	0m6.255s
+user	0m5.734s
+sys	0m0.484s
+------------------- testing estradiol.gpr-------------------------
+.... roundtrip testing ...
+gpr -> alc -> gpr
+gpr -> bs -> gpr
+gpr -> caccrt -> gpr
+gpr -> c3d1 -> gpr
+gpr -> c3d2 -> gpr
+gpr -> cml -> gpr
+gpr -> box -> gpr
+gpr -> dmol -> gpr
+gpr -> feat -> gpr
+gpr -> gpr -> gpr
+gpr -> hin -> gpr
+gpr -> bin -> gpr
+gpr -> mmd -> gpr
+gpr -> mol -> gpr
+gpr -> mmads -> gpr
+gpr -> pdb -> gpr
+gpr -> bgf -> gpr
+gpr -> smi -> gpr
+gpr -> mol2 -> gpr
+gpr -> unixyz -> gpr
+gpr -> vmol -> gpr
+gpr -> xyz -> gpr
+.... output only ...
+gpr -> cacint
+gpr -> cache
+gpr -> ct
+gpr -> cssr
+gpr -> fh
+gpr -> inp
+gpr -> gau
+gpr -> gr96A
+gpr -> gr96N
+gpr -> jin
+gpr -> csr
+gpr -> nw
+gpr -> pov
+gpr -> report
+gpr -> qcin
+gpr -> fix
+gpr -> txyz
+gpr -> txt
+gpr -> xed
+
+real	0m5.831s
+user	0m5.313s
+sys	0m0.471s
+------------------- testing TRP.pdb-------------------------
+.... roundtrip testing ...
+pdb -> alc -> pdb
+pdb -> bs -> pdb
+pdb -> caccrt -> pdb
+pdb -> c3d1 -> pdb
+pdb -> c3d2 -> pdb
+pdb -> cml -> pdb
+pdb -> box -> pdb
+pdb -> dmol -> pdb
+pdb -> feat -> pdb
+pdb -> gpr -> pdb
+pdb -> hin -> pdb
+pdb -> bin -> pdb
+pdb -> mmd -> pdb
+pdb -> mol -> pdb
+pdb -> mmads -> pdb
+pdb -> pdb -> pdb
+pdb -> bgf -> pdb
+pdb -> smi -> pdb
+pdb -> mol2 -> pdb
+pdb -> unixyz -> pdb
+pdb -> vmol -> pdb
+pdb -> xyz -> pdb
+.... output only ...
+pdb -> cacint
+pdb -> cache
+pdb -> ct
+pdb -> cssr
+pdb -> fh
+pdb -> inp
+pdb -> gau
+pdb -> gr96A
+pdb -> gr96N
+pdb -> jin
+pdb -> csr
+pdb -> nw
+pdb -> pov
+pdb -> report
+pdb -> qcin
+pdb -> fix
+pdb -> txyz
+pdb -> txt
+pdb -> xed
+
+real	0m3.895s
+user	0m2.936s
+sys	0m0.400s
+------------------- testing 1hvc.pdb-------------------------
+.... roundtrip testing ...
+pdb -> alc -> pdb
+pdb -> bs -> pdb
+pdb -> caccrt -> pdb
+pdb -> c3d1 -> pdb
+pdb -> c3d2 -> pdb
+pdb -> cml -> pdb
+pdb -> box -> pdb
+pdb -> dmol -> pdb
+pdb -> feat -> pdb
+pdb -> gpr -> pdb
+pdb -> hin -> pdb
+pdb -> bin -> pdb
+0 3491
+Assert at File mol.cpp Line 579
+./foo2bar2foo.sh: line 12:  7669 Segmentation fault      obabel -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
+pdb -> mmd -> pdb
+pdb -> mol -> pdb
+MDL Molfile conversion failed: Molecule is too large to convert.
+  File format limited to 999 atoms.
+  Molecule size: 3491 atoms 
+pdb -> mmads -> pdb
+pdb -> pdb -> pdb
+pdb -> bgf -> pdb
+pdb -> smi -> pdb
+SMILES Conversion failed: Molecule is too large to convert.
+  Molecule size: 3491 atoms 
+pdb -> mol2 -> pdb
+pdb -> unixyz -> pdb
+pdb -> vmol -> pdb
+pdb -> xyz -> pdb
+.... output only ...
+pdb -> cacint
+pdb -> cache
+pdb -> ct
+pdb -> cssr
+pdb -> fh
+pdb -> inp
+pdb -> gau
+pdb -> gr96A
+pdb -> gr96N
+pdb -> jin
+pdb -> csr
+pdb -> nw
+pdb -> pov
+pdb -> report
+pdb -> qcin
+pdb -> fix
+SMILES Conversion failed: Molecule is too large to convert.
+  Molecule size: 3491 atoms 
+pdb -> txyz
+pdb -> txt
+pdb -> xed
+
+real	42m16.505s
+user	41m53.607s
+sys	0m21.488s
+------------------- testing buckyball.xyz-------------------------
+.... roundtrip testing ...
+xyz -> alc -> xyz
+xyz -> bs -> xyz
+xyz -> caccrt -> xyz
+xyz -> c3d1 -> xyz
+xyz -> c3d2 -> xyz
+xyz -> cml -> xyz
+xyz -> box -> xyz
+xyz -> dmol -> xyz
+xyz -> feat -> xyz
+xyz -> gpr -> xyz
+xyz -> hin -> xyz
+xyz -> bin -> xyz
+xyz -> mmd -> xyz
+xyz -> mol -> xyz
+xyz -> mmads -> xyz
+xyz -> pdb -> xyz
+xyz -> bgf -> xyz
+xyz -> smi -> xyz
+xyz -> mol2 -> xyz
+xyz -> unixyz -> xyz
+xyz -> vmol -> xyz
+xyz -> xyz -> xyz
+.... output only ...
+xyz -> cacint
+xyz -> cache
+xyz -> ct
+xyz -> cssr
+xyz -> fh
+xyz -> inp
+xyz -> gau
+xyz -> gr96A
+xyz -> gr96N
+xyz -> jin
+xyz -> csr
+xyz -> nw
+xyz -> pov
+xyz -> report
+xyz -> qcin
+xyz -> fix
+xyz -> txyz
+xyz -> txt
+xyz -> xed
+
+real	0m20.606s
+user	0m20.100s
+sys	0m0.467s
+------------------- testing table.xyz-------------------------
+.... roundtrip testing ...
+xyz -> alc -> xyz
+xyz -> bs -> xyz
+xyz -> caccrt -> xyz
+xyz -> c3d1 -> xyz
+xyz -> c3d2 -> xyz
+xyz -> cml -> xyz
+xyz -> box -> xyz
+xyz -> dmol -> xyz
+xyz -> feat -> xyz
+xyz -> gpr -> xyz
+xyz -> hin -> xyz
+xyz -> bin -> xyz
+xyz -> mmd -> xyz
+xyz -> mol -> xyz
+xyz -> mmads -> xyz
+xyz -> pdb -> xyz
+xyz -> bgf -> xyz
+xyz -> smi -> xyz
+./foo2bar2foo.sh: line 11:  8002 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+xyz -> mol2 -> xyz
+xyz -> unixyz -> xyz
+xyz -> vmol -> xyz
+xyz -> xyz -> xyz
+.... output only ...
+xyz -> cacint
+./foo2bar.sh: line 11:  8038 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+xyz -> cache
+xyz -> ct
+xyz -> cssr
+xyz -> fh
+xyz -> inp
+xyz -> gau
+xyz -> gr96A
+xyz -> gr96N
+xyz -> jin
+xyz -> csr
+xyz -> nw
+xyz -> pov
+xyz -> report
+xyz -> qcin
+xyz -> fix
+./foo2bar.sh: line 11:  8092 Segmentation fault      obabel -i$1 $1/$3.$1 -o$2 $1/$3.$2
+xyz -> txyz
+xyz -> txt
+xyz -> xed
+
+real	5m49.487s
+user	5m48.695s
+sys	0m0.771s
