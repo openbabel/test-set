@@ -5,8 +5,9 @@
 # $1 is main suffix (e.g. mol, cml...)
 # $2 is file root (e.g. test...)
 
-rm -f $1/*
-cp original/$2.$1 $1
+rm -rf $1
+mkdir $1
+cp ../../original/$2.$1 $1
 
 echo "------------------- testing $2.$1-------------------------"
 
