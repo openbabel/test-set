@@ -1,0 +1,138 @@
+molstruct88_Apr_30_1993_11:02:29 <molecule> 0x1d00
+Written by Molecular Editor on <date>
+Using data dictionary         9/9/93  4:47 AM
+Version 6
+local_transform
+0.100000 0.000000 0.000000 0.000000
+0.000000 0.100000 0.000000 0.000000
+0.000000 0.000000 0.100000 0.000000
+0.000000 0.000000 0.000000 1.000000
+object_class atom
+property xyz_coordinates MoleculeEditor angstrom 6 3 FLOAT
+property anum MoleculeEditor unit 0 1 INTEGER
+property sym MoleculeEditor noUnit 0 2 STRING
+property chrg MoleculeEditor charge_au 0 1 INTEGER
+property rflag MoleculeEditor noUnit 0 1 HEX
+ID xyz_coordinates             anum sym	chrg rflag
+  1  -0.018700   1.525800   0.000000  6  C  0 0x7052
+  2   0.002100  -0.004100   0.000000  6  C  0 0x7052
+  3   1.395100   2.047400   0.000000  6  C  0 0x7052
+  4  -1.411700  -0.525700   0.000000  6  C  0 0x7052
+  5   0.689700  -0.477800   0.000000  7  N  0 0x7052
+  6   1.793900   3.451100   0.000000  6  C  0 0x7052
+  7   2.479400   1.325800   0.000000  7  N  0 0x7052
+  8  -1.806100  -1.220800   0.000000  8  O  0 0x7052
+  9  -2.232900  -0.218100   0.000000  8  O  0 0x7052
+ 10   3.202000   3.462500   0.000000  6  C  0 0x7052
+ 11   1.091900   4.661700   0.000000  6  C  0 0x7052
+ 12   3.607000   2.153400   0.000000  7  N  0 0x7052
+ 13   3.876300   4.681200   0.000000  6  C  0 0x7052
+ 14   1.779400   5.840500   0.000000  6  C  0 0x7052
+ 15   3.169000   5.849600   0.000000  6  C  0 0x7052
+ 16  -0.545900   1.886800   0.000000  1  H  0 0x7052
+ 17  -0.528900   1.877300   0.000000  1  H  0 0x7052
+ 18   0.529300  -0.365100   0.000000  1  H  0 0x7052
+ 19   0.169700  -0.121600   0.000000  1  H  0 0x7052
+ 20   1.590500  -0.023700   0.000000  1  H  0 0x7052
+ 21  -3.140100  -0.552800   0.000000  1  H  0 0x7052
+ 22   0.012000   4.663000   0.000000  1  H  0 0x7052
+ 23   4.528100   1.849300   0.000000  1  H  0 0x7052
+ 24   4.956100   4.702300   0.000000  1  H  0 0x7052
+ 25   1.238500   6.775200   0.000000  1  H  0 0x7052
+ 26   3.696200   6.792200   0.000000  1  H  0 0x7052
+property_flags:
+object_class bond
+property rflag MoleculeEditor noUnit 0 1 HEX
+property type MoleculeEditor noUnit 0 1 NAME
+property bond_order MoleculeEditor noUnit 4 1 FLOAT
+ID rflag type bond_order
+  1 0x7005 single
+  2 0x7005 single
+  3 0x7005 single
+  4 0x7005 single
+  5 0x7005 single
+  6 0x7005 single
+  7 0x7005 single
+  8 0x7005 single
+  9 0x7005 double
+ 10 0x7005 single
+ 11 0x7005 double
+ 12 0x7005 single
+ 13 0x7005 single
+ 14 0x7005 double
+ 15 0x7005 single
+ 16 0x7005 single
+ 17 0x7005 single
+ 18 0x7005 single
+ 19 0x7005 single
+ 20 0x7005 double
+ 21 0x7005 single
+ 22 0x7005 single
+ 23 0x7005 double
+ 24 0x7005 single
+ 25 0x7005 single
+ 26 0x7005 single
+ 27 0x7005 single
+property_flags:
+object_class connector
+property dflag MoleculeEditor noUnit 0 1 HEX
+property objCls1 MoleculeEditor noUnit 0 1 NAME
+property objCls2 MoleculeEditor noUnit 0 1 NAME
+property objID1 MoleculeEditor noUnit 0 1 INTEGER
+property objID2 MoleculeEditor noUnit 0 1 INTEGER
+ID dflag objCls1 objCls2 objID1 objID2
+  1 0xa1 atom bond 1 1
+  2 0xa1 atom bond 2 1
+  3 0xa1 atom bond 1 2
+  4 0xa1 atom bond 3 2
+  5 0xa1 atom bond 1 3
+  6 0xa1 atom bond 16 3
+  7 0xa1 atom bond 1 4
+  8 0xa1 atom bond 17 4
+  9 0xa1 atom bond 2 5
+ 10 0xa1 atom bond 5 5
+ 11 0xa1 atom bond 2 6
+ 12 0xa1 atom bond 4 6
+ 13 0xa1 atom bond 2 7
+ 14 0xa1 atom bond 18 7
+ 15 0xa1 atom bond 3 8
+ 16 0xa1 atom bond 6 8
+ 17 0xa1 atom bond 3 9
+ 18 0xa1 atom bond 7 9
+ 19 0xa1 atom bond 4 10
+ 20 0xa1 atom bond 9 10
+ 21 0xa1 atom bond 4 11
+ 22 0xa1 atom bond 8 11
+ 23 0xa1 atom bond 5 12
+ 24 0xa1 atom bond 19 12
+ 25 0xa1 atom bond 5 13
+ 26 0xa1 atom bond 20 13
+ 27 0xa1 atom bond 6 14
+ 28 0xa1 atom bond 10 14
+ 29 0xa1 atom bond 6 15
+ 30 0xa1 atom bond 11 15
+ 31 0xa1 atom bond 7 16
+ 32 0xa1 atom bond 12 16
+ 33 0xa1 atom bond 9 17
+ 34 0xa1 atom bond 21 17
+ 35 0xa1 atom bond 10 18
+ 36 0xa1 atom bond 13 18
+ 37 0xa1 atom bond 10 19
+ 38 0xa1 atom bond 12 19
+ 39 0xa1 atom bond 11 20
+ 40 0xa1 atom bond 14 20
+ 41 0xa1 atom bond 11 21
+ 42 0xa1 atom bond 22 21
+ 43 0xa1 atom bond 12 22
+ 44 0xa1 atom bond 23 22
+ 45 0xa1 atom bond 13 23
+ 46 0xa1 atom bond 15 23
+ 47 0xa1 atom bond 13 24
+ 48 0xa1 atom bond 24 24
+ 49 0xa1 atom bond 14 25
+ 50 0xa1 atom bond 15 25
+ 51 0xa1 atom bond 14 26
+ 52 0xa1 atom bond 25 26
+ 53 0xa1 atom bond 15 27
+ 54 0xa1 atom bond 26 27
+property_flags:

@@ -1,0 +1,38 @@
+BIOGRF 200
+DESCRP ACETYLCHOLINE & stuff
+REMARK BGF file created by Babel openbabel_1.99
+FORCEFIELD DREIDING  
+FORMAT ATOM   (a6,1x,i5,1x,a5,1x,a3,1x,a1,1x,a5,3f10.5,1x,a5,i3,i2,1x,f8.5)
+HETATM     1 N1    RES A   444   2.57620  -0.36210   0.00000 N3+    1 0  0.31347
+HETATM     2 C2    RES A   444   1.28620  -1.20320   0.00000 C3~    1 0  0.15750
+HETATM     3 C3    RES A   444   3.87000  -1.20320   0.00000 C3~    1 0  0.17111
+HETATM     4 C4    RES A   444   2.57620   1.30510   0.00000 C3~    1 0  0.17111
+HETATM     5 C5    RES A   444   3.87000   0.47150   0.00000 C3~    1 0  0.17111
+HETATM     6 C6    RES A   444   0.00000  -0.36210   0.00000 C3~    1 0  0.26882
+HETATM     7 O7    RES A   444  -1.28620  -1.20320   0.00000 O_2    1 0 -0.44197
+HETATM     8 C8    RES A   444  -2.57620  -0.36210   0.00000 C2~    1 0  0.31775
+HETATM     9 C9    RES A   444  -3.87000  -1.20320   0.00000 C3~    1 0  0.12120
+HETATM    10 O10   RES A   444  -2.57620   1.30510   0.00000 O_2    1 0 -0.25009
+FORMAT CONECT (a6,12i6)
+
+CONECT     1     2     3     4     5
+ORDER      1     1     1     1     1
+CONECT     2     1     6
+ORDER      2     1     1
+CONECT     3     1
+ORDER      3     1
+CONECT     4     1
+ORDER      4     1
+CONECT     5     1
+ORDER      5     1
+CONECT     6     2     7
+ORDER      6     1     1
+CONECT     7     6     8
+ORDER      7     1     1
+CONECT     8     7     9    10
+ORDER      8     1     1     2
+CONECT     9     8
+ORDER      9     1
+CONECT    10     8
+ORDER     10     2
+END
