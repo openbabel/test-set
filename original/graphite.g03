@@ -1,0 +1,812 @@
+ Entering Gaussian System, Link 0=g03
+ Initial command:
+ /usr/local/g03/l1.exe /scratch/ghutchis/Gau-27305.inp -scrdir=/scratch/ghutchis/
+ Entering Link 1 = /usr/local/g03/l1.exe PID=     27306.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003, Gaussian, Inc.
+                  All Rights Reserved.
+  
+ This is the Gaussian(R) 03 program.  It is based on the
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under DFARS:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, duplication or disclosure by the US Government is subject
+ to restrictions as set forth in subparagraph (c)(1)(ii) of the
+ Rights in Technical Data and Computer Software clause at DFARS
+ 252.227-7013.
+  
+ Gaussian, Inc.
+ Carnegie Office Park, Building 6, Pittsburgh, PA 15106 USA
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is subject
+ to restrictions as set forth in subparagraph (c) of the
+ Commercial Computer Software - Restricted Rights clause at FAR
+ 52.227-19.
+  
+ Gaussian, Inc.
+ Carnegie Office Park, Building 6, Pittsburgh, PA 15106 USA
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 03, Revision B.04,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, J. A. Montgomery, Jr., T. Vreven, 
+ K. N. Kudin, J. C. Burant, J. M. Millam, S. S. Iyengar, J. Tomasi, 
+ V. Barone, B. Mennucci, M. Cossi, G. Scalmani, N. Rega, 
+ G. A. Petersson, H. Nakatsuji, M. Hada, M. Ehara, K. Toyota, 
+ R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, 
+ H. Nakai, M. Klene, X. Li, J. E. Knox, H. P. Hratchian, J. B. Cross, 
+ C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, 
+ A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, P. Y. Ayala, 
+ K. Morokuma, G. A. Voth, P. Salvador, J. J. Dannenberg, 
+ V. G. Zakrzewski, S. Dapprich, A. D. Daniels, M. C. Strain, 
+ O. Farkas, D. K. Malick, A. D. Rabuck, K. Raghavachari, 
+ J. B. Foresman, J. V. Ortiz, Q. Cui, A. G. Baboul, S. Clifford, 
+ J. Cioslowski, B. B. Stefanov, G. Liu, A. Liashenko, P. Piskorz, 
+ I. Komaromi, R. L. Martin, D. J. Fox, T. Keith, M. A. Al-Laham, 
+ C. Y. Peng, A. Nanayakkara, M. Challacombe, P. M. W. Gill, 
+ B. Johnson, W. Chen, M. W. Wong, C. Gonzalez, and J. A. Pople, 
+ Gaussian, Inc., Pittsburgh PA, 2003.
+ 
+ *********************************************
+ Gaussian 03:  x86-Linux-G03RevB.04 2-Jun-2003
+                   1-Apr-2005 
+ *********************************************
+ ----------------------------------
+ # PBEPBE/6-31g(d,p)/Auto SCF=Tight
+ ----------------------------------
+ 1/38=1/1;
+ 2/17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=101,11=2,16=1,25=1,30=1,74=1009,82=28/1,2,3;
+ 4//1;
+ 5/5=2,32=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 99/5=1,9=1/99;
+ --------
+ graphite
+ --------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C                     0.        0.        0. 
+ C                     0.        1.42912   0. 
+ TV                    2.47532   0.        0. 
+ TV                   -1.21995   2.13345   0. 
+ 
+                           Before rotation:                           
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1          6             0        0.000000    0.000000    0.000000
+    2          6             0        0.000000    1.429118    0.000000
+    3         -2             0        2.475315    0.000000    0.000000
+    4         -2             0       -1.219952    2.133447    0.000000
+ ---------------------------------------------------------------------
+ Lengths of translation vectors:      2.475315    2.457617
+  Angles of translation vectors:    119.761873
+ ---------------------------------------------------------------------
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1          6             0        0.000000   -0.714559    0.000000
+    2          6             0        0.000000    0.714559    0.000000
+    3         -2             0        2.475315    0.000000    0.000000
+    4         -2             0       -1.219952    2.133447    0.000000
+ ---------------------------------------------------------------------
+ Lengths of translation vectors:      2.475315    2.457617
+  Angles of translation vectors:    119.761873
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4
+     1  C    0.000000
+     2  C    1.429118   0.000000
+     3  TV   2.576389   2.576389   0.000000
+     4  TV   3.098293   1.871236   4.266919   0.000000
+ Symmetry turned off:
+ Cannot cope with ghost atoms or with translation vectors.
+ Stoichiometry    C2
+ Framework group  C1[X(C2)]
+ Deg. of freedom     0
+ Full point group                 C1      NOp   1
+ Standard basis: 6-31G(d,p) (6D, 7F)
+ Integral buffers will be    262144 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned off.
+    30 basis functions,    56 primitive gaussians,    30 cartesian basis functions
+     6 alpha electrons        6 beta electrons
+       nuclear repulsion energy        13.3301655278 Hartrees.
+ NAtoms=    2 NActive=    2 NUniq=    2 SFac= 1.00D+00 NAtFMM=   60 Big=F
+ Standard density basis: Auto (5D, 7F)
+   140 Density fitting functions
+ FOutLm=  100.00.
+ Periodicity:                           1               1               0
+ Max integer dimensions:               25              25               0
+   PBC vector 1 X=     4.6777 Y=    0.0000 Z=    0.0000
+   PBC vector 2 X=    -2.3054 Y=    4.0316 Z=    0.0000
+  Recp vector 1 X=     0.2138 Y=    0.1222 Z=    0.0000
+  Recp vector 2 X=     0.0000 Y=    0.2480 Z=    0.0000
+ Generated k point mesh (from -Pi to Pi):
+ K space mesh: X=      38 Y=      38 Z=       0
+ A half-cell shift: 1
+ Using k point mesh (from -Pi to Pi):
+ K space mesh: X=      38 Y=      38 Z=       0
+ A half-cell shift: 1
+ CountK=T Total number of k points:       0
+ CountK=T Total number of k points:     722
+ One-electron integrals computed using PRISM.
+ NBasis=    30 RedAO= T  NBF=    30
+ NBsUse=    30 1.00D-06 NBFU=    30
+ NBasis=       30 NBas6D=       30 NTT=         465   NTT6D=      465
+ NDBShl=       24 NDBF=        140 NDBF6D=      168  NNucDB=        0
+ IDenFi=        4 ISolve=        4 FullAP=F BlkAPC=T NucTyp=        0
+ TolInv= 1.00D-05 TolIt=  1.00D-10.
+ MaxSav=        6 NSavIt=      141 MaxIt=      1000.
+ Symmetry not used in FoFDir.
+ MinBra= 0 MaxBra= 3 Meth= 1.
+ IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
+ RepCel:  MaxNCR=     245 NClRep=     245 NMtPBC=     245.
+ Harris functional with IExCor= 1009 diagonalized for initial guess.
+ RepCel:  MaxNCR=     245 NClRep=     245 NMtPBC=     245.
+ HarFok:  IExCor=1009 AccDes= 0.00D+00 IRadAn=         0 IDoV=1
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ Requested convergence on RMS density matrix=1.00D-07 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-05.
+ Requested convergence on             energy=1.00D-05.
+ No special actions if energy rises.
+ Diagonalized old Fock matrix for initial guess.
+ FoFCou: FMM=T IPFlag=           0 FMFlag=      990000 FMFlg1=        4097
+ NFxFlg=           0 DoJE=T BraDBF=T KetDBF=F FulRan=T.
+ Symmetry not used in FoFCou.
+ FMM levels:   1  Number of levels for PrismC:   1
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.50D+00 BPNorm= 1.35D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.1618279D+01    0.1618279D+01
+ ISDGMR:    1    0.5545962D+00    0.5545962D+00
+ ISDGMR:    2    0.1922207D+00    0.1922207D+00
+ ISDGMR:    3    0.4212552D-01    0.4212552D-01
+ ISDGMR:    4    0.8278048D-02    0.8278048D-02
+ ISDGMR:    5    0.3878197D-02    0.3878197D-02
+ ISDGMR:    6    0.2590661D-02    0.2590661D-02
+ ISDGMR:    7    0.2033025D-02    0.2033025D-02
+ ISDGMR:    8    0.1794344D-02    0.1794344D-02
+ ISDGMR:    9    0.1252704D-02    0.1252704D-02
+ ISDGMR:   10    0.1052186D-02    0.1052186D-02
+ ISDGMR:   11    0.8587592D-03    0.8587592D-03
+ ISDGMR:   12    0.7545140D-03    0.7545140D-03
+ ISDGMR:   13    0.3796247D-03    0.3796247D-03
+ ISDGMR:   14    0.2350900D-03    0.2350900D-03
+ ISDGMR:   15    0.1052551D-03    0.1052551D-03
+ ISDGMR:   16    0.8649326D-04    0.8649326D-04
+ ISDGMR:   17    0.5365059D-04    0.5365059D-04
+ ISDGMR:   18    0.4898744D-04    0.4898744D-04
+ ISDGMR:   19    0.4568285D-04    0.4568285D-04
+ ISDGMR:   20    0.2406696D-04    0.2406696D-04
+ ISDGMR:   21    0.8907330D-05    0.8907330D-05
+ ISDGMR:   22    0.8207923D-05    0.8207923D-05
+ ISDGMR:   23    0.8007174D-05    0.8007174D-05
+ ISDGMR:   24    0.7988821D-05    0.7988821D-05
+ ISDGMR:   25    0.7978865D-05    0.7978865D-05
+ ISDGMR:   26    0.7599790D-05    0.7599790D-05
+ ISDGMR:   27    0.1992435D-05    0.1992435D-05
+ ISDGMR:   28    0.4565698D-06    0.4565698D-06
+ ISDGMR:   29    0.3829406D-06    0.3829406D-06
+ ISDGMR:   30    0.3823661D-06    0.3823661D-06
+ ISDGMR:   31    0.3820153D-06    0.3820153D-06
+ ISDGMR:   32    0.2489127D-06    0.2489127D-06
+ ISDGMR:   33    0.7825123D-07    0.7825123D-07
+ ISDGMR:   34    0.4118304D-07    0.4118304D-07
+ ISDGMR:   35    0.3771445D-07    0.3771445D-07
+ ISDGMR:   36    0.3712720D-07    0.3712720D-07
+ ISDGMR:   37    0.3710021D-07    0.3710021D-07
+ ISDGMR:   38    0.3707691D-07    0.3707691D-07
+ ISDGMR:   39    0.3707060D-07    0.3707060D-07
+ ISDGMR:   40    0.3707058D-07    0.3707058D-07
+ ISDGMR:   41    0.3707038D-07    0.3707038D-07
+ ISDGMR:   42    0.3707012D-07    0.3707012D-07
+ ISDGMR:   43    0.3707011D-07    0.3707011D-07
+ ISDGMR:   44    0.3707011D-07    0.3707011D-07
+ ISDGMR:   45    0.3707001D-07    0.3707001D-07
+ ISDGMR:   46    0.3706912D-07    0.3706912D-07
+ ISDGMR:   47    0.3706839D-07    0.3706839D-07
+ ISDGMR:   48    0.3706783D-07    0.3706783D-07
+ ISDGMR:   49    0.3706289D-07    0.3706289D-07
+ ISDGMR:   50    0.3705989D-07    0.3705989D-07
+ ISDGMR:   51    0.3705463D-07    0.3705463D-07
+ ISDGMR:   52    0.3703700D-07    0.3703700D-07
+ ISDGMR:   53    0.3702841D-07    0.3702841D-07
+ ISDGMR:   54    0.3702796D-07    0.3702796D-07
+ ISDGMR:   55    0.3701865D-07    0.3701865D-07
+ ISDGMR:   56    0.3697762D-07    0.3697762D-07
+ ISDGMR:   57    0.3664818D-07    0.3664818D-07
+ ISDGMR:   58    0.3643060D-07    0.3643060D-07
+ ISDGMR:   59    0.3610071D-07    0.3610071D-07
+ ISDGMR:   60    0.3562469D-07    0.3562469D-07
+ ISDGMR:   61    0.3535735D-07    0.3535735D-07
+ ISDGMR:   62    0.3530381D-07    0.3530381D-07
+ ISDGMR:   63    0.3514462D-07    0.3514462D-07
+ ISDGMR:   64    0.3448176D-07    0.3448176D-07
+ ISDGMR:   65    0.2501013D-07    0.2501013D-07
+ ISDGMR:   66    0.6884962D-08    0.6884962D-08
+ ISDGMR:   67    0.1835884D-09    0.1835884D-09
+ IErr=     0 Err= 1.84D-10 NSaved=     2 NIter=    67 NITot=    68.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 1.48D-16
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.37D+00 BPNorm= 1.25D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.2046912D-01    0.2046912D-01
+ ISDGMR:    1    0.1244843D-01    0.1244843D-01
+ ISDGMR:    2    0.2542957D-02    0.2542957D-02
+ ISDGMR:    3    0.1701542D-02    0.1701542D-02
+ ISDGMR:    4    0.9259778D-03    0.9259778D-03
+ ISDGMR:    5    0.8960695D-03    0.8960695D-03
+ ISDGMR:    6    0.7104497D-03    0.7104497D-03
+ ISDGMR:    7    0.2287249D-03    0.2287249D-03
+ ISDGMR:    8    0.2153245D-03    0.2153245D-03
+ ISDGMR:    9    0.2151930D-03    0.2151930D-03
+ ISDGMR:   10    0.1493792D-03    0.1493792D-03
+ ISDGMR:   11    0.1217024D-03    0.1217024D-03
+ ISDGMR:   12    0.4822560D-04    0.4822560D-04
+ ISDGMR:   13    0.2091328D-04    0.2091328D-04
+ ISDGMR:   14    0.1435467D-04    0.1435467D-04
+ ISDGMR:   15    0.6944474D-05    0.6944474D-05
+ ISDGMR:   16    0.6191234D-05    0.6191234D-05
+ ISDGMR:   17    0.6184418D-05    0.6184418D-05
+ ISDGMR:   18    0.5444236D-05    0.5444236D-05
+ ISDGMR:   19    0.1983317D-05    0.1983317D-05
+ ISDGMR:   20    0.1036354D-05    0.1036354D-05
+ ISDGMR:   21    0.5355720D-06    0.5355720D-06
+ ISDGMR:   22    0.5354344D-06    0.5354344D-06
+ ISDGMR:   23    0.5255495D-06    0.5255495D-06
+ ISDGMR:   24    0.5241665D-06    0.5241665D-06
+ ISDGMR:   25    0.5239217D-06    0.5239217D-06
+ ISDGMR:   26    0.5135191D-06    0.5135191D-06
+ ISDGMR:   27    0.4519695D-06    0.4519695D-06
+ ISDGMR:   28    0.8096925D-07    0.8096925D-07
+ ISDGMR:   29    0.3693108D-07    0.3693108D-07
+ ISDGMR:   30    0.2498217D-07    0.2498217D-07
+ ISDGMR:   31    0.2250614D-07    0.2250614D-07
+ ISDGMR:   32    0.2098756D-07    0.2098756D-07
+ ISDGMR:   33    0.2084760D-07    0.2084760D-07
+ ISDGMR:   34    0.2080640D-07    0.2080640D-07
+ ISDGMR:   35    0.2078380D-07    0.2078380D-07
+ ISDGMR:   36    0.2070873D-07    0.2070873D-07
+ ISDGMR:   37    0.2066488D-07    0.2066488D-07
+ ISDGMR:   38    0.2064185D-07    0.2064185D-07
+ ISDGMR:   39    0.2033409D-07    0.2033409D-07
+ ISDGMR:   40    0.1780955D-07    0.1780955D-07
+ ISDGMR:   41    0.1540098D-07    0.1540098D-07
+ ISDGMR:   42    0.1299394D-07    0.1299394D-07
+ ISDGMR:   43    0.6590051D-08    0.6590051D-08
+ ISDGMR:   44    0.5701190D-08    0.5701190D-08
+ ISDGMR:   45    0.5668402D-08    0.5668402D-08
+ ISDGMR:   46    0.5638463D-08    0.5638463D-08
+ ISDGMR:   47    0.5593291D-08    0.5593291D-08
+ ISDGMR:   48    0.5590292D-08    0.5590292D-08
+ ISDGMR:   49    0.5589498D-08    0.5589498D-08
+ ISDGMR:   50    0.5589488D-08    0.5589488D-08
+ ISDGMR:   51    0.5589392D-08    0.5589392D-08
+ ISDGMR:   52    0.5589218D-08    0.5589218D-08
+ ISDGMR:   53    0.5589190D-08    0.5589190D-08
+ ISDGMR:   54    0.5589127D-08    0.5589127D-08
+ ISDGMR:   55    0.5588912D-08    0.5588912D-08
+ ISDGMR:   56    0.5588867D-08    0.5588867D-08
+ ISDGMR:   57    0.5588795D-08    0.5588795D-08
+ ISDGMR:   58    0.5588747D-08    0.5588747D-08
+ ISDGMR:   59    0.5588737D-08    0.5588737D-08
+ ISDGMR:   60    0.5588737D-08    0.5588737D-08
+ ISDGMR:   61    0.5588708D-08    0.5588708D-08
+ ISDGMR:   62    0.5588658D-08    0.5588658D-08
+ ISDGMR:   63    0.5588453D-08    0.5588453D-08
+ ISDGMR:   64    0.5588418D-08    0.5588418D-08
+ ISDGMR:   65    0.5588418D-08    0.5588418D-08
+ ISDGMR:   66    0.5588411D-08    0.5588411D-08
+ ISDGMR:   67    0.5588312D-08    0.5588312D-08
+ ISDGMR:   68    0.5587111D-08    0.5587111D-08
+ ISDGMR:   69    0.5509008D-08    0.5509008D-08
+ ISDGMR:   70    0.4748166D-08    0.4748166D-08
+ ISDGMR:   71    0.4722543D-08    0.4722543D-08
+ ISDGMR:   72    0.4523834D-08    0.4523834D-08
+ ISDGMR:   73    0.4327433D-08    0.4327433D-08
+ ISDGMR:   74    0.4324759D-08    0.4324759D-08
+ ISDGMR:   75    0.4151063D-08    0.4151063D-08
+ ISDGMR:   76    0.4106688D-08    0.4106688D-08
+ ISDGMR:   77    0.4095504D-08    0.4095504D-08
+ ISDGMR:   78    0.3268957D-08    0.3268957D-08
+ ISDGMR:   79    0.1498010D-08    0.1498010D-08
+ ISDGMR:   80    0.1496497D-08    0.1496497D-08
+ ISDGMR:   81    0.6445757D-09    0.6445757D-09
+ IErr=     0 Err= 6.45D-10 NSaved=     3 NIter=    81 NITot=    85.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 1.48D-16
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.29D+00 BPNorm= 1.20D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.2227001D-03    0.2227001D-03
+ ISDGMR:    1    0.1769327D-03    0.1769327D-03
+ ISDGMR:    2    0.7568980D-04    0.7568980D-04
+ ISDGMR:    3    0.5385046D-04    0.5385046D-04
+ ISDGMR:    4    0.1818352D-04    0.1818352D-04
+ ISDGMR:    5    0.1817972D-04    0.1817972D-04
+ ISDGMR:    6    0.1538693D-04    0.1538693D-04
+ ISDGMR:    7    0.1047877D-04    0.1047877D-04
+ ISDGMR:    8    0.7910529D-05    0.7910529D-05
+ ISDGMR:    9    0.4861130D-05    0.4861130D-05
+ ISDGMR:   10    0.4568330D-05    0.4568330D-05
+ ISDGMR:   11    0.4333052D-05    0.4333052D-05
+ ISDGMR:   12    0.4324789D-05    0.4324789D-05
+ ISDGMR:   13    0.1450179D-05    0.1450179D-05
+ ISDGMR:   14    0.2802287D-06    0.2802287D-06
+ ISDGMR:   15    0.2069922D-06    0.2069922D-06
+ ISDGMR:   16    0.2061634D-06    0.2061634D-06
+ ISDGMR:   17    0.2054664D-06    0.2054664D-06
+ ISDGMR:   18    0.1634475D-06    0.1634475D-06
+ ISDGMR:   19    0.1326789D-06    0.1326789D-06
+ ISDGMR:   20    0.8884793D-07    0.8884793D-07
+ ISDGMR:   21    0.6667264D-07    0.6667264D-07
+ ISDGMR:   22    0.4656248D-07    0.4656248D-07
+ ISDGMR:   23    0.3660687D-07    0.3660687D-07
+ ISDGMR:   24    0.3479083D-07    0.3479083D-07
+ ISDGMR:   25    0.3478341D-07    0.3478341D-07
+ ISDGMR:   26    0.3382919D-07    0.3382919D-07
+ ISDGMR:   27    0.3382786D-07    0.3382786D-07
+ ISDGMR:   28    0.3277733D-07    0.3277733D-07
+ ISDGMR:   29    0.2832731D-07    0.2832731D-07
+ ISDGMR:   30    0.2554090D-07    0.2554090D-07
+ ISDGMR:   31    0.1877769D-07    0.1877769D-07
+ ISDGMR:   32    0.9745727D-08    0.9745727D-08
+ ISDGMR:   33    0.5100355D-08    0.5100355D-08
+ ISDGMR:   34    0.3559784D-08    0.3559784D-08
+ ISDGMR:   35    0.2796214D-08    0.2796214D-08
+ ISDGMR:   36    0.2070218D-08    0.2070218D-08
+ ISDGMR:   37    0.1405769D-08    0.1405769D-08
+ ISDGMR:   38    0.1264585D-08    0.1264585D-08
+ ISDGMR:   39    0.1196312D-08    0.1196312D-08
+ ISDGMR:   40    0.1154626D-08    0.1154626D-08
+ ISDGMR:   41    0.1145940D-08    0.1145940D-08
+ ISDGMR:   42    0.1130132D-08    0.1130132D-08
+ ISDGMR:   43    0.1127454D-08    0.1127454D-08
+ ISDGMR:   44    0.1122912D-08    0.1122912D-08
+ ISDGMR:   45    0.1122593D-08    0.1122593D-08
+ ISDGMR:   46    0.1111074D-08    0.1111074D-08
+ ISDGMR:   47    0.1066763D-08    0.1066763D-08
+ ISDGMR:   48    0.9263558D-09    0.9263558D-09
+ IErr=     0 Err= 9.26D-10 NSaved=     5 NIter=    48 NITot=    54.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 1.48D-16
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.44D+00 BPNorm= 1.30D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.2245738D-03    0.2245738D-03
+ ISDGMR:    1    0.1842405D-03    0.1842405D-03
+ ISDGMR:    2    0.5422636D-04    0.5422636D-04
+ ISDGMR:    3    0.2219123D-04    0.2219123D-04
+ ISDGMR:    4    0.7171292D-05    0.7171292D-05
+ ISDGMR:    5    0.4520307D-05    0.4520307D-05
+ ISDGMR:    6    0.3146417D-05    0.3146417D-05
+ ISDGMR:    7    0.2907116D-05    0.2907116D-05
+ ISDGMR:    8    0.2262194D-05    0.2262194D-05
+ ISDGMR:    9    0.1529918D-05    0.1529918D-05
+ ISDGMR:   10    0.7930463D-06    0.7930463D-06
+ ISDGMR:   11    0.7381639D-06    0.7381639D-06
+ ISDGMR:   12    0.5688258D-06    0.5688258D-06
+ ISDGMR:   13    0.4778977D-06    0.4778977D-06
+ ISDGMR:   14    0.1493841D-06    0.1493841D-06
+ ISDGMR:   15    0.8337307D-07    0.8337307D-07
+ ISDGMR:   16    0.3693397D-07    0.3693397D-07
+ ISDGMR:   17    0.3288781D-07    0.3288781D-07
+ ISDGMR:   18    0.3126638D-07    0.3126638D-07
+ ISDGMR:   19    0.2903894D-07    0.2903894D-07
+ ISDGMR:   20    0.2592596D-07    0.2592596D-07
+ ISDGMR:   21    0.2037901D-07    0.2037901D-07
+ ISDGMR:   22    0.1714165D-07    0.1714165D-07
+ ISDGMR:   23    0.1057471D-07    0.1057471D-07
+ ISDGMR:   24    0.9686358D-08    0.9686358D-08
+ ISDGMR:   25    0.9685086D-08    0.9685086D-08
+ ISDGMR:   26    0.9672406D-08    0.9672406D-08
+ ISDGMR:   27    0.9671386D-08    0.9671386D-08
+ ISDGMR:   28    0.9620464D-08    0.9620464D-08
+ ISDGMR:   29    0.9594746D-08    0.9594746D-08
+ ISDGMR:   30    0.9527727D-08    0.9527727D-08
+ ISDGMR:   31    0.9470080D-08    0.9470080D-08
+ ISDGMR:   32    0.9314465D-08    0.9314465D-08
+ ISDGMR:   33    0.6550117D-08    0.6550117D-08
+ ISDGMR:   34    0.5319814D-08    0.5319814D-08
+ ISDGMR:   35    0.4373891D-08    0.4373891D-08
+ ISDGMR:   36    0.3857467D-08    0.3857467D-08
+ ISDGMR:   37    0.3138743D-08    0.3138743D-08
+ ISDGMR:   38    0.3060746D-08    0.3060746D-08
+ ISDGMR:   39    0.2975867D-08    0.2975867D-08
+ ISDGMR:   40    0.2827728D-08    0.2827728D-08
+ ISDGMR:   41    0.2769595D-08    0.2769595D-08
+ ISDGMR:   42    0.2715745D-08    0.2715745D-08
+ ISDGMR:   43    0.2593202D-08    0.2593202D-08
+ ISDGMR:   44    0.2338587D-08    0.2338587D-08
+ ISDGMR:   45    0.2303502D-08    0.2303502D-08
+ ISDGMR:   46    0.2100091D-08    0.2100091D-08
+ ISDGMR:   47    0.1970059D-08    0.1970059D-08
+ ISDGMR:   48    0.1827489D-08    0.1827489D-08
+ ISDGMR:   49    0.1788482D-08    0.1788482D-08
+ ISDGMR:   50    0.1772213D-08    0.1772213D-08
+ ISDGMR:   51    0.1731978D-08    0.1731978D-08
+ ISDGMR:   52    0.1714138D-08    0.1714138D-08
+ ISDGMR:   53    0.1484368D-08    0.1484368D-08
+ ISDGMR:   54    0.1290184D-08    0.1290184D-08
+ ISDGMR:   55    0.1235816D-08    0.1235816D-08
+ ISDGMR:   56    0.9538878D-09    0.9538878D-09
+ IErr=     0 Err= 9.54D-10 NSaved=     6 NIter=    56 NITot=    63.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 0.00D+00
+ Rare condition: small coef for last iteration:  0.000D+00
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.28D+00 BPNorm= 1.19D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.4886041D-04    0.4886041D-04
+ ISDGMR:    1    0.4175951D-04    0.4175951D-04
+ ISDGMR:    2    0.1384359D-04    0.1384359D-04
+ ISDGMR:    3    0.9077917D-05    0.9077917D-05
+ ISDGMR:    4    0.3807163D-05    0.3807163D-05
+ ISDGMR:    5    0.3071417D-05    0.3071417D-05
+ ISDGMR:    6    0.3032394D-05    0.3032394D-05
+ ISDGMR:    7    0.2813234D-05    0.2813234D-05
+ ISDGMR:    8    0.1406930D-05    0.1406930D-05
+ ISDGMR:    9    0.1042479D-05    0.1042479D-05
+ ISDGMR:   10    0.6598094D-06    0.6598094D-06
+ ISDGMR:   11    0.6362652D-06    0.6362652D-06
+ ISDGMR:   12    0.6043982D-06    0.6043982D-06
+ ISDGMR:   13    0.2370771D-06    0.2370771D-06
+ ISDGMR:   14    0.1013010D-06    0.1013010D-06
+ ISDGMR:   15    0.4857797D-07    0.4857797D-07
+ ISDGMR:   16    0.3899202D-07    0.3899202D-07
+ ISDGMR:   17    0.3781745D-07    0.3781745D-07
+ ISDGMR:   18    0.3703751D-07    0.3703751D-07
+ ISDGMR:   19    0.3111574D-07    0.3111574D-07
+ ISDGMR:   20    0.2306825D-07    0.2306825D-07
+ ISDGMR:   21    0.2056341D-07    0.2056341D-07
+ ISDGMR:   22    0.1355201D-07    0.1355201D-07
+ ISDGMR:   23    0.8788034D-08    0.8788034D-08
+ ISDGMR:   24    0.8700730D-08    0.8700730D-08
+ ISDGMR:   25    0.8700534D-08    0.8700534D-08
+ ISDGMR:   26    0.8698251D-08    0.8698251D-08
+ ISDGMR:   27    0.8694716D-08    0.8694716D-08
+ ISDGMR:   28    0.8572131D-08    0.8572131D-08
+ ISDGMR:   29    0.8365427D-08    0.8365427D-08
+ ISDGMR:   30    0.7980349D-08    0.7980349D-08
+ ISDGMR:   31    0.7572801D-08    0.7572801D-08
+ ISDGMR:   32    0.5494219D-08    0.5494219D-08
+ ISDGMR:   33    0.2711602D-08    0.2711602D-08
+ ISDGMR:   34    0.2287172D-08    0.2287172D-08
+ ISDGMR:   35    0.1879035D-08    0.1879035D-08
+ ISDGMR:   36    0.1511281D-08    0.1511281D-08
+ ISDGMR:   37    0.1363346D-08    0.1363346D-08
+ ISDGMR:   38    0.1338604D-08    0.1338604D-08
+ ISDGMR:   39    0.1264412D-08    0.1264412D-08
+ ISDGMR:   40    0.1188534D-08    0.1188534D-08
+ ISDGMR:   41    0.1165831D-08    0.1165831D-08
+ ISDGMR:   42    0.1097250D-08    0.1097250D-08
+ ISDGMR:   43    0.1034425D-08    0.1034425D-08
+ ISDGMR:   44    0.9483277D-09    0.9483277D-09
+ IErr=     0 Err= 9.48D-10 NSaved=     6 NIter=    44 NITot=    51.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 1.48D-16
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.36D+00 BPNorm= 1.24D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.6301149D-04    0.6301149D-04
+ ISDGMR:    1    0.4329703D-04    0.4329703D-04
+ ISDGMR:    2    0.1364113D-04    0.1364113D-04
+ ISDGMR:    3    0.7757795D-05    0.7757795D-05
+ ISDGMR:    4    0.3084801D-05    0.3084801D-05
+ ISDGMR:    5    0.2499912D-05    0.2499912D-05
+ ISDGMR:    6    0.2183545D-05    0.2183545D-05
+ ISDGMR:    7    0.1999984D-05    0.1999984D-05
+ ISDGMR:    8    0.1190277D-05    0.1190277D-05
+ ISDGMR:    9    0.7827955D-06    0.7827955D-06
+ ISDGMR:   10    0.6842191D-06    0.6842191D-06
+ ISDGMR:   11    0.5033620D-06    0.5033620D-06
+ ISDGMR:   12    0.5017680D-06    0.5017680D-06
+ ISDGMR:   13    0.1970203D-06    0.1970203D-06
+ ISDGMR:   14    0.5217305D-07    0.5217305D-07
+ ISDGMR:   15    0.2983096D-07    0.2983096D-07
+ ISDGMR:   16    0.2233842D-07    0.2233842D-07
+ ISDGMR:   17    0.2028598D-07    0.2028598D-07
+ ISDGMR:   18    0.1875071D-07    0.1875071D-07
+ ISDGMR:   19    0.1706857D-07    0.1706857D-07
+ ISDGMR:   20    0.1310064D-07    0.1310064D-07
+ ISDGMR:   21    0.1207817D-07    0.1207817D-07
+ ISDGMR:   22    0.9052284D-08    0.9052284D-08
+ ISDGMR:   23    0.4357047D-08    0.4357047D-08
+ ISDGMR:   24    0.3511367D-08    0.3511367D-08
+ ISDGMR:   25    0.3423527D-08    0.3423527D-08
+ ISDGMR:   26    0.3420750D-08    0.3420750D-08
+ ISDGMR:   27    0.3419636D-08    0.3419636D-08
+ ISDGMR:   28    0.3377071D-08    0.3377071D-08
+ ISDGMR:   29    0.3250904D-08    0.3250904D-08
+ ISDGMR:   30    0.3231421D-08    0.3231421D-08
+ ISDGMR:   31    0.3205829D-08    0.3205829D-08
+ ISDGMR:   32    0.3158678D-08    0.3158678D-08
+ ISDGMR:   33    0.2722403D-08    0.2722403D-08
+ ISDGMR:   34    0.2600415D-08    0.2600415D-08
+ ISDGMR:   35    0.2490765D-08    0.2490765D-08
+ ISDGMR:   36    0.2413680D-08    0.2413680D-08
+ ISDGMR:   37    0.2364420D-08    0.2364420D-08
+ ISDGMR:   38    0.2342758D-08    0.2342758D-08
+ ISDGMR:   39    0.2293487D-08    0.2293487D-08
+ ISDGMR:   40    0.2114149D-08    0.2114149D-08
+ ISDGMR:   41    0.2038307D-08    0.2038307D-08
+ ISDGMR:   42    0.1705969D-08    0.1705969D-08
+ ISDGMR:   43    0.1423122D-08    0.1423122D-08
+ ISDGMR:   44    0.1222692D-08    0.1222692D-08
+ ISDGMR:   45    0.1157537D-08    0.1157537D-08
+ ISDGMR:   46    0.8998031D-09    0.8998031D-09
+ IErr=     0 Err= 9.00D-10 NSaved=     6 NIter=    46 NITot=    53.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 0.00D+00
+ EnCoef did   100 forward-backward iterations
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.34D+00 BPNorm= 1.23D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.2204390D-04    0.2204390D-04
+ ISDGMR:    1    0.1562911D-04    0.1562911D-04
+ ISDGMR:    2    0.6548119D-05    0.6548119D-05
+ ISDGMR:    3    0.3743017D-05    0.3743017D-05
+ ISDGMR:    4    0.1878425D-05    0.1878425D-05
+ ISDGMR:    5    0.1633170D-05    0.1633170D-05
+ ISDGMR:    6    0.1579209D-05    0.1579209D-05
+ ISDGMR:    7    0.9094685D-06    0.9094685D-06
+ ISDGMR:    8    0.7038289D-06    0.7038289D-06
+ ISDGMR:    9    0.3909984D-06    0.3909984D-06
+ ISDGMR:   10    0.3697197D-06    0.3697197D-06
+ ISDGMR:   11    0.3038666D-06    0.3038666D-06
+ ISDGMR:   12    0.2969874D-06    0.2969874D-06
+ ISDGMR:   13    0.1376156D-06    0.1376156D-06
+ ISDGMR:   14    0.7226652D-07    0.7226652D-07
+ ISDGMR:   15    0.2361819D-07    0.2361819D-07
+ ISDGMR:   16    0.2010997D-07    0.2010997D-07
+ ISDGMR:   17    0.1404873D-07    0.1404873D-07
+ ISDGMR:   18    0.1135155D-07    0.1135155D-07
+ ISDGMR:   19    0.1030628D-07    0.1030628D-07
+ ISDGMR:   20    0.8733460D-08    0.8733460D-08
+ ISDGMR:   21    0.8129831D-08    0.8129831D-08
+ ISDGMR:   22    0.6109869D-08    0.6109869D-08
+ ISDGMR:   23    0.2038520D-08    0.2038520D-08
+ ISDGMR:   24    0.1902321D-08    0.1902321D-08
+ ISDGMR:   25    0.1872103D-08    0.1872103D-08
+ ISDGMR:   26    0.1832127D-08    0.1832127D-08
+ ISDGMR:   27    0.1826419D-08    0.1826419D-08
+ ISDGMR:   28    0.1784176D-08    0.1784176D-08
+ ISDGMR:   29    0.1782148D-08    0.1782148D-08
+ ISDGMR:   30    0.1707168D-08    0.1707168D-08
+ ISDGMR:   31    0.1566882D-08    0.1566882D-08
+ ISDGMR:   32    0.1413788D-08    0.1413788D-08
+ ISDGMR:   33    0.1188176D-08    0.1188176D-08
+ ISDGMR:   34    0.1177717D-08    0.1177717D-08
+ ISDGMR:   35    0.1165811D-08    0.1165811D-08
+ ISDGMR:   36    0.1154255D-08    0.1154255D-08
+ ISDGMR:   37    0.1146344D-08    0.1146344D-08
+ ISDGMR:   38    0.1140134D-08    0.1140134D-08
+ ISDGMR:   39    0.1126117D-08    0.1126117D-08
+ ISDGMR:   40    0.1031829D-08    0.1031829D-08
+ ISDGMR:   41    0.9577553D-09    0.9577553D-09
+ IErr=     0 Err= 9.58D-10 NSaved=     6 NIter=    41 NITot=    48.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 0.00D+00
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.33D+00 BPNorm= 1.22D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.1451094D-04    0.1451094D-04
+ ISDGMR:    1    0.7329254D-05    0.7329254D-05
+ ISDGMR:    2    0.4128828D-05    0.4128828D-05
+ ISDGMR:    3    0.1720731D-05    0.1720731D-05
+ ISDGMR:    4    0.8562098D-06    0.8562098D-06
+ ISDGMR:    5    0.6639147D-06    0.6639147D-06
+ ISDGMR:    6    0.6211404D-06    0.6211404D-06
+ ISDGMR:    7    0.3813594D-06    0.3813594D-06
+ ISDGMR:    8    0.3567427D-06    0.3567427D-06
+ ISDGMR:    9    0.1893807D-06    0.1893807D-06
+ ISDGMR:   10    0.1624781D-06    0.1624781D-06
+ ISDGMR:   11    0.9668693D-07    0.9668693D-07
+ ISDGMR:   12    0.9607630D-07    0.9607630D-07
+ ISDGMR:   13    0.9198312D-07    0.9198312D-07
+ ISDGMR:   14    0.5240222D-07    0.5240222D-07
+ ISDGMR:   15    0.1582253D-07    0.1582253D-07
+ ISDGMR:   16    0.1223671D-07    0.1223671D-07
+ ISDGMR:   17    0.9217047D-08    0.9217047D-08
+ ISDGMR:   18    0.4475631D-08    0.4475631D-08
+ ISDGMR:   19    0.2753654D-08    0.2753654D-08
+ ISDGMR:   20    0.2402826D-08    0.2402826D-08
+ ISDGMR:   21    0.2378946D-08    0.2378946D-08
+ ISDGMR:   22    0.2365207D-08    0.2365207D-08
+ ISDGMR:   23    0.2085717D-08    0.2085717D-08
+ ISDGMR:   24    0.1905801D-08    0.1905801D-08
+ ISDGMR:   25    0.1883834D-08    0.1883834D-08
+ ISDGMR:   26    0.1874963D-08    0.1874963D-08
+ ISDGMR:   27    0.1874958D-08    0.1874958D-08
+ ISDGMR:   28    0.1834938D-08    0.1834938D-08
+ ISDGMR:   29    0.1795515D-08    0.1795515D-08
+ ISDGMR:   30    0.1752963D-08    0.1752963D-08
+ ISDGMR:   31    0.1741144D-08    0.1741144D-08
+ ISDGMR:   32    0.1648268D-08    0.1648268D-08
+ ISDGMR:   33    0.1530477D-08    0.1530477D-08
+ ISDGMR:   34    0.1445878D-08    0.1445878D-08
+ ISDGMR:   35    0.1407386D-08    0.1407386D-08
+ ISDGMR:   36    0.1351344D-08    0.1351344D-08
+ ISDGMR:   37    0.1332720D-08    0.1332720D-08
+ ISDGMR:   38    0.1329810D-08    0.1329810D-08
+ ISDGMR:   39    0.1322463D-08    0.1322463D-08
+ ISDGMR:   40    0.1322449D-08    0.1322449D-08
+ ISDGMR:   41    0.1318035D-08    0.1318035D-08
+ ISDGMR:   42    0.1309384D-08    0.1309384D-08
+ ISDGMR:   43    0.1255990D-08    0.1255990D-08
+ ISDGMR:   44    0.1216087D-08    0.1216087D-08
+ ISDGMR:   45    0.1161175D-08    0.1161175D-08
+ ISDGMR:   46    0.1104886D-08    0.1104886D-08
+ ISDGMR:   47    0.1063898D-08    0.1063898D-08
+ ISDGMR:   48    0.1063889D-08    0.1063889D-08
+ ISDGMR:   49    0.1046476D-08    0.1046476D-08
+ ISDGMR:   50    0.1035672D-08    0.1035672D-08
+ ISDGMR:   51    0.9463062D-09    0.9463062D-09
+ IErr=     0 Err= 9.46D-10 NSaved=     6 NIter=    51 NITot=    58.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 0.00D+00
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.33D+00 BPNorm= 1.22D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.8878705D-06    0.8878705D-06
+ ISDGMR:    1    0.5034377D-06    0.5034377D-06
+ ISDGMR:    2    0.2156740D-06    0.2156740D-06
+ ISDGMR:    3    0.8319442D-07    0.8319442D-07
+ ISDGMR:    4    0.7524190D-07    0.7524190D-07
+ ISDGMR:    5    0.6564377D-07    0.6564377D-07
+ ISDGMR:    6    0.4023902D-07    0.4023902D-07
+ ISDGMR:    7    0.2812613D-07    0.2812613D-07
+ ISDGMR:    8    0.2441026D-07    0.2441026D-07
+ ISDGMR:    9    0.1592582D-07    0.1592582D-07
+ ISDGMR:   10    0.1175137D-07    0.1175137D-07
+ ISDGMR:   11    0.1009377D-07    0.1009377D-07
+ ISDGMR:   12    0.1009346D-07    0.1009346D-07
+ ISDGMR:   13    0.9599940D-08    0.9599940D-08
+ ISDGMR:   14    0.6159397D-08    0.6159397D-08
+ ISDGMR:   15    0.2778926D-08    0.2778926D-08
+ ISDGMR:   16    0.1388696D-08    0.1388696D-08
+ ISDGMR:   17    0.1143198D-08    0.1143198D-08
+ ISDGMR:   18    0.1141014D-08    0.1141014D-08
+ ISDGMR:   19    0.1067189D-08    0.1067189D-08
+ ISDGMR:   20    0.9757985D-09    0.9757985D-09
+ IErr=     0 Err= 9.76D-10 NSaved=     6 NIter=    20 NITot=    27.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 1.48D-16
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.33D+00 BPNorm= 1.22D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.6342055D-07    0.6342055D-07
+ ISDGMR:    1    0.4770961D-07    0.4770961D-07
+ ISDGMR:    2    0.3510605D-07    0.3510605D-07
+ ISDGMR:    3    0.1981784D-07    0.1981784D-07
+ ISDGMR:    4    0.5818678D-08    0.5818678D-08
+ ISDGMR:    5    0.2929534D-08    0.2929534D-08
+ ISDGMR:    6    0.2527638D-08    0.2527638D-08
+ ISDGMR:    7    0.2134252D-08    0.2134252D-08
+ ISDGMR:    8    0.1954101D-08    0.1954101D-08
+ ISDGMR:    9    0.1375451D-08    0.1375451D-08
+ ISDGMR:   10    0.1208727D-08    0.1208727D-08
+ ISDGMR:   11    0.1072229D-08    0.1072229D-08
+ ISDGMR:   12    0.9676310D-09    0.9676310D-09
+ IErr=     0 Err= 9.68D-10 NSaved=     6 NIter=    12 NITot=    19.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 1.48D-16
+ ItDFit:  ISolve= 4 NSavIt=   141 ITol= 0 Tol= 1.00D-09 ItMax=  1000 IStorA=2
+          Conv0= 1.18D-08 BNorm= 1.33D+00 BPNorm= 1.22D+00
+          Conv= 1.00D-09 AccInt= 1.00D-12
+ Generalized Minimum Residual for N=     140 ITol=    0 MaxL=     140 KMP=     140
+        Iter   Natral Err Est   Error Estimate
+ ISDGMR:    0    0.1487234D-07    0.1487234D-07
+ ISDGMR:    1    0.7693220D-08    0.7693220D-08
+ ISDGMR:    2    0.3232195D-08    0.3232195D-08
+ ISDGMR:    3    0.1327757D-08    0.1327757D-08
+ ISDGMR:    4    0.1093395D-08    0.1093395D-08
+ ISDGMR:    5    0.1046617D-08    0.1046617D-08
+ ISDGMR:    6    0.1023753D-08    0.1023753D-08
+ ISDGMR:    7    0.1005011D-08    0.1005011D-08
+ ISDGMR:    8    0.9688147D-09    0.9688147D-09
+ IErr=     0 Err= 9.69D-10 NSaved=     6 NIter=     8 NITot=    15.
+          PS=     12.000000000000 PSN=     12.000000000000 RNE=     12.000000000000 Err= 0.00D+00
+ SCF Done:  E(RPBE-PBE) =  -76.1487226744     A.U. after   11 cycles
+             Convg  =    0.7361D-08             -V/T =  2.0202
+             S**2   =   0.0000
+
+ **********************************************************************
+
+            Population analysis using the SCF density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --   -9.92676  -9.92590  -0.85859  -0.41832  -0.25998
+ Alpha  occ. eigenvalues --   -0.24584
+ Alpha virt. eigenvalues --    0.15049   0.17522   0.27880   0.31556   0.43064
+ Alpha virt. eigenvalues --    0.46873   1.31155   1.32463   1.42572   1.43956
+ Alpha virt. eigenvalues --    1.46232   1.47827   1.55303   1.55483   1.90212
+ Alpha virt. eigenvalues --    2.04314   2.08747   2.55432   2.57233   2.57836
+ Alpha virt. eigenvalues --    2.59046   3.23583   3.97244   5.15618
+          Condensed to atoms (all electrons):
+              1          2
+     1  C    5.410162   0.589838
+     2  C    0.589838   5.410162
+ Mulliken atomic charges:
+              1
+     1  C    0.000000
+     2  C    0.000000
+ Sum of Mulliken charges=   0.00000
+ Atomic charges with hydrogens summed into heavy atoms:
+              1
+     1  C    0.000000
+     2  C    0.000000
+ Sum of Mulliken charges=   0.00000
+ Charge=     0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=     0.0000    Y=     0.0000    Z=     0.0000  Tot=     0.0000
+ 1\1\GINC-NODE16\SP\RPBEPBE\6-31G(d,p)/Auto\C2\GHUTCHIS\01-Apr-2005\0\\
+ # PBEPBE/6-31G(D,P)/AUTO SCF=TIGHT\\graphite\\0,1\C,0.,-0.714559,0.\C,
+ 0.,0.714559,0.\TV,2.475315,0.,0.\TV,-1.219952,2.133447,0.\\Version=x86
+ -Linux-G03RevB.04\HF=-76.1487227\RMSD=7.361e-09\Dipole=0.,0.,0.\PG=C01
+  [X(C2)]\\@
+
+
+ PERICLES, SOPHOCLES,
+ PELOPONESIAN WAR,
+ FRENCH VERBS, LATIN VERBS
+ H2SO4.
+ Job cpu time:  0 days  0 hours 18 minutes 47.4 seconds.
+ File lengths (MBytes):  RWF=     78 Int=      0 D2E=      0 Chk=      9 Scr=      1
+ Normal termination of Gaussian 03 at Fri Apr  1 20:05:05 2005.
