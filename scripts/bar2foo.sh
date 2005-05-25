@@ -8,7 +8,7 @@
 
 # test.foo to test.bar only
 
-$BABEL -l 1 -i$1 $1/$3.$1 -o$2 $1/$3.$2
+$BABEL -i$1 $1/$3.$1 -o$2 $1/$3.$2
 # This script is called for input-only formats
 #  so we must validate our results!
 $ROUNDTRIP $1/$3.$1 $1/$3.$2
