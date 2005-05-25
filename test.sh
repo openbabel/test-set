@@ -9,27 +9,25 @@ cd ../test
 export ROUNDTRIP="`pwd`/roundtrip"
 cd $popdir
 
-# Sh the tests as well--we'd obviously like translation
-#  to be relatively fast, even on large numbers of files!
-
 # roundtrip formats (for looping in runtest0.sh and runtest1.sh)
-export roundformats="alc bs caccrt c3d1 c3d2 cml box dmol feat gpr hin"
-export roundformats="${roundformats} bin mmd mol mmads pdb bgf smi mol2"
-export roundformats="${roundformats} unixyz vmol xyz crk2d crk3d"
+export roundformats="alc bgf box bs c3d1 c3d2 caccrt cml crk2d crk3d"
+export roundformats="${roundformats} ct dmol feat fs gpr hin mmd mol"
+export roundformats="${roundformats} mol2 mopcrt pdb pqs smi tmol"
+export roundformats="${roundformats} unixyz vmol xyz"
 
 # not used currently -- just make sure there's a test file for each format
-# export informats=""
+# export informats="car ccc g03 g98 gamout ins jout mopout mpqc nwo prep qcout"
 
 # output-only formats (for looping in runtest0.sh and runtest1.sh)
-export outformats="cacint cache cht ct cssr fh inp gau gr96A gr96N jin"
-export outformats="${outformats} csr nw pov report qcin fix txyz txt xed zin"
+export outformats="cache cacint cht com csr cssr fh fix gamin gr96"
+export outformats="${outformats} inchi jin mm3 mpqcin nw pov qcin"
+export outformats="${outformats} report txyz xed zin"
 
 # Delete old data in subdirectories
-rm -f car/* cml/* dmol/* gamout/* gpr/* ins/* jout/* mmod/* mol/* 2>/dev/null
-rm -f mol2/* mopout/* mpqc/* pdb/* qcout/* smi/* xyz/* crk2d/* 2>/dev/null
-rm -f crk3d/* 2>/dev/null
+rm -f car/* cml/* crk2d/* crk3d/* dmol/* g03/* g98/* gamout/* 2>/dev/null
+rm -f gpr/* ins/* jout/* mmod/* mol/* mol2/* mopout/* mpqc/* 2>/dev/null
+rm -f pdb/* qcout/* smi/* xyz/* 2>/dev/null
 
-#
 #
 # Now start the tests!
 # We're going to create a "results-${DATE}.txt" file with some header info.
@@ -95,7 +93,7 @@ sh scripts/runtest0.sh mol2 dock_nrg >>${FILE} 2>&1
 # Small PDB
 sh scripts/runtest0.sh pdb TRP >>${FILE} 2>&1
 # "Big" PDB (HIV-1 Protease) 3491 atoms
-#sh scripts/runtest0.sh pdb 1hvc >>${FILE} 2>&1
+sh scripts/runtest0.sh pdb 1hvc >>${FILE} 2>&1
 
 # SMILES (multiple lines)
 sh scripts/runtest0.sh smi test >>${FILE} 2>&1
@@ -108,6 +106,8 @@ sh scripts/runtest0.sh xyz buckyball >>${FILE} 2>&1
 # Periodic Table (XYZ) Elements 1-109 H-Mt
 # Plays havoc on some formats w/o esoteric atom typing
 sh scripts/runtest0.sh xyz table >>${FILE} 2>&1
+# Partial Aromatic NTCDI (XYZ)
+sh scripts/runtest0.sh xyz ntcdi >>${FILE} 2>&1
 # Multi-molecule XYZ file
 sh scripts/runtest0.sh xyz met-enkaphalin_movie >>${FILE} 2>&1
 # HMX (lots o' nitro-groups)
@@ -116,7 +116,7 @@ sh scripts/runtest0.sh xyz hmx >>${FILE} 2>&1
 # Used to make sure we don't crash when given nasty stuff
 #  (should probably use the same type of random data for other formats too)
 # Currently disabled
-# sh scripts/runtest0.sh xyz random >>${FILE} 2>&1
+sh scripts/runtest0.sh xyz random >>${FILE} 2>&1
 
 # **************************
 # *** INPUT-ONLY testing ***
@@ -129,6 +129,11 @@ sh scripts/runtest1.sh car benzene >>${FILE} 2>&1
 
 # benzenefulonamide (GAMESS-US Output)
 sh scripts/runtest1.sh gamout benzenesulfonamide >>${FILE} 2>&1
+
+# Cr inorganic complex (Gaussian98 Output)
+sh scripts/runtest1.sh g98 cotton >>${FILE} 2>&1
+# Graphite 2D sheet (with periodic boundary conditions) Gaussian03 Output
+sh scripts/runtest1.sh g03 graphite >>${FILE} 2>&1
 
 # ShelX INS
 sh scripts/runtest1.sh ins vinigrol >>${FILE} 2>&1
