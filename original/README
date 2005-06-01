@@ -6,7 +6,7 @@ information on the copyright and distribution terms of all molecules
 in this directory, as well as information on the file format type,
 the program used to generate the file, and as much "heredity" as possible.
 
-Protein Data Bank Files (specifically 1hvc.pdb):
+Protein Data Bank Files (specifically 1hvc.pdb and 1crn.pdb):
 * Data files within the archive may be redistributed in original form
   without restriction. Any redistribution of all or a subset of entries
   that have been modified yet retain their original PDB identifier(s)
