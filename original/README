@@ -3,7 +3,8 @@ Molecule README:
 
 Some files are distributed under different copyrights. This file gives
 information on the copyright and distribution terms of all molecules
-in this directory.
+in this directory, as well as information on the file format type,
+the program used to generate the file, and as much "heredity" as possible.
 
 Protein Data Bank Files (specifically 1hvc.pdb):
 * Data files within the archive may be redistributed in original form
@@ -20,3 +21,79 @@ Protein Data Bank Files (specifically 1hvc.pdb):
 * Use of data contained in a file should cite as indicated in the
   REMARK fields in the PDB file.
 
+* 3-pyrrole.jout	Schrodinger Jaguar output (version 4.0, release 20)
+	B3LYP/6-31G* geometry optimization
+	Contributed by Geoff Hutchison
+* 3-thio.qcout	Q-Chem output (version 2.0)
+	TDDFT excitation energies BLYP/6-31G*
+	Contributed by Geoff Hutchison
+* 3d.head.mol	MDL Molfile (v2000, created by Corina)
+	Corina: http://www2.chemie.uni-erlangen.de/software/corina/
+	Contributed by Peter Murray Rust
+* 417.cml		Chemical Markup Language v. 1.0
+	Contributed by Peter Murray Rust
+* Ethanol.mopout	MOPAC output (version 7.01 for Linux, public domain)
+	Contributed by Radek Liboska
+* EthylISIS.mol	MDL Molfile (created from ISISDraw with implicit hydrogens)
+* Model1-1142.mmod	MacroModel file
+	Contributed by Jean Dessolin
+* RadIn1.smi	Daylight SMILES file (with radicals)
+	Contributed by Chris Morley
+* TRP.pdb		PDB tryptophan residue
+	Contributed by Richard Gillilan
+* aromatic.smi	Daylight SMILES file (with DOS line endings)
+	A variety of aromatic and pseudo-aromatic molecules
+	Contributed by Geoff Hutchison
+* aromtest.mol2	Tripos Sybyl Mol2 file 
+	(created by Ghemical/Open Babel v. 1.100.1)
+	Contributed by Geoff Hutchison
+* ascorbic1.cml
+	Contributed by Peter Murray-Rust
+* b2h6.mpqc	MPQC Output file
+	From MPQC Version 2.1.0 test set
+* benzene.car	MSI/Biosym Insight II .car file
+* benzenesulfonamide.gamout	GAMESS-US output file  (v. 6 SEP 2001 R4)
+	Contributed by Geoff Hutchison
+* buckyball.xyz
+	Contributed by Geoff Hutchison
+* cotton.g98	Gaussian 98 output file (revA.7)
+	Contributed by Fred Arnold
+* curan.cml	CML file
+	Contributed by Peter Murray-Rust
+* dock_nrg.mol2	Tripos Sybyl Mol2 file (created by DOCK)
+* estradiol.gpr	Ghemical Project File (version 1.01)
+	No partial charges added
+	Contributed by Geoff Hutchison
+* graphite.g03	Gaussian 03 output file (with 2D translation vectors)
+	Contributed by Geoff Hutchison
+* h2o.mpqc	MPQC output file
+	From MPQC Version 2.1.0 test set
+* hmx.xyz	XYZ file
+	Contributed by Rick Muller
+* met-enkaphalin_movie.xyz	XYZ multi-frame "movie"
+* ntcdi.xyz	XYZ file (created by Open Babel 1.100.2)
+	Contributed by Geoff Hutchison
+* phenyl.mol	MDL Molfile (created by ACD/Labs)
+* pli222.ins	ShelX INS file
+	Contributed by Louis Ricard
+* random.xyz	Random binary data (not really an XYZ file)
+	Designed to abuse file format import code
+	Can be used as any given file format -- should be rejected uniformly.
+	Contributed by Geoff Hutchison
+* si.dmol		DMol3 coordinate file
+	Silicon 3D unit cell with translation vectors (all in Bohr)
+	Contributed by Geoff Hutchison
+* table.xyz
+	Contributed by Geoff Hutchison
+* test-mac.smi	Daylight SMILES with Mac line-endings
+	Contributed by Chris Swain
+* test.crk2d	Chemical Resource Kit (CRK) 2D file
+	Contributed by Alex Clark
+* test.crk3d	CRK 3D file
+	Contributed by Alex Clark
+* test.smi	Daylight SMILES including isotopes
+	Contributed by Geoff Hutchison
+* vinigrol.ins	ShelX INS file
+	Contributed by Louis Ricard
+* yohimbine.mol	MDL Molfile
+	From JUMBO-Examples v.0.1 via Peter Murray-Rust
