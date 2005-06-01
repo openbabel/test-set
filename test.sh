@@ -87,11 +87,13 @@ sh scripts/runtest0.sh mol 3d.head >>${FILE} 2>&1
 
 # Sybyl Mol2 (created via Ghemical)
 sh scripts/runtest0.sh mol2 aromtest >>${FILE} 2>&1
-# Sybyl Mol2 (creased/used with Dock)
+# Sybyl Mol2 (created/used with Dock)
 sh scripts/runtest0.sh mol2 dock_nrg >>${FILE} 2>&1
 
-# Small PDB
+# Small PDB (one TRP residue)
 sh scripts/runtest0.sh pdb TRP >>${FILE} 2>&1
+# Small PDB (crambin) 327 atoms
+sh scripts/runtest0.sh pdb 1crn >>${FILE} 2>&1
 # "Big" PDB (HIV-1 Protease) 3491 atoms
 sh scripts/runtest0.sh pdb 1hvc >>${FILE} 2>&1
 
@@ -99,6 +101,10 @@ sh scripts/runtest0.sh pdb 1hvc >>${FILE} 2>&1
 sh scripts/runtest0.sh smi test >>${FILE} 2>&1
 # SMILES with radicals
 sh scripts/runtest0.sh smi RadIn1 >>${FILE} 2>&1
+# SMILES with DOS line endings (aromatics and pseudo-aromatics)
+sh scripts/runtest0.sh smi aromatic >>${FILE} 2>&1
+# SMILES with Mac line endings
+sh scripts/runtest0.sh smi test-mac >>${FILE} 2>&1
 
 # c60 (XYZ)
 # Plays havoc with bond typing
