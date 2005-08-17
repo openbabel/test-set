@@ -1,0 +1,34 @@
+Molecule README:
+-------------------
+
+This directory (invalid) contains files that are completely invalid
+and should be rejected. Some are generic (e.g., random data or empty
+files, designed to catch programming errors) and some are specific to
+a given file format. In all cases, these files should not produce
+actual molecular data and should never cause program crashes.
+
+* random	Random binary data
+  random2
+  random3
+	Designed to abuse file format import code
+	Can be used as any given file format -- should be rejected uniformly.
+	Contributed by Geoff Hutchison
+
+* empty		An empty file
+	Designed to abuse file format import code
+	Can be used as any given file format -- should be rejected uniformly.
+	Contributed by Geoff Hutchison
+
+* hmx.mol	Invalid MDL Molfiles
+  hmx2.mol
+  hmx3.mol
+  hmx4.mol
+  hmx5.mol
+  hmx6.mol
+	Contributed by Geoff Hutchison
+
+* invalid.xyz	Invalid XYZ files
+  invalid2.xyz
+  invalid3.xyz
+  invalid4.xyz
+	Contributed by Geoff Hutchison

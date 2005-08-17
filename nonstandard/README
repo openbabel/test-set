@@ -1,0 +1,13 @@
+Molecule README:
+-------------------
+
+This directory (nonstandard) includes files which do not meet
+published specifications but may or may not be acceptable. Examples,
+include non-standard PDB files (i.e., do not meet published PDB
+format, but are de-facto accepted by other programs).
+
+Some files are distributed under different copyrights. This file gives
+information on the copyright and distribution terms of all molecules
+in this directory, as well as information on the file format type,
+the program used to generate the file, and as much "heredity" as possible.
+

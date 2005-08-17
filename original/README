@@ -71,6 +71,9 @@ Protein Data Bank Files (specifically 1hvc.pdb and 1crn.pdb):
 * hmx.xyz	XYZ file
 	Contributed by Rick Muller
 * met-enkaphalin_movie.xyz	XYZ multi-frame "movie"
+* nanotube.pdb  PDB file (created by TubeGen 3.3 website)
+	Supplies unit cell information
+	Contributed by Geoff Hutchison
 * ntcdi.xyz	XYZ file (created by Open Babel 1.100.2)
 	Contributed by Geoff Hutchison
 * phenyl.mol	MDL Molfile (created by ACD/Labs)

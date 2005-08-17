@@ -31,6 +31,11 @@ and documentation on running the various regression tests.
 
 * original/     The test molecules themselves.
 		(See original/README for more info.)
+* nonstandard/  Test molecules that do not necessarily meet published standards
+		(e.g., PDB files, MDL Molfiles, CML ...
+		 See nonstandard/README for more info.)
+* invalid/	Completely invalid files, which should be rejected.
+		(See invalid/README for more info.)
 * files/	Directory for result files created by running the
 		tests (subdirectories for: file-format/files)
 * others/       Files not currently part of the "canonical" test set.
