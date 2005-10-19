@@ -1,4 +1,3 @@
-
 #!/bin/sh
 # runtest.sh (main driver script)
 
@@ -12,25 +11,26 @@ cd $popdir
 
 # roundtrip formats (for looping in runtest0.sh and runtest1.sh)
 export roundformats="alc bgf box bs c3d1 c3d2 caccrt cml crk2d crk3d"
-export roundformats="${roundformats} ct dmol feat gpr hin mmd mol"
+export roundformats="${roundformats} ct dmol feat fract gpr hin mmd mol"
 export roundformats="${roundformats} mol2 mopcrt pdb pqs smi tmol"
-export roundformats="${roundformats} unixyz vmol xyz"
+export roundformats="${roundformats} unixyz vmol yob xyz"
 
 # ideally, make sure there's a test file for each format
 # also used for invalid file testing in runtest2.sh
-export informats="car ccc g03 g98 gamout ins jout mopout mpqc nwo prep qcout"
+export informats="car ccc g03 g98 gamout ins jout mopout mpqc nwo prep"
+export informats="${informats} pc qcout"
 
 # output-only formats (for looping in runtest0.sh and runtest1.sh)
-# inchi mm3
+# inchi
 export outformats="cache cacint cht com csr cssr fh fix fs gamin gr96"
-export outformats="${outformats} jin mpqcin nw pov qcin"
+export outformats="${outformats} jin mpqcin mpd nw pov qcin"
 export outformats="${outformats} report txyz xed zin"
 
 # Delete old data in subdirectories
 cd files/
 rm -f car/* cml/* crk2d/* crk3d/* dmol/* g03/* g98/* gamout/* 2>/dev/null
 rm -f gpr/* ins/* jout/* mmod/* mol/* mol2/* mopout/* mpqc/* 2>/dev/null
-rm -f pdb/* qcout/* smi/* xyz/* invalid/* 2>/dev/null
+rm -f pdb/* qcout/* smi/* xyz/* invalid/* fract/* yob/* 2>/dev/null
 cd $popdir
 
 #
@@ -90,7 +90,7 @@ sh scripts/runtest0.sh mol EthylISIS.mol >>${FILE} 2>&1
 # 2D MDL Molfile with radical
 sh scripts/runtest0.sh mol phenyl.mol >>${FILE} 2>&1
 # 3D MDL Molfile
-sh scripts/runtest0.sh mol 3d.head.mol >>${FILE} 2>&1
+sh scripts/runtest0.sh mol 3d-head.mol >>${FILE} 2>&1
 
 # Sybyl Mol2 (created via Ghemical)
 sh scripts/runtest0.sh mol2 aromtest.mol2 >>${FILE} 2>&1
@@ -127,6 +127,14 @@ sh scripts/runtest0.sh xyz ntcdi.xyz >>${FILE} 2>&1
 sh scripts/runtest0.sh xyz met-enkaphalin_movie.xyz >>${FILE} 2>&1
 # HMX (lots o' nitro-groups)
 sh scripts/runtest0.sh xyz hmx.xyz >>${FILE} 2>&1
+# single He atom (check atom typing and z-matrix tranforms work)
+sh scripts/runtest0.sh xyz He.xyz >>${FILE} 2>&1
+
+# "Free Form Fractional"
+sh scripts/runtest0.sh fract ZnO.fract >>${FILE} 2>&1
+
+# Yasara .yob
+sh scripts/runtest0.sh yob yami.yob >>${FILE} 2>&1
 
 # **************************
 # *** INPUT-ONLY testing ***
@@ -161,6 +169,9 @@ sh scripts/runtest1.sh mopout Ethanol.mopout >>${FILE} 2>&1
 
 # oligothiophene (Q-Chem Output)
 sh scripts/runtest1.sh qcout 3-thio.qcout >>${FILE} 2>&1
+
+# Pubchem ID 837481
+sh scripts/runtest1.sh pc pubchem-837481.pc >>${FILE} 2>&1
 
 # We currently need example files for the following input-only format testing
 # Amber PREP
@@ -211,6 +222,11 @@ sh scripts/runtest1.sh qcout 3-thio.qcout >>${FILE} 2>&1
 sh scripts/runtest2.sh random >>${FILE} 2>&1
 sh scripts/runtest2.sh random2 >>${FILE} 2>&1
 sh scripts/runtest2.sh random3 >>${FILE} 2>&1
+
+# Random (piped from /dev/random one day. Not really a molecule at all)
+# Run through gzip  -- to challenge the gzip encoding/decoding procedures
+sh scripts/runtest2.sh random4 >>${FILE} 2>&1
+sh scripts/runtest2.sh random5 >>${FILE} 2>&1
 
 # A completely empty file
 # Some formats have crashed when encountering such a file

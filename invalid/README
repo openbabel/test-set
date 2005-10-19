@@ -14,6 +14,9 @@ actual molecular data and should never cause program crashes.
 	Can be used as any given file format -- should be rejected uniformly.
 	Contributed by Geoff Hutchison
 
+* random4	gzip-encoded random binary data
+  random5
+
 * empty		An empty file
 	Designed to abuse file format import code
 	Can be used as any given file format -- should be rejected uniformly.
