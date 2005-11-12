@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="methanol">
+	<formula concise="C 1 H 4 O 1"/>
+</molecule>

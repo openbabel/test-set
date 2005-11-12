@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" title = "urea/nitric acid complex">
+ <!-- Contains embedded molecules -->
+ <molecule id="urea">
+  <atomArray>
+   <atom id="a1" elementType="N"/>
+   <atom id="a2" elementType="C"/>
+   <atom id="a3" elementType="O"/>
+   <atom id="a4" elementType="N"/>
+  </atomArray>
+  <bondArray>
+   <bond atomRefs2="a1 a2" order="1"/>
+   <bond atomRefs2="a2 a3" order="2"/>
+   <bond atomRefs2="a2 a4" order="1"/>
+  </bondArray>
+ </molecule>
+ <molecule id="nitric acid">
+  <atomArray>
+   <atom id="aa1" elementType="O"/>
+   <atom id="aa2" elementType="N"/>
+   <atom id="aa3" elementType="O"/>
+   <atom id="aa4" elementType="O"/>
+  </atomArray>
+  <bondArray>
+   <bond atomRefs2="aa1 aa2" order="1"/>
+   <bond atomRefs2="aa2 aa3" order="2"/>
+   <bond atomRefs2="aa2 aa4" order="2"/>
+  </bondArray>
+ </molecule>
+</molecule>
