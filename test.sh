@@ -12,7 +12,7 @@ cd $popdir
 # roundtrip formats (for looping in runtest0.sh and runtest1.sh)
 export roundformats="alc bgf box bs c3d1 c3d2 caccrt cml crk2d crk3d"
 export roundformats="${roundformats} ct dmol feat fract gpr hin mmd mol"
-export roundformats="${roundformats} mol2 mopcrt pdb pqs smi tmol"
+export roundformats="${roundformats} mol2 mopcrt pdb pqs pcm smi tmol"
 export roundformats="${roundformats} unixyz vmol yob xyz"
 
 # ideally, make sure there's a test file for each format
@@ -21,16 +21,15 @@ export informats="car ccc g03 g98 gamout ins jout mopout mpqc nwo prep"
 export informats="${informats} pc qcout"
 
 # output-only formats (for looping in runtest0.sh and runtest1.sh)
-# inchi
 export outformats="cache cacint cht com csr cssr fh fix fs gamin gr96"
-export outformats="${outformats} jin mpqcin mpd nw pov qcin"
+export outformats="${outformats} inchi jin mpqcin mpd nw pov qcin"
 export outformats="${outformats} report txyz xed zin"
 
 # Delete old data in subdirectories
 cd files/
 rm -f car/* cml/* crk2d/* crk3d/* dmol/* g03/* g98/* gamout/* 2>/dev/null
 rm -f gpr/* ins/* jout/* mmod/* mol/* mol2/* mopout/* mpqc/* 2>/dev/null
-rm -f pdb/* qcout/* smi/* xyz/* invalid/* fract/* yob/* 2>/dev/null
+rm -f pdb/* qcout/* smi/* xyz/* invalid/* fract/* yob/* pcm/* 2>/dev/null
 cd $popdir
 
 #
@@ -132,6 +131,9 @@ sh scripts/runtest0.sh xyz He.xyz >>${FILE} 2>&1
 
 # "Free Form Fractional"
 sh scripts/runtest0.sh fract ZnO.fract >>${FILE} 2>&1
+
+# PCModel
+sh scripts/runtest0.sh pcm example.pcm >>${FILE} 2>&1
 
 # Yasara .yob
 sh scripts/runtest0.sh yob yami.yob >>${FILE} 2>&1
