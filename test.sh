@@ -5,6 +5,8 @@
 popdir=`pwd`
 cd ../../src
 export BABEL="`pwd`/babel"
+export BABEL_LIBDIR="`pwd`/formats/.libs:`pwd`/formats/xml/.libs"
+# roundtrip formats (for looping in runtest0.sh and runtest1.sh)
 cd ../test
 export ROUNDTRIP="`pwd`/roundtrip"
 cd $popdir
@@ -21,7 +23,7 @@ export informats="car ccc g03 g98 gamout ins jout mopout mpqc nwo prep"
 export informats="${informats} pc qcout"
 
 # output-only formats (for looping in runtest0.sh and runtest1.sh)
-export outformats="cache cacint cht com csr cssr fh fix fs gamin gr96"
+export outformats="cache cacint cht com copy csr cssr fh fix fs gamin gr96"
 export outformats="${outformats} inchi jin mpqcin mpd nw pov qcin"
 export outformats="${outformats} report txyz xed zin"
 
