@@ -4,10 +4,13 @@
 # babel round trips (too many levels!)
 popdir=`pwd`
 cd ../../src
+unset BABEL
 export BABEL="`pwd`/babel"
+unset BABEL_LIBDIR
 export BABEL_LIBDIR="`pwd`/formats/.libs:`pwd`/formats/xml/.libs"
 # roundtrip formats (for looping in runtest0.sh and runtest1.sh)
 cd ../test
+unset ROUNTRIP
 export ROUNDTRIP="`pwd`/roundtrip"
 cd $popdir
 
@@ -19,19 +22,21 @@ export roundformats="${roundformats} unixyz vmol yob xyz"
 
 # ideally, make sure there's a test file for each format
 # also used for invalid file testing in runtest2.sh
-export informats="car ccc g03 g98 gamout ins jout mopout mpqc nwo prep"
+export informats="car ccc cdx g03 g98 gamout ins jout mopout mpqc nwo prep"
 export informats="${informats} pc qcout"
 
 # output-only formats (for looping in runtest0.sh and runtest1.sh)
 export outformats="cache cacint cht com copy csr cssr fh fix fs gamin gr96"
 export outformats="${outformats} inchi jin mpqcin mpd nw pov qcin"
 export outformats="${outformats} report txyz xed zin"
+export outformats="${outformats} fasta fpt"
 
 # Delete old data in subdirectories
 cd files/
 rm -f car/* cml/* crk2d/* crk3d/* dmol/* g03/* g98/* gamout/* 2>/dev/null
 rm -f gpr/* ins/* jout/* mmod/* mol/* mol2/* mopout/* mpqc/* 2>/dev/null
 rm -f pdb/* qcout/* smi/* xyz/* invalid/* fract/* yob/* pcm/* 2>/dev/null
+rm -f sdf/* hin/* gal/* res/* cdx/* 2>/dev/null
 cd $popdir
 
 #
@@ -64,12 +69,24 @@ echo >>${FILE}
 # *** ROUNDTRIP testing ***
 # **************************
 
-# 2D CML
-sh scripts/runtest0.sh cml curan.cml >>${FILE} 2>&1
-# 3D CML
-sh scripts/runtest0.sh cml 417.cml >>${FILE} 2>&1
 # Z-Matrix CML
 sh scripts/runtest0.sh cml ascorbic1.cml >>${FILE} 2>&1
+# From Jmol
+sh scripts/runtest0.sh cml acetate.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml aceticacid.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml benzene.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml estron.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml list.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml list2.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml long4lines.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml methanol1.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml methanol2.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml nsc202.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml nsc244.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml nsc244a.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml nsc2582.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml nsc300.cml >>${FILE} 2>&1
+sh scripts/runtest0.sh cml nsc484.cml >>${FILE} 2>&1
 
 # Chemical Resource Kit (CRK)
 sh scripts/runtest0.sh crk2d test.crk2d >>${FILE} 2>&1
@@ -92,6 +109,8 @@ sh scripts/runtest0.sh mol EthylISIS.mol >>${FILE} 2>&1
 sh scripts/runtest0.sh mol phenyl.mol >>${FILE} 2>&1
 # 3D MDL Molfile
 sh scripts/runtest0.sh mol 3d-head.mol >>${FILE} 2>&1
+# InChI test set (wicked!)
+# sh scripts/runtest0.sh sdf InChI_TestSet.sdf >>${FILE} 2>&1
 
 # Sybyl Mol2 (created via Ghemical)
 sh scripts/runtest0.sh mol2 aromtest.mol2 >>${FILE} 2>&1
@@ -100,6 +119,8 @@ sh scripts/runtest0.sh mol2 dock_nrg.mol2 >>${FILE} 2>&1
 
 # Small PDB (one TRP residue)
 sh scripts/runtest0.sh pdb TRP.pdb >>${FILE} 2>&1
+# Small PDB (several amino acid residues via Open Babel / Ghemical)
+sh scripts/runtest0.sh pdb random.pdb >>${FILE} 2>&1
 # Small PDB (crambin) 327 atoms
 sh scripts/runtest0.sh pdb 1crn.pdb >>${FILE} 2>&1
 # Small PDB (carbon nanotube) 316 atoms
@@ -140,6 +161,11 @@ sh scripts/runtest0.sh pcm example.pcm >>${FILE} 2>&1
 # Yasara .yob
 sh scripts/runtest0.sh yob yami.yob >>${FILE} 2>&1
 
+# HyperChem .hin
+sh scripts/runtest0.sh hin dan002.hin >>${FILE} 2>&1
+sh scripts/runtest0.sh hin dan031.hin >>${FILE} 2>&1
+sh scripts/runtest0.sh hin twoModels.hin >>${FILE} 2>&1
+
 # **************************
 # *** INPUT-ONLY testing ***
 # runtest1.sh does the same for runtest0.sh except for an input-only format
@@ -149,19 +175,35 @@ sh scripts/runtest0.sh yob yami.yob >>${FILE} 2>&1
 # MSI Biosym/Insight II CAR
 sh scripts/runtest1.sh car benzene.car >>${FILE} 2>&1
 
-# benzenefulonamide (GAMESS-US Output)
+# GAMESS-US Output
 sh scripts/runtest1.sh gamout benzenesulfonamide.gamout >>${FILE} 2>&1
+sh scripts/runtest1.sh gamout ch3oh.gamout >>${FILE} 2>&1
+sh scripts/runtest1.sh gamout Cl2O.gamout >>${FILE} 2>&1
+sh scripts/runtest1.sh gamout substrate.gamout >>${FILE} 2>&1
+sh scripts/runtest1.sh gamout water.gamout >>${FILE} 2>&1
 
 # Cr inorganic complex (Gaussian98 Output)
 sh scripts/runtest1.sh g98 cotton.g98 >>${FILE} 2>&1
 # Graphite 2D sheet (with periodic boundary conditions) Gaussian03 Output
 sh scripts/runtest1.sh g03 graphite.g03 >>${FILE} 2>&1
+sh scripts/runtest1.sh gal 4-cyanophenylnitrene-Benzazirine-TS.g94.gal >>${FILE} 2>&1
+sh scripts/runtest1.sh gal H2O.gal >>${FILE} 2>&1
+sh scripts/runtest1.sh gal ch2chfme_reagent.gal >>${FILE} 2>&1
+sh scripts/runtest1.sh gal cyanine_PM3.gal >>${FILE} 2>&1
+sh scripts/runtest1.sh gal phenylnitrene.g94.gal >>${FILE} 2>&1
+sh scripts/runtest1.sh gal tms.gal >>${FILE} 2>&1
 
 # ShelX INS
 sh scripts/runtest1.sh ins vinigrol.ins >>${FILE} 2>&1
 sh scripts/runtest1.sh ins pli222.ins >>${FILE} 2>&1
+sh scripts/runtest1.sh res 6063.res >>${FILE} 2>&1
+sh scripts/runtest1.sh res complexSFAC.res >>${FILE} 2>&1
+sh scripts/runtest1.sh res first100.res >>${FILE} 2>&1
+sh scripts/runtest1.sh res frame_1.res >>${FILE} 2>&1
+sh scripts/runtest1.sh res k04041.res >>${FILE} 2>&1
+sh scripts/runtest1.sh res vmdtest.res >>${FILE} 2>&1
 
-# oligopyrrole (Jaguar Output)
+# Jaguar Output
 sh scripts/runtest1.sh jout 3-pyrrole.jout >>${FILE} 2>&1
 
 # MPQC Output (borane and h2o)
@@ -171,11 +213,16 @@ sh scripts/runtest1.sh mpqc h2o.mpqc >>${FILE} 2>&1
 # Ethanol (MOPAC 7 Output)
 sh scripts/runtest1.sh mopout Ethanol.mopout >>${FILE} 2>&1
 
-# oligothiophene (Q-Chem Output)
+# Q-Chem Output
 sh scripts/runtest1.sh qcout 3-thio.qcout >>${FILE} 2>&1
 
 # Pubchem ID 837481
 sh scripts/runtest1.sh pc pubchem-837481.pc >>${FILE} 2>&1
+sh scripts/runtest1.sh pc CID_6013.pc >>${FILE} 2>&1
+
+# ChemDraw CDX
+sh scripts/runtest1.sh cdx largertest.cdx >>${FILE} 2>&1
+sh scripts/runtest1.sh cdx testosterone.cdx >>${FILE} 2>&1
 
 # We currently need example files for the following input-only format testing
 # Amber PREP
