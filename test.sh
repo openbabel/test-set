@@ -3,9 +3,10 @@
 
 # babel round trips (too many levels!)
 popdir=`pwd`
-cd ../../src
+cd ../../tools
 unset BABEL
 export BABEL="`pwd`/babel"
+cd ../src
 unset BABEL_LIBDIR
 export BABEL_LIBDIR="`pwd`/formats/.libs:`pwd`/formats/xml/.libs"
 # roundtrip formats (for looping in runtest0.sh and runtest1.sh)
@@ -26,7 +27,7 @@ export informats="car ccc cdx g03 g98 gamout ins jout mopout mpqc nwo prep"
 export informats="${informats} pc qcout"
 
 # output-only formats (for looping in runtest0.sh and runtest1.sh)
-export outformats="cache cacint cht com copy csr cssr fh fix fs gamin gr96"
+export outformats="cache cacint cht cif com copy csr cssr fh fix fs gamin gr96"
 export outformats="${outformats} inchi jin mpqcin mpd nw pov qcin"
 export outformats="${outformats} report txyz xed zin"
 export outformats="${outformats} fasta fpt"
