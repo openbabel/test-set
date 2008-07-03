@@ -8,10 +8,10 @@
 
 # test.foo to test.bar and roundtrip to test.bar.foo
 
-echo -n $1 "->" $2 " "
+/bin/echo -n $1 "->" $2 " "
 $BABEL -i$1 $1/$3.$1 -o$2 $1/$3.$2
 $ROUNDTRIP $1/$3.$1 $1/$3.$2
-echo -n "->" $1 " + validation "
+/bin/echo -n "->" $1 " + validation "
 $BABEL -i$2 $1/$3.$2 -o$1 $1/$3.$2.$1
 $ROUNDTRIP $1/$3.$2 $1/$3.$2.$1
-echo
+/bin/echo

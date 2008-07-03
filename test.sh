@@ -19,7 +19,8 @@ cd $popdir
 export roundformats="alc bgf box bs c3d1 c3d2 caccrt cml crk2d crk3d"
 export roundformats="${roundformats} ct dmol feat fract gpr hin mmd mol"
 export roundformats="${roundformats} mol2 mopcrt pdb pqs pcm smi tmol"
-export roundformats="${roundformats} unixyz vmol yob xyz"
+export roundformats="${roundformats} unixyz vmol yob xyz cdxml mopin"
+export roundformats="${roundformats} gzmat mcif"
 
 # ideally, make sure there's a test file for each format
 # also used for invalid file testing in runtest2.sh
@@ -30,9 +31,11 @@ export informats="${informats} pc qcout"
 export outformats="cache cacint cht cif com copy csr cssr fh fix fs gamin gr96"
 export outformats="${outformats} inchi jin mpqcin mpd nw pov qcin"
 export outformats="${outformats} report txyz xed zin"
-export outformats="${outformats} fasta fpt"
+export outformats="${outformats} fasta fpt can molreport"
+export outformats="${outformats} msms adf"
 
 # Delete old data in subdirectories
+# (One for each actual input file)
 cd files/
 rm -f car/* cml/* crk2d/* crk3d/* dmol/* g03/* g98/* gamout/* 2>/dev/null
 rm -f gpr/* ins/* jout/* mmod/* mol/* mol2/* mopout/* mpqc/* 2>/dev/null
