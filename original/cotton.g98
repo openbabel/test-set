@@ -107,7 +107,6 @@
  7/8=1,10=1,25=1/1,2,3,16;
  1/10=4,30=1/3;
  99//99;
- Leave Link    1 at Mon Jan 17 10:03:20 2000, MaxMem=   16777216 cpu:       0.8
  (Enter /opt/pkgs/g98/l101.exe)
  ----------------
  Cr2(O2CR)4 R = H
@@ -132,7 +131,6 @@
  1                    0    -3.68433  0.        -0.00002 
  1                    0     0.        3.68433  -0.00002 
  1                    0     0.       -3.68433  -0.00002 
- Leave Link  101 at Mon Jan 17 10:03:21 2000, MaxMem=   16777216 cpu:       0.5
  (Enter /opt/pkgs/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -142,7 +140,6 @@
  Number of steps in this run=  64 maximum allowed number of steps= 108.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Mon Jan 17 10:03:21 2000, MaxMem=   16777216 cpu:       0.5
  (Enter /opt/pkgs/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -352,7 +349,6 @@
  Rotational constants (GHZ):      0.7494264      0.7494261      0.5792211
  Isotopes: Cr-52,Cr-52,O-16,O-16,O-16,O-16,O-16,O-16,O-16,O-16,C-12,C-12,C-12,C-1
  2,H-1,H-1,H-1,H-1
- Leave Link  202 at Mon Jan 17 10:03:22 2000, MaxMem=   16777216 cpu:       0.4
  (Enter /opt/pkgs/g98/l301.exe)
  Standard basis: LANL2DZ (5D, 7F)
  Centers:  11 12 13 14
@@ -750,7 +746,6 @@
    220 basis functions      494 primitive gaussians
     60 alpha electrons       60 beta electrons
        nuclear repulsion energy      1319.3823745683 Hartrees.
- Leave Link  301 at Mon Jan 17 10:03:24 2000, MaxMem=   16777216 cpu:       0.7
  (Enter /opt/pkgs/g98/l302.exe)
  One-electron integrals computed using PRISM.
  One-electron integral symmetry used in STVInt
@@ -760,10 +755,8 @@
  LDataN:  DoStor=T MaxTD1= 4 Len=   56
  NBasis=   220 RedAO= T  NBF=   112   108
  NBsUse=   220 1.00D-04 NBFU=   112   108
- Leave Link  302 at Mon Jan 17 10:03:36 2000, MaxMem=   16777216 cpu:       9.8
  (Enter /opt/pkgs/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Mon Jan 17 10:03:39 2000, MaxMem=   16777216 cpu:       1.9
  (Enter /opt/pkgs/g98/l401.exe)
  SCF N**3 symmetry information disabled.
  Projected Huckel Guess.
@@ -809,7 +802,6 @@
                  (B) (B) (B) (B) (B) (B) (B) (B) (B) (B) (B) (B)
                  (B) (B) (B) (B)
  <S**2> of initial guess= 1.0000
- Leave Link  401 at Mon Jan 17 10:03:46 2000, MaxMem=   16777216 cpu:       5.5
  (Enter /opt/pkgs/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX= 0.2000
  ScaDFX=  0.8000  0.7200  1.0000  0.8100
@@ -2745,7 +2737,6 @@
  KE= 8.404829975969D+02 PE=-4.804633614679D+03 EE= 1.715169479344D+03
  Annihilation of the first spin contaminant:
  S**2 before annihilation     0.0000,   after     0.0000
- Leave Link  502 at Mon Jan 17 21:33:09 2000, MaxMem=   16777216 cpu:   38674.6
  (Enter /opt/pkgs/g98/l801.exe)
  Range of M.O.s used for correlation:     1   220
  NBasis=   220 NAE=    60 NBE=    60 NFC=     0 NFV=     0
@@ -2756,7 +2747,6 @@
 
  **** Warning!!: The largest beta MO coefficient is  0.10960932D+02
 
- Leave Link  801 at Mon Jan 17 21:33:09 2000, MaxMem=   16777216 cpu:       0.1
  (Enter /opt/pkgs/g98/l1101.exe)
  Using compressed storage.
  Will process  18 atoms per pass.
@@ -2764,10 +2754,8 @@
  ECPInt:  NShTT=    4656 NPrTT=   30274 LenC2=    4573 LenP2D=   20054.
  LDataN:  DoStor=F MaxTD1= 5 Len=  102
  LDataN:  DoStor=T MaxTD1= 5 Len=  102
- Leave Link 1101 at Mon Jan 17 21:33:35 2000, MaxMem=   16777216 cpu:      23.0
  (Enter /opt/pkgs/g98/l1102.exe)
  Use density number 0.
- Leave Link 1102 at Mon Jan 17 21:33:39 2000, MaxMem=   16777216 cpu:       2.0
  (Enter /opt/pkgs/g98/l1110.exe)
  Forming Gx(P) for the SCF density.
  Integral derivatives from FoFDir, PRISM(SPDF).
@@ -2778,7 +2766,6 @@
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
  FoFDir used for L=0 through L=2.
- Leave Link 1110 at Tue Jan 18 00:03:11 2000, MaxMem=   16777216 cpu:    8890.5
  (Enter /opt/pkgs/g98/l1002.exe)
  Minotr:  UHF wavefunction.
           Direct CPHF calculation.
@@ -2810,7 +2797,6 @@
    1 vectors were produced by pass 11.
  Inv2:  IOpt= 1 Iter= 1 AM= 3.53D-13 Conv= 1.00D-12.
  Inverted reduced A of dimension 429 with in-core refinement.
- Leave Link 1002 at Tue Jan 18 05:41:03 2000, MaxMem=   16777216 cpu:   19184.4
  (Enter /opt/pkgs/g98/l601.exe)
  Copying SCF densities to generalized density rwf, ISCF=1 IROHF=0.
 
@@ -12849,7 +12835,6 @@
  N-N= 1.319382374568D+03 E-N=-4.804633615903D+03  KE= 8.404829975969D+02
   Exact polarizability: 112.974  -0.004 112.953  -0.002  -0.018  91.434
  Approx polarizability: 162.979   0.000 162.979   0.000   0.000 380.419
- Leave Link  601 at Tue Jan 18 05:41:14 2000, MaxMem=   16777216 cpu:       9.5
  (Enter /opt/pkgs/g98/l701.exe)
  Compute integral second derivatives.
  ... and contract with generalized density number  0.
@@ -12857,10 +12842,8 @@
  ECPInt:  NShTT=    4656 NPrTT=   30274 LenC2=    4573 LenP2D=   20054.
  LDataN:  DoStor=F MaxTD1= 6 Len=  172
  LDataN:  DoStor=T MaxTD1= 6 Len=  172
- Leave Link  701 at Tue Jan 18 05:42:01 2000, MaxMem=   16777216 cpu:      45.7
  (Enter /opt/pkgs/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Tue Jan 18 05:42:01 2000, MaxMem=   16777216 cpu:       0.0
  (Enter /opt/pkgs/g98/l703.exe)
  Compute integral second derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
@@ -12868,7 +12851,6 @@
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Tue Jan 18 08:20:36 2000, MaxMem=   16777216 cpu:    9399.7
  (Enter /opt/pkgs/g98/l716.exe)
  Dipole        =-1.08191860D-07 1.07732739D-07 4.63388423D-05
  Polarizability= 1.12974126D+02-4.18910995D-03 1.12952830D+02
@@ -13537,7 +13519,6 @@
   18  H         0.000000(  18)     -0.000010(  36)      0.000000(  54)
  ------------------------------------------------------------------------
  Internal  Forces:  Max     0.000058770 RMS     0.000025543
- Leave Link  716 at Tue Jan 18 08:20:37 2000, MaxMem=   16777216 cpu:       0.3
  (Enter /opt/pkgs/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -13625,7 +13606,6 @@
     -- Stationary point found.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Tue Jan 18 08:20:38 2000, MaxMem=   16777216 cpu:       0.3
  (Enter /opt/pkgs/g98/l9999.exe)
 
  Test job not archived.
@@ -13928,6 +13908,5 @@
  THINK BECAUSE OUR BRAIN IS BUILT IN ACCORDANCE WITH NATURE'S LAWS.
 
                                              -- TIMOTHY FERRIS, "GALAXIES"
- Job cpu time:  0 days 21 hours 10 minutes 54.6 seconds.
  File lengths (MBytes):  RWF=  295 Int=    0 D2E=    0 Chk=   15 Scr=    1
  Normal termination of Gaussian 98.

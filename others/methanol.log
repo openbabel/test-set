@@ -73,7 +73,6 @@
  6/7=2,8=2,9=2,10=2/1;
  1/10=4,30=1/3;
  99//99;
- Leave Link    1 at Tue Mar  9 10:52:14 1993, MaxMem=    5000000 cpu:        .5
  (Enter /programs/g92/l101.exe)
  ---------------------------------------
  Methanol MP2/2df Cs E= -115.51107066428
@@ -95,7 +94,6 @@
   HTCO                106.6515                
   HCO                 112.1301                
   D                    61.4492                
- Leave Link  101 at Tue Mar  9 10:52:15 1993, MaxMem=    5000000 cpu:        .3
  (Enter /programs/g92/l103.exe)
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 0Berny optimization.
@@ -118,7 +116,6 @@
  Initial trust radius is 3.000D-01.
  Number of steps in this run=  20 maximum allowed number of steps= 100.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
- Leave Link  103 at Tue Mar  9 10:52:15 1993, MaxMem=    5000000 cpu:        .0
  (Enter /programs/g92/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -177,7 +174,6 @@
  ----------------------------------------------------------
  Rotational constants (GHZ):    129.0633162     24.8550006     23.9777483
  Isotopes: O-16,H-1,C-12,H-1,H-1,H-1
- Leave Link  202 at Tue Mar  9 10:52:17 1993, MaxMem=    5000000 cpu:        .3
  (Enter /programs/g92/l301.exe)
  General basis read from cards:      (S, S=P, 5D, 7F)
  Centers:   1
@@ -269,22 +265,18 @@
     98 basis functions      136 primitive gaussians
      9 alpha electrons        9 beta electrons
        nuclear repulsion energy        40.3663241126 Hartrees.
- Leave Link  301 at Tue Mar  9 10:52:19 1993, MaxMem=    5000000 cpu:        .9
  (Enter /programs/g92/l302.exe)
  One-electron integrals computed using PRISM.
  One-electron integral symmetry used in STVInt
  The smallest eigenvalue of the overlap matrix is  2.402D-03
- Leave Link  302 at Tue Mar  9 10:52:33 1993, MaxMem=    5000000 cpu:      12.4
  (Enter /programs/g92/l303.exe)
  DipDrv:  MaxL=4.
  DipDrv:  will hold 34 matrices at once.
- Leave Link  303 at Tue Mar  9 10:52:35 1993, MaxMem=    5000000 cpu:       1.2
  (Enter /programs/g92/l311.exe)
  Out2e will use a cutoff of  1.00D-10
  Standard cutoffs selected in Shell.
       1115315 integrals produced for a total of      1115315.
  SHELL:  FMTGEN WAS CALLED   106171 TIMES.
- Leave Link  311 at Tue Mar  9 10:53:50 1993, MaxMem=    5000000 cpu:      72.8
  (Enter /programs/g92/l320.exe)
  Enter DskHGP, NBasis=  98.
  Generating unsorted Raff 1 combos
@@ -292,7 +284,6 @@
  NGot=     5000000 Memory for HGP=     4858928 Memory for Sort=           0.
  Out2e will use a cutoff of  1.00D-10
       4374189 integrals produced for a total of      5489504.
- Leave Link  320 at Tue Mar  9 10:57:20 1993, MaxMem=    5000000 cpu:     192.4
  (Enter /programs/g92/l401.exe)
  PROJECTED INDO GUESS.
  INITIAL GUESS ORBITAL SYMMETRIES.
@@ -308,7 +299,6 @@
                  (A') (A') (A") (A") (A") (A") (A") (A") (A")
  Alpha deviation from unit magnitude is 2.15D-14 for orbital   19.
  Alpha deviation from orthogonality  is 2.69D-14 for orbitals  59  19.
- Leave Link  401 at Tue Mar  9 10:57:25 1993, MaxMem=    5000000 cpu:       2.0
  (Enter /programs/g92/l502.exe)
  Using DIIS extrapolation.
  Closed shell SCF:
@@ -397,12 +387,10 @@
              CONVG  =     .2630D-08             -V/T =  2.0010
              S**2   =    .0000
  KE= 1.149773851433D+02 PE=-3.519698779928D+02 EE= 8.153311632251D+01
- Leave Link  502 at Tue Mar  9 11:04:34 1993, MaxMem=    5000000 cpu:     113.4
  (Enter /programs/g92/l801.exe)
  Range of M.O.s used for correlation:     3    98
  NBasis=    98 NAE=     9 NBE=     9 NFC=     2 NFV=     0
   NROrb=    96 NOA=     7 NOB=     7 NVA=    89 NVB=    89
- Leave Link  801 at Tue Mar  9 11:04:37 1993, MaxMem=    5000000 cpu:        .0
  (Enter /programs/g92/l804.exe)
  Frozen-core window:  NFC=   2 NFV=   0.
  Closed-shell transformation, MDV=     5000000 ITran=4.
@@ -423,15 +411,12 @@
      beta-beta   T2 =        .1322973401D-01 E2=      -.4835132030D-01
  ANorm=     .1053771981D+01
  E2=        -.4180182461D+00 EUMP2=        -.11551107066053D+03
- Leave Link  804 at Tue Mar  9 11:17:53 1993, MaxMem=    5000000 cpu:     504.5
  (Enter /programs/g92/l1101.exe)
  Grad1E:  Ngot =  5000000
  Grad1E:  In-core method used.
  RysSet:  KIntrp=     6357   KCalc=        0   KAssym=     8055
- Leave Link 1101 at Tue Mar  9 11:18:01 1993, MaxMem=    5000000 cpu:       4.3
  (Enter /programs/g92/l1102.exe)
  Using generalized density number  0.
- Leave Link 1102 at Tue Mar  9 11:18:05 1993, MaxMem=    5000000 cpu:       1.3
  (Enter /programs/g92/l1111.exe)
  Selected functions:
  Compute MP2 2PDM.
@@ -441,7 +426,6 @@
  Using symmetry in formation of L(y).
  Frozen-core window:  NFC=   2 NFV=   0.
  Use MO integrals over full window.
- Leave Link 1111 at Tue Mar  9 15:02:41 1993, MaxMem=    5000000 cpu:   12213.6
  (Enter /programs/g92/l1110.exe)
  Integral derivatives from FoFDir, PRISM(SPDF).
  Do as many integral derivatives as possible in FoFDir.
@@ -451,7 +435,6 @@
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E=0 JSym2E=0.
  Symmetry not used in FoFDir.
  FoFDir used for L=0 through L=3.
- Leave Link 1110 at Tue Mar  9 15:15:29 1993, MaxMem=    5000000 cpu:     754.6
  (Enter /programs/g92/l1002.exe)
  Minotr:  Closed-shell wavefunction.
           Frozen-core window.
@@ -475,7 +458,6 @@
  Inv2:  IOpt= 1 Iter= 1 AM= 1.25D-15 Conv= 1.00D-12.
  Inverted reduced A of dimension 123 with in-core refinement.
  Saving first derivative matrices.
- Leave Link 1002 at Tue Mar  9 15:22:02 1993, MaxMem=    5000000 cpu:      83.2
  (Enter /programs/g92/l811.exe)
  Form MO integral derivatives with frozen-active canonical formalism.
  MOERI=1 MOERIx=1.
@@ -487,7 +469,6 @@
  In DefCFB: NBatch=  1, ICI=  9, ICA= 89, LFMax= 10
              Large arrays: LIAPS=    33911136, LIARS=    21800016 words.
   In StABat: MaxSiz= 36 MinSiz= 36 NAtomB=  3
- Leave Link  811 at Tue Mar  9 16:27:24 1993, MaxMem=    5000000 cpu:    3015.4
  (Enter /programs/g92/l1002.exe)
  Minotr:  Closed-shell wavefunction.
           Computing MP2 derivatives.
@@ -518,10 +499,8 @@
    1 vectors were produced by pass 10.
  Inv2:  IOpt= 1 Iter= 1 AM= 2.71D-16 Conv= 1.00D-12.
  Inverted reduced A of dimension  11 with in-core refinement.
- Leave Link 1002 at Tue Mar  9 16:29:36 1993, MaxMem=    5000000 cpu:      40.3
  (Enter /programs/g92/l1102.exe)
  Using generalized density number  2.
- Leave Link 1102 at Tue Mar  9 16:29:42 1993, MaxMem=    5000000 cpu:       1.5
  (Enter /programs/g92/l1110.exe)
  Forming G(P) for generalized density number  2.
  Integral derivatives from FoFDir, PRISM(SPDF).
@@ -532,7 +511,6 @@
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E=0 JSym2E=0.
  Symmetry not used in FoFDir.
  FoFDir used for L=0 through L=3.
- Leave Link 1110 at Tue Mar  9 16:42:19 1993, MaxMem=    5000000 cpu:     748.8
  (Enter /programs/g92/l1112.exe)
  MP22nd: MDV=     5000000
  This link is doing    21 degrees of freedom
@@ -557,7 +535,6 @@
  I=  5 X=  -1.052652215895D-05 Y=   1.029063421734D-04 Z=   2.258640171338D-05
  I=  6 X=  -1.052652215867D-05 Y=   1.029063421702D-04 Z=  -2.258640171202D-05
  Discarding MO integrals.
- Leave Link 1112 at Tue Mar  9 18:10:54 1993, MaxMem=    5000000 cpu:    2499.1
  (Enter /programs/g92/l1111.exe)
  Selected functions:
  Compute MP2 2PDM.
@@ -567,18 +544,15 @@
  Frozen-core window:  NFC=   2 NFV=   0.
  Use MO integrals over full window.
  2PDM will be sorted in   1 passes.
- Leave Link 1111 at Tue Mar  9 18:27:59 1993, MaxMem=    5000000 cpu:     432.3
  (Enter /programs/g92/l701.exe)
  Compute integral second derivatives.
  ... and contract with generalized density number  2.
  Use density number 2.
  RysSet:  KIntrp=     6603   KCalc=        0   KAssym=     7809
- Leave Link  701 at Tue Mar  9 18:28:15 1993, MaxMem=    5000000 cpu:       6.5
  (Enter /programs/g92/l702.exe)
  Use density number 2.
  Adding in external 2PDM contributions.
  TWLHES:  FMTGEN WAS CALLED    128313 TIMES.
- Leave Link  702 at Tue Mar  9 18:33:36 1993, MaxMem=    5000000 cpu:     264.6
  (Enter /programs/g92/l703.exe)
  Compute integral second derivatives.
  DF integral derivatives using scalar Rys method.
@@ -587,7 +561,6 @@
  Standard cutoffs used.
  PQCut1= 1.00D-20 PQCut2= 1.00D-20 PQCut3= 1.00D+02 PQCut4= 1.00D-20
  RysSet:  KIntrp=   490723   KCalc=     3884   KAssym=    85839
- Leave Link  703 at Tue Mar  9 19:22:33 1993, MaxMem=    5000000 cpu:    2854.8
  (Enter /programs/g92/l716.exe)
  Use density number 2.
  Dipole        =-5.61241070D-01 4.07675412D-01-3.33066907D-15
@@ -929,7 +902,6 @@
             11            12
   11   .179768D+00
   12  -.828917D-01   .179768D+00
- Leave Link  716 at Tue Mar  9 19:22:36 1993, MaxMem=    5000000 cpu:        .5
  (Enter /programs/g92/l601.exe)
  Copying SCF densities to generalized density rwf, ISCF=0 IROHF=0.
 
@@ -1018,7 +990,6 @@
  Symmetry A"   KE= 6.562750001018D+00
   Exact polarizability:  18.377    .687  19.809    .000    .000  16.853
  Approx polarizability:  15.627    .459  15.195    .000    .000  13.788
- Leave Link  601 at Tue Mar  9 19:22:40 1993, MaxMem=    5000000 cpu:       1.8
  (Enter /programs/g92/l103.exe)
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 0Berny optimization.
@@ -1079,7 +1050,6 @@
  !        D         61.4492   -DE/DX =   -0.000006                      !
  ------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
- Leave Link  103 at Tue Mar  9 19:22:43 1993, MaxMem=    5000000 cpu:        .4
  (Enter /programs/g92/l9999.exe)
  Updating new format database.
  Unable to open new format main database, error:
@@ -1133,6 +1103,5 @@
       BUT SHE STARTED ABSORBIN'
       A NEW HYDROCARBON,
  AND SINCE THEN HAS NEVER BENZENE.
- Job cpu time:  0 days  6 hours 37 minutes 11.9 seconds.
  File lengths (MBytes):  RWF=  540 Int=   63 D2E=    0 Chk=    1 Scr=    0
 0Normal termination of Gaussian 92.

@@ -1,4 +1,3 @@
- cputime 	unlimited
  filesize 	413696 kbytes
  datasize 	131072 kbytes
  stacksize 	32768 kbytes
@@ -120,7 +119,6 @@
  2//2;
  6/7=2,8=2,9=2,10=2,19=2,28=1/1;
  99/9=1/99;
- Leave Link    1 at Thu Aug 21 02:00:34 2003, MaxMem=          0 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l101.exe)
  ---
  mef
@@ -161,7 +159,6 @@
   D9                  183.1876                   
   D11                  -0.0972                   
   D12                 180.0128                   
- Leave Link  101 at Thu Aug 21 02:00:35 2003, MaxMem=    6291456 cpu:        .3
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -200,7 +197,6 @@
  Number of steps in this run=  99 maximum allowed number of steps= 100.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:00:35 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -289,7 +285,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.8489608      1.9260435      1.8307726
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:00:36 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -300,18 +295,14 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy       101.1544845476 Hartrees.
- Leave Link  301 at Thu Aug 21 02:00:36 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:00:39 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:00:40 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Projected INDO Guess.
- Leave Link  401 at Thu Aug 21 02:00:42 2003, MaxMem=    6291456 cpu:        .7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -486,7 +477,6 @@
              Convg  =     .3799D-09             -V/T =  2.0091
              S**2   =    .0000
  KE= 2.157406359770D+02 PE=-7.194198621449D+02 EE= 1.848279158364D+02
- Leave Link  502 at Thu Aug 21 02:09:44 2003, MaxMem=    6291456 cpu:     275.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l601.exe)
  Copying SCF densities to generalized density rwf, ISCF=0 IROHF=0.
 
@@ -581,21 +571,17 @@
  ZZZY=      .1515 XXYY=  -158.3713 XXZZ=  -151.7573 YYZZ=   -29.3946
  XXYZ=      .0805 YYXZ=      .0674 ZZXY=     2.3328
  N-N= 1.011544845476D+02 E-N=-7.194198621487D+02  KE= 2.157406359770D+02
- Leave Link  601 at Thu Aug 21 02:09:45 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:09:49 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:09:49 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 02:11:31 2003, MaxMem=    6291456 cpu:      51.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  Dipole        =-1.28475775D+00-3.51334238D-01 1.09749052D-02
  ***** Axes restored to original set *****
@@ -838,7 +824,6 @@
             26            27
   26   .810807D-01
   27  -.307514D-01   .851672D-01
- Leave Link  716 at Thu Aug 21 02:11:32 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -886,7 +871,6 @@
  Predicted change in Energy=-6.271179D-04
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:11:34 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -975,7 +959,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.8159500      1.8243044      1.7384949
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:11:35 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -986,19 +969,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        99.9775185291 Hartrees.
- Leave Link  301 at Thu Aug 21 02:11:35 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:11:38 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:11:39 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 02:11:40 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -1114,21 +1093,17 @@
              Convg  =     .9647D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157174902375D+02 PE=-7.169489624004D+02 EE= 1.835561880910D+02
- Leave Link  502 at Thu Aug 21 02:17:53 2003, MaxMem=    6291456 cpu:     194.3
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:17:57 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:17:57 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 02:19:37 2003, MaxMem=    6291456 cpu:      50.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -1164,7 +1139,6 @@
   10  H     8   -.000280(  10)  7    .000238(  19)  9   -.000046(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .004784378 RMS      .001655897
- Leave Link  716 at Thu Aug 21 02:19:38 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -1213,7 +1187,6 @@
  Predicted change in Energy=-7.776424D-04
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:19:38 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -1302,7 +1275,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.8061943      1.7014491      1.6264882
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:19:39 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -1313,19 +1285,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.6850666922 Hartrees.
- Leave Link  301 at Thu Aug 21 02:19:39 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:19:42 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:19:44 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 02:19:44 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -1452,21 +1420,17 @@
              Convg  =     .1781D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157060866613D+02 PE=-7.142124081566D+02 EE= 1.821229333386D+02
- Leave Link  502 at Thu Aug 21 02:26:23 2003, MaxMem=    6291456 cpu:     207.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:26:27 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:26:27 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 02:28:10 2003, MaxMem=    6291456 cpu:      51.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -1502,7 +1466,6 @@
   10  H     8   -.000081(  10)  7   -.000121(  19)  9   -.000031(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .003745679 RMS      .001367155
- Leave Link  716 at Thu Aug 21 02:28:11 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -1551,7 +1514,6 @@
  Predicted change in Energy=-9.036172D-05
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:28:11 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -1640,7 +1602,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.8661817      1.6696389      1.5975161
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:28:12 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -1651,19 +1612,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.4301953673 Hartrees.
- Leave Link  301 at Thu Aug 21 02:28:13 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:28:16 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:28:17 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 02:28:18 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -1779,21 +1736,17 @@
              Convg  =     .2833D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157107747700D+02 PE=-7.136594448518D+02 EE= 1.818200628065D+02
- Leave Link  502 at Thu Aug 21 02:34:45 2003, MaxMem=    6291456 cpu:     194.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:34:49 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:34:49 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 02:36:27 2003, MaxMem=    6291456 cpu:      49.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -1829,7 +1782,6 @@
   10  H     8    .000048(  10)  7   -.000030(  19)  9   -.000011(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .003016536 RMS      .000991244
- Leave Link  716 at Thu Aug 21 02:36:28 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -1878,7 +1830,6 @@
  Predicted change in Energy=-1.686779D-05
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:36:28 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -1967,7 +1918,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.9130347      1.6661568      1.5944304
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:36:29 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -1978,19 +1928,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.4347200177 Hartrees.
- Leave Link  301 at Thu Aug 21 02:36:29 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:36:32 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:36:33 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 02:36:34 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -2096,21 +2042,17 @@
              Convg  =     .5159D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157127849429D+02 PE=-7.136608521517D+02 EE= 1.818149151038D+02
- Leave Link  502 at Thu Aug 21 02:41:53 2003, MaxMem=    6291456 cpu:     173.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:41:57 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:41:57 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 02:43:00 2003, MaxMem=    6291456 cpu:      47.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -2146,7 +2088,6 @@
   10  H     8    .000012(  10)  7   -.000005(  19)  9   -.000018(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002944857 RMS      .000841218
- Leave Link  716 at Thu Aug 21 02:43:00 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -2195,7 +2136,6 @@
  Predicted change in Energy=-4.943847D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:43:01 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -2284,7 +2224,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.9536137      1.6671098      1.5954037
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:43:01 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -2295,19 +2234,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.4648832915 Hartrees.
- Leave Link  301 at Thu Aug 21 02:43:02 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:43:03 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:43:05 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 02:43:05 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -2413,21 +2348,17 @@
              Convg  =     .1314D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157138871658D+02 PE=-7.137214772152D+02 EE= 1.818442695899D+02
- Leave Link  502 at Thu Aug 21 02:48:47 2003, MaxMem=    6291456 cpu:     173.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:48:51 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:48:51 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 02:50:30 2003, MaxMem=    6291456 cpu:      49.3
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -2463,7 +2394,6 @@
   10  H     8    .000003(  10)  7    .000001(  19)  9   -.000014(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002932226 RMS      .000807051
- Leave Link  716 at Thu Aug 21 02:50:30 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -2515,7 +2445,6 @@
  Predicted change in Energy=-2.638478D-04
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 02:50:30 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -2604,7 +2533,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     30.4332932      1.7799963      1.7000597
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 02:50:31 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -2615,19 +2543,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        99.7553891328 Hartrees.
- Leave Link  301 at Thu Aug 21 02:50:32 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 02:50:34 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 02:50:36 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 02:50:36 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -2777,21 +2701,17 @@
              Convg  =     .8187D-08             -V/T =  2.0091
              S**2   =    .0000
  KE= 2.157281719765D+02 PE=-7.164529848187D+02 EE= 1.832713505805D+02
- Leave Link  502 at Thu Aug 21 02:58:15 2003, MaxMem=    6291456 cpu:     237.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 02:58:19 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 02:58:19 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:00:01 2003, MaxMem=    6291456 cpu:      50.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -2827,7 +2747,6 @@
   10  H     8   -.000086(  10)  7    .000090(  19)  9   -.001419(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .003823726 RMS      .001255194
- Leave Link  716 at Thu Aug 21 03:00:01 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -2872,7 +2791,6 @@
  Predicted change in Energy=-2.645126D-05
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:00:01 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -2961,7 +2879,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     29.9817131      1.6737174      1.6015343
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:00:02 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -2972,19 +2889,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.5403445380 Hartrees.
- Leave Link  301 at Thu Aug 21 03:00:02 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:00:05 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:00:07 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:00:07 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -3134,21 +3047,17 @@
              Convg  =     .2601D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157145260754D+02 PE=-7.138811940278D+02 EE= 1.819278850088D+02
- Leave Link  502 at Thu Aug 21 03:07:33 2003, MaxMem=    6291456 cpu:     230.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:07:37 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:07:37 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:08:28 2003, MaxMem=    6291456 cpu:      49.3
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -3184,7 +3093,6 @@
   10  H     8   -.000005(  10)  7    .000007(  19)  9   -.000101(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002986545 RMS      .000820113
- Leave Link  716 at Thu Aug 21 03:08:29 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -3233,7 +3141,6 @@
  Predicted change in Energy=-1.475672D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:08:29 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -3322,7 +3229,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     30.0328264      1.6719876      1.6000836
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:08:30 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -3333,19 +3239,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.5389975151 Hartrees.
- Leave Link  301 at Thu Aug 21 03:08:30 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:08:33 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:08:35 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:08:35 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -3442,21 +3344,17 @@
              Convg  =     .2698D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157154283938D+02 PE=-7.138766161772D+02 EE= 1.819237500746D+02
- Leave Link  502 at Thu Aug 21 03:13:39 2003, MaxMem=    6291456 cpu:     161.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:13:43 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:13:43 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:15:10 2003, MaxMem=    6291456 cpu:      48.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -3492,7 +3390,6 @@
   10  H     8   -.000004(  10)  7    .000002(  19)  9   -.000010(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002948755 RMS      .000806104
- Leave Link  716 at Thu Aug 21 03:15:11 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -3542,7 +3439,6 @@
  Predicted change in Energy=-8.938697D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:15:11 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -3631,7 +3527,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     30.1061473      1.6712302      1.5995944
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:15:13 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -3642,19 +3537,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.5364475379 Hartrees.
- Leave Link  301 at Thu Aug 21 03:15:13 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:15:16 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:15:18 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:15:18 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -3751,21 +3642,17 @@
              Convg  =     .5355D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157155861538D+02 PE=-7.138732256016D+02 EE= 1.819227500726D+02
- Leave Link  502 at Thu Aug 21 03:19:43 2003, MaxMem=    6291456 cpu:     161.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:19:46 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:19:47 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:21:31 2003, MaxMem=    6291456 cpu:      53.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -3801,7 +3688,6 @@
   10  H     8    .000000(  10)  7   -.000009(  19)  9   -.000029(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002924047 RMS      .000800334
- Leave Link  716 at Thu Aug 21 03:21:31 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -3851,7 +3737,6 @@
  Predicted change in Energy=-1.720321D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:21:31 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -3940,7 +3825,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     30.3113422      1.6649395      1.5944014
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:21:32 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -3951,19 +3835,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.4785423099 Hartrees.
- Leave Link  301 at Thu Aug 21 03:21:33 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:21:36 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:21:37 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:21:37 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -4124,21 +4004,17 @@
              Convg  =     .1439D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157155024029D+02 PE=-7.137579805358D+02 EE= 1.818654889623D+02
- Leave Link  502 at Thu Aug 21 03:30:06 2003, MaxMem=    6291456 cpu:     257.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:30:09 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:30:10 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:31:48 2003, MaxMem=    6291456 cpu:      49.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -4174,7 +4050,6 @@
   10  H     8    .000005(  10)  7   -.000018(  19)  9    .000009(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002813612 RMS      .000769992
- Leave Link  716 at Thu Aug 21 03:31:48 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -4224,7 +4099,6 @@
  Predicted change in Energy=-1.406946D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:31:49 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -4313,7 +4187,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     30.4729368      1.6570631      1.5876184
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:31:49 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -4324,19 +4197,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.3986374550 Hartrees.
- Leave Link  301 at Thu Aug 21 03:31:50 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:31:53 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:31:54 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:31:55 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -4433,21 +4302,17 @@
              Convg  =     .7667D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157150519806D+02 PE=-7.135951610352D+02 EE= 1.817830208230D+02
- Leave Link  502 at Thu Aug 21 03:36:19 2003, MaxMem=    6291456 cpu:     168.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:36:23 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:36:24 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:38:06 2003, MaxMem=    6291456 cpu:      55.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -4483,7 +4348,6 @@
   10  H     8    .000001(  10)  7   -.000007(  19)  9    .000013(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002700116 RMS      .000737894
- Leave Link  716 at Thu Aug 21 03:38:06 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -4533,7 +4397,6 @@
  Predicted change in Energy=-8.220347D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:38:06 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -4622,7 +4485,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     30.7149687      1.6491606      1.5810108
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:38:07 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -4633,19 +4495,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.3228176491 Hartrees.
- Leave Link  301 at Thu Aug 21 03:38:08 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:38:11 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:38:12 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:38:13 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -4742,21 +4600,17 @@
              Convg  =     .5045D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157147367579D+02 PE=-7.134430384587D+02 EE= 1.817070288633D+02
- Leave Link  502 at Thu Aug 21 03:43:02 2003, MaxMem=    6291456 cpu:     170.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:43:06 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:43:07 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:44:48 2003, MaxMem=    6291456 cpu:      59.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -4792,7 +4646,6 @@
   10  H     8   -.000003(  10)  7    .000004(  19)  9    .000039(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002560232 RMS      .000699610
- Leave Link  716 at Thu Aug 21 03:44:49 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -4842,7 +4695,6 @@
  Predicted change in Energy=-1.703758D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:44:49 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -4931,7 +4783,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.1469865      1.6363124      1.5703133
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:44:50 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -4942,19 +4793,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.2046424570 Hartrees.
- Leave Link  301 at Thu Aug 21 03:44:50 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:44:53 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:44:54 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:44:55 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -5053,21 +4900,17 @@
              Convg  =     .4949D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157145214889D+02 PE=-7.132058110723D+02 EE= 1.815881866708D+02
- Leave Link  502 at Thu Aug 21 03:50:09 2003, MaxMem=    6291456 cpu:     175.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:50:13 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:50:13 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:51:37 2003, MaxMem=    6291456 cpu:      50.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -5103,7 +4946,6 @@
   10  H     8   -.000003(  10)  7    .000008(  19)  9    .000038(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002320967 RMS      .000635118
- Leave Link  716 at Thu Aug 21 03:51:37 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -5153,7 +4995,6 @@
  Predicted change in Energy=-1.927742D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:51:38 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -5242,7 +5083,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.4196861      1.6289947      1.5642539
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:51:38 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -5253,19 +5093,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.1380993987 Hartrees.
- Leave Link  301 at Thu Aug 21 03:51:39 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:51:42 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:51:43 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:51:44 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -5362,21 +5198,17 @@
              Convg  =     .8752D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157143831226D+02 PE=-7.130725179039D+02 EE= 1.815215725296D+02
- Leave Link  502 at Thu Aug 21 03:56:38 2003, MaxMem=    6291456 cpu:     170.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 03:56:42 2003, MaxMem=    6291456 cpu:       1.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 03:56:42 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 03:58:25 2003, MaxMem=    6291456 cpu:      59.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -5412,7 +5244,6 @@
   10  H     8   -.000004(  10)  7   -.000001(  19)  9    .000050(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002182323 RMS      .000597769
- Leave Link  716 at Thu Aug 21 03:58:25 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -5462,7 +5293,6 @@
  Predicted change in Energy=-4.914635D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 03:58:25 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -5551,7 +5381,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     32.7800098      1.5977727      1.5385911
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 03:58:27 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -5562,19 +5391,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        97.8609246794 Hartrees.
- Leave Link  301 at Thu Aug 21 03:58:27 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 03:58:30 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 03:58:32 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 03:58:32 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -5684,21 +5509,17 @@
              Convg  =     .5415D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157139114035D+02 PE=-7.125172532294D+02 EE= 1.812439577734D+02
- Leave Link  502 at Thu Aug 21 04:04:17 2003, MaxMem=    6291456 cpu:     205.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:04:21 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:04:22 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:05:21 2003, MaxMem=    6291456 cpu:      50.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -5734,7 +5555,6 @@
   10  H     8    .000008(  10)  7    .000031(  19)  9    .000044(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001558096 RMS      .000431666
- Leave Link  716 at Thu Aug 21 04:05:21 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -5779,7 +5599,6 @@
  Predicted change in Energy=-9.006623D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:05:22 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -5868,7 +5687,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.7226484      1.6215106      1.5580933
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:05:22 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -5879,19 +5697,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0711406305 Hartrees.
- Leave Link  301 at Thu Aug 21 04:05:23 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:05:26 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:05:27 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:05:28 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -5999,21 +5813,17 @@
              Convg  =     .3622D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142823528D+02 PE=-7.129385880947D+02 EE= 1.814547014223D+02
- Leave Link  502 at Thu Aug 21 04:11:07 2003, MaxMem=    6291456 cpu:     197.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:11:11 2003, MaxMem=    6291456 cpu:       2.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:11:12 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:12:38 2003, MaxMem=    6291456 cpu:      51.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -6049,7 +5859,6 @@
   10  H     8   -.000002(  10)  7    .000004(  19)  9    .000050(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002030965 RMS      .000557040
- Leave Link  716 at Thu Aug 21 04:12:39 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -6098,7 +5907,6 @@
  Predicted change in Energy=-1.635624D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:12:40 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -6187,7 +5995,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     32.3497867      1.6070432      1.5462004
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:12:41 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -6198,19 +6005,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        97.9436025157 Hartrees.
- Leave Link  301 at Thu Aug 21 04:12:41 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:12:44 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:12:45 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:12:46 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -6318,21 +6121,17 @@
              Convg  =     .2581D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157141118553D+02 PE=-7.126830804448D+02 EE= 1.813269036737D+02
- Leave Link  502 at Thu Aug 21 04:18:48 2003, MaxMem=    6291456 cpu:     211.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:18:52 2003, MaxMem=    6291456 cpu:       2.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:18:52 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:20:35 2003, MaxMem=    6291456 cpu:      60.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -6368,7 +6167,6 @@
   10  H     8   -.000002(  10)  7    .000001(  19)  9    .000054(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001739323 RMS      .000478950
- Leave Link  716 at Thu Aug 21 04:20:36 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -6413,7 +6211,6 @@
  Predicted change in Energy=-2.121907D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:20:37 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -6502,7 +6299,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.8361353      1.6187963      1.5558604
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:20:37 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -6513,19 +6309,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0471173052 Hartrees.
- Leave Link  301 at Thu Aug 21 04:20:38 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:20:41 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:20:42 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:20:43 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -6633,21 +6425,17 @@
              Convg  =     .1945D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142529813D+02 PE=-7.128904976866D+02 EE= 1.814306636628D+02
- Leave Link  502 at Thu Aug 21 04:26:37 2003, MaxMem=    6291456 cpu:     207.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:26:41 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:26:41 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:28:18 2003, MaxMem=    6291456 cpu:      56.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -6683,7 +6471,6 @@
   10  H     8   -.000002(  10)  7    .000004(  19)  9    .000051(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001975889 RMS      .000542274
- Leave Link  716 at Thu Aug 21 04:28:19 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -6732,7 +6519,6 @@
  Predicted change in Energy=-3.685464D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:28:19 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -6821,7 +6607,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.6103665      1.6240380      1.5601489
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:28:20 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -6832,19 +6617,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0933950940 Hartrees.
- Leave Link  301 at Thu Aug 21 04:28:21 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:28:23 2003, MaxMem=    6291456 cpu:       1.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:28:25 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:28:25 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -6941,21 +6722,17 @@
              Convg  =     .7899D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157143238374D+02 PE=-7.129828763345D+02 EE= 1.814766933525D+02
- Leave Link  502 at Thu Aug 21 04:32:54 2003, MaxMem=    6291456 cpu:     176.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:32:58 2003, MaxMem=    6291456 cpu:       2.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:32:58 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:34:39 2003, MaxMem=    6291456 cpu:      59.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -6991,7 +6768,6 @@
   10  H     8   -.000002(  10)  7   -.000001(  19)  9    .000049(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002088076 RMS      .000572289
- Leave Link  716 at Thu Aug 21 04:34:40 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -7041,7 +6817,6 @@
  Predicted change in Energy=-5.493578D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:34:40 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -7130,7 +6905,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.9399284      1.6160747      1.5535881
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:34:41 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -7141,19 +6915,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0226588984 Hartrees.
- Leave Link  301 at Thu Aug 21 04:34:41 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:34:44 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:34:45 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:34:45 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -7252,21 +7022,17 @@
              Convg  =     .5495D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142298007D+02 PE=-7.128411990838D+02 EE= 1.814058458029D+02
- Leave Link  502 at Thu Aug 21 04:40:05 2003, MaxMem=    6291456 cpu:     188.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:40:10 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:40:10 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:41:02 2003, MaxMem=    6291456 cpu:      48.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -7302,7 +7068,6 @@
   10  H     8   -.000002(  10)  7   -.000001(  19)  9    .000052(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001928429 RMS      .000529429
- Leave Link  716 at Thu Aug 21 04:41:03 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -7352,7 +7117,6 @@
  Predicted change in Energy=-5.696074D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:41:03 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -7441,7 +7205,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.5742025      1.6248251      1.5607833
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:41:04 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -7452,19 +7215,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.1003684952 Hartrees.
- Leave Link  301 at Thu Aug 21 04:41:05 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:41:07 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:41:08 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:41:09 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -7572,21 +7331,17 @@
              Convg  =     .1391D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157143488091D+02 PE=-7.129966946618D+02 EE= 1.814835128703D+02
- Leave Link  502 at Thu Aug 21 04:47:02 2003, MaxMem=    6291456 cpu:     205.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:47:06 2003, MaxMem=    6291456 cpu:       2.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:47:06 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:48:48 2003, MaxMem=    6291456 cpu:      59.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -7622,7 +7377,6 @@
   10  H     8   -.000001(  10)  7    .000000(  19)  9    .000047(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002108128 RMS      .000577580
- Leave Link  716 at Thu Aug 21 04:48:49 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -7672,7 +7426,6 @@
  Predicted change in Energy=-2.937430D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:48:49 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -7761,7 +7514,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.7678018      1.6200489      1.5568438
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:48:50 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -7772,19 +7524,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0577012922 Hartrees.
- Leave Link  301 at Thu Aug 21 04:48:50 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:48:53 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:48:54 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:48:55 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -7881,21 +7629,17 @@
              Convg  =     .4218D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142743308D+02 PE=-7.129112372918D+02 EE= 1.814407964593D+02
- Leave Link  502 at Thu Aug 21 04:54:00 2003, MaxMem=    6291456 cpu:     181.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 04:54:03 2003, MaxMem=    6291456 cpu:       1.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 04:54:04 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 04:55:05 2003, MaxMem=    6291456 cpu:      50.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -7931,7 +7675,6 @@
   10  H     8   -.000002(  10)  7   -.000002(  19)  9    .000050(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002013225 RMS      .000552091
- Leave Link  716 at Thu Aug 21 04:55:05 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -7983,7 +7726,6 @@
  Predicted change in Energy=-1.272660D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 04:55:05 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -8072,7 +7814,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     32.0667630      1.6130833      1.5511197
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 04:55:06 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -8083,19 +7824,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        97.9959412242 Hartrees.
- Leave Link  301 at Thu Aug 21 04:55:07 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 04:55:10 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 04:55:11 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 04:55:12 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -8194,21 +7931,17 @@
              Convg  =     .3959D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157141763067D+02 PE=-7.127876499751D+02 EE= 1.813790674526D+02
- Leave Link  502 at Thu Aug 21 05:00:25 2003, MaxMem=    6291456 cpu:     181.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:00:28 2003, MaxMem=    6291456 cpu:       1.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:00:29 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:02:04 2003, MaxMem=    6291456 cpu:      52.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -8244,7 +7977,6 @@
   10  H     8   -.000002(  10)  7   -.000001(  19)  9    .000053(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001870889 RMS      .000513884
- Leave Link  716 at Thu Aug 21 05:02:04 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -8289,7 +8021,6 @@
  Predicted change in Energy=-1.296164D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:02:05 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -8378,7 +8109,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.8308655      1.6185546      1.5556154
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:02:06 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -8389,19 +8119,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0444273621 Hartrees.
- Leave Link  301 at Thu Aug 21 05:02:06 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:02:09 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:02:10 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:02:10 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -8507,21 +8233,17 @@
              Convg  =     .8697D-09             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142538725D+02 PE=-7.128846848524D+02 EE= 1.814275383713D+02
- Leave Link  502 at Thu Aug 21 05:07:11 2003, MaxMem=    6291456 cpu:     191.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:07:15 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:07:15 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:09:01 2003, MaxMem=    6291456 cpu:      61.6
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -8557,7 +8279,6 @@
   10  H     8   -.000002(  10)  7   -.000002(  19)  9    .000051(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001982630 RMS      .000543878
- Leave Link  716 at Thu Aug 21 05:09:01 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -8606,7 +8327,6 @@
  Predicted change in Energy=-2.824659D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:09:02 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -8695,7 +8415,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.6357897      1.6229310      1.5591819
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:09:03 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -8706,19 +8425,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0827245377 Hartrees.
- Leave Link  301 at Thu Aug 21 05:09:03 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:09:06 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:09:08 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:09:08 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -8815,21 +8530,17 @@
              Convg  =     .5772D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157143043516D+02 PE=-7.129609309968D+02 EE= 1.814654366961D+02
- Leave Link  502 at Thu Aug 21 05:14:36 2003, MaxMem=    6291456 cpu:     190.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:14:39 2003, MaxMem=    6291456 cpu:       2.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:14:40 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:16:24 2003, MaxMem=    6291456 cpu:      60.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -8865,7 +8576,6 @@
   10  H     8   -.000001(  10)  7   -.000001(  19)  9    .000049(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002078938 RMS      .000569624
- Leave Link  716 at Thu Aug 21 05:16:25 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -8917,7 +8627,6 @@
  Predicted change in Energy=-4.557253D-08
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:16:25 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -9006,7 +8715,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.9560358      1.6154120      1.5530083
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:16:26 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -9017,19 +8725,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0159076908 Hartrees.
- Leave Link  301 at Thu Aug 21 05:16:26 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:16:29 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:16:31 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:16:31 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -9128,21 +8832,17 @@
              Convg  =     .5573D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157141895682D+02 PE=-7.128273771874D+02 EE= 1.813988143154D+02
- Leave Link  502 at Thu Aug 21 05:21:54 2003, MaxMem=    6291456 cpu:     188.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:21:58 2003, MaxMem=    6291456 cpu:       2.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:21:58 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:23:36 2003, MaxMem=    6291456 cpu:      57.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -9178,7 +8878,6 @@
   10  H     8   -.000001(  10)  7    .000000(  19)  9    .000052(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001923564 RMS      .000527889
- Leave Link  716 at Thu Aug 21 05:23:36 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -9228,7 +8927,6 @@
  Predicted change in Energy=-3.090497D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:23:37 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -9317,7 +9015,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.8490709      1.6176008      1.5547732
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:23:37 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -9328,19 +9025,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0347336141 Hartrees.
- Leave Link  301 at Thu Aug 21 05:23:39 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:23:42 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:23:43 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:23:44 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -9437,21 +9130,17 @@
              Convg  =     .1640D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142029627D+02 PE=-7.128646585255D+02 EE= 1.814172558072D+02
- Leave Link  502 at Thu Aug 21 05:28:05 2003, MaxMem=    6291456 cpu:     169.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:28:19 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:28:20 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:29:08 2003, MaxMem=    6291456 cpu:      47.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -9487,7 +9176,6 @@
   10  H     8   -.000002(  10)  7   -.000002(  19)  9    .000052(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001975139 RMS      .000541688
- Leave Link  716 at Thu Aug 21 05:29:08 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -9539,7 +9227,6 @@
  Predicted change in Energy=-3.161277D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:29:08 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -9628,7 +9315,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     32.1262631      1.6113183      1.5496232
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:29:09 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -9639,19 +9325,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        97.9791589696 Hartrees.
- Leave Link  301 at Thu Aug 21 05:29:10 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:29:13 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:29:14 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:29:15 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -9748,21 +9430,17 @@
              Convg  =     .3463D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157141042106D+02 PE=-7.127535768153D+02 EE= 1.813618479698D+02
- Leave Link  502 at Thu Aug 21 05:34:25 2003, MaxMem=    6291456 cpu:     168.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:34:27 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:34:27 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:36:02 2003, MaxMem=    6291456 cpu:      50.0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -9798,7 +9476,6 @@
   10  H     8   -.000002(  10)  7   -.000002(  19)  9    .000054(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001844508 RMS      .000506626
- Leave Link  716 at Thu Aug 21 05:36:03 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -9842,7 +9519,6 @@
  Predicted change in Energy=-6.642725D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:36:03 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -9931,7 +9607,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.8920885      1.6166095      1.5539603
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:36:04 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -9942,19 +9617,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0259470239 Hartrees.
- Leave Link  301 at Thu Aug 21 05:36:05 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:36:08 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:36:09 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:36:10 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -10060,21 +9731,17 @@
              Convg  =     .8727D-09             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157141876824D+02 PE=-7.128471019861D+02 EE= 1.814085011522D+02
- Leave Link  502 at Thu Aug 21 05:41:27 2003, MaxMem=    6291456 cpu:     182.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:41:29 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:41:30 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:43:12 2003, MaxMem=    6291456 cpu:      54.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -10110,7 +9777,6 @@
   10  H     8   -.000002(  10)  7   -.000002(  19)  9    .000052(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .001954478 RMS      .000536142
- Leave Link  716 at Thu Aug 21 05:43:12 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -10160,7 +9826,6 @@
  Predicted change in Energy=-2.049076D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:43:13 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -10249,7 +9914,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.5944972      1.6236300      1.5597238
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:43:13 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -10260,19 +9924,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0883648559 Hartrees.
- Leave Link  301 at Thu Aug 21 05:43:14 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:43:17 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:43:18 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:43:19 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -10380,21 +10040,17 @@
              Convg  =     .1158D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142944369D+02 PE=-7.129718085748D+02 EE= 1.814706835198D+02
- Leave Link  502 at Thu Aug 21 05:49:11 2003, MaxMem=    6291456 cpu:     187.3
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:49:15 2003, MaxMem=    6291456 cpu:       1.7
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:49:15 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:50:34 2003, MaxMem=    6291456 cpu:      49.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -10430,7 +10086,6 @@
   10  H     8   -.000002(  10)  7   -.000001(  19)  9    .000048(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002100676 RMS      .000575367
- Leave Link  716 at Thu Aug 21 05:50:34 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -10474,7 +10129,6 @@
  Predicted change in Energy=-4.039659D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:50:35 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -10563,7 +10217,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.7091023      1.6208879      1.5574717
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:50:35 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -10574,19 +10227,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.0639431021 Hartrees.
- Leave Link  301 at Thu Aug 21 05:50:36 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:50:39 2003, MaxMem=    6291456 cpu:       1.5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:50:40 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:50:41 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -10683,21 +10332,17 @@
              Convg  =     .1105D-08             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157142532411D+02 PE=-7.129230266844D+02 EE= 1.814463642914D+02
- Leave Link  502 at Thu Aug 21 05:55:42 2003, MaxMem=    6291456 cpu:     166.1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 05:55:46 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 05:55:47 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 05:57:24 2003, MaxMem=    6291456 cpu:      52.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -10733,7 +10378,6 @@
   10  H     8   -.000002(  10)  7   -.000002(  19)  9    .000050(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002043606 RMS      .000560053
- Leave Link  716 at Thu Aug 21 05:57:25 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -10783,7 +10427,6 @@
  Predicted change in Energy=-7.752521D-08
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 05:57:25 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -10872,7 +10515,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.4918760      1.6261412      1.5617889
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 05:57:26 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l301.exe)
  Standard basis: 6-31+G(d) (6D, 7F)
  There are    88 symmetry adapted basis functions of A   symmetry.
@@ -10883,19 +10525,15 @@
     88 basis functions      152 primitive gaussians
     17 alpha electrons       17 beta electrons
        nuclear repulsion energy        98.1107996331 Hartrees.
- Leave Link  301 at Thu Aug 21 05:57:27 2003, MaxMem=    6291456 cpu:        .2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l302.exe)
  One-electron integrals computed using PRISM.
  NBasis=    88 RedAO= T  NBF=    88
  NBsUse=    88 1.00D-04 NBFU=    88
- Leave Link  302 at Thu Aug 21 05:57:29 2003, MaxMem=    6291456 cpu:       1.4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Thu Aug 21 05:57:31 2003, MaxMem=    6291456 cpu:        .4
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l401.exe)
  Initial guess read from the read-write file:
  Guess basis functions will be translated to current atomic coordinates.
- Leave Link  401 at Thu Aug 21 05:57:31 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l502.exe)
  IExCor= 402 DFT=T Ex=B+HF Corr=LYP ScaHFX=  .2000
  ScaDFX=   .8000   .7200  1.0000   .8100
@@ -11001,21 +10639,17 @@
              Convg  =     .8631D-09             -V/T =  2.0092
              S**2   =    .0000
  KE= 2.157143323119D+02 PE=-7.130166265749D+02 EE= 1.814930292916D+02
- Leave Link  502 at Thu Aug 21 06:02:29 2003, MaxMem=    6291456 cpu:     177.2
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
- Leave Link  701 at Thu Aug 21 06:02:32 2003, MaxMem=    6291456 cpu:       1.8
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Thu Aug 21 06:02:33 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l703.exe)
  Compute integral first derivatives.
  Integral derivatives from FoFDir, PRISM(SPDF).
  Symmetry not used in FoFDir.
  MinBra= 0 MaxBra= 2 Meth= 1.
  IRaf=       0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 JSym2E=0.
- Leave Link  703 at Thu Aug 21 06:04:16 2003, MaxMem=    6291456 cpu:      53.9
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l716.exe)
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -11051,7 +10685,6 @@
   10  H     8   -.000001(  10)  7    .000000(  19)  9    .000046(  27)  0
  ------------------------------------------------------------------------
  Internal  Forces:  Max      .002152656 RMS      .000589315
- Leave Link  716 at Thu Aug 21 06:04:16 2003, MaxMem=    6291456 cpu:        .0
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -11127,7 +10760,6 @@
  ------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Thu Aug 21 06:04:17 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l202.exe)
  ------------------------------------------------------------------------
                          Z-MATRIX (ANGSTROMS AND DEGREES)
@@ -11216,7 +10848,6 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):     31.4918760      1.6261412      1.5617889
  Isotopes: C-12,F-19,H-1,H-1,H-1,C-12,C-12,H-1,H-1,H-1
- Leave Link  202 at Thu Aug 21 06:04:17 2003, MaxMem=    6291456 cpu:        .1
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l601.exe)
  Copying SCF densities to generalized density rwf, ISCF=0 IROHF=0.
 
@@ -11311,7 +10942,6 @@
  ZZZY=      .1944 XXYY=  -180.7616 XXZZ=  -177.3848 YYZZ=   -28.8742
  XXYZ=      .0526 YYXZ=     -.2624 ZZXY=    -2.6073
  N-N= 9.811079963306D+01 E-N=-7.130166265976D+02  KE= 2.157143323119D+02
- Leave Link  601 at Thu Aug 21 06:04:19 2003, MaxMem=    6291456 cpu:        .5
  (Enter /usr/spool/scr/aped/g98_A7_install/g98/l9999.exe)
  1\1\GINC-ETROG\POpt\RB3LYP\6-31+G(d)\C3H6F1(1-)\TCHEM11\21-Aug-2003\1\
  \#P B3LYP/6-31+G* OPT=(Z-MATRIX,NOEIGEN) OPTCYC=99\\mef\\-1,1\C\F,1,R1
@@ -11328,7 +10958,6 @@
 
 
  ASKING DUMB QUESTIONS IS EASIER THAN CORECTING DUMB MISTAKES.
- Job cpu time:  0 days  2 hours 17 minutes 43.4 seconds.
  File lengths (MBytes):  RWF=   14 Int=    0 D2E=    0 Chk=    6 Scr=    1
  Normal termination of Gaussian 98.
 
